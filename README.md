@@ -1,5 +1,5 @@
 # multichannel-thermocouple-logger 
-Multichannel thermocouple data logger (up to 20 channels) with LCD and Ethernet (data can be displayed on a local web server or using InfluxDB/Grafana). 
+Multichannel thermocouple data logger (up to 20 channels) with LCD and optional Ethernet (so that the data can be displayed on a local web server or using InfluxDB/Grafana). 
 
 Each board has 10 thermocouple connectors, and the boards are stackable so that there can be up to 20 channels.   
 
