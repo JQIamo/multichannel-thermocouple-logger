@@ -30,6 +30,7 @@ For a 10-channel thermocouple data logger:
 - 1x 1KΩ 0805 SMD ferrite bead 
 - 1x 220μF SMD aluminum electrolytic capacitor
 - 1x 47μF SMD tantalum capacitor
+- 1x Newheaven LCD Display (Digi-Key Part Number: NHD-C0216CZ-FSW-FBW-3V3-ND)
 
 For a 20-channel thermocouple data logger:
 - 20x MAX31855 cold-junction compensated thermocouple-to-digital converters
@@ -54,3 +55,4 @@ For a 20-channel thermocouple data logger:
 - 1x 1KΩ 0805 SMD ferrite bead 
 - 1x 220μF SMD aluminum electrolytic capacitor 
 - 1x 47μF SMD tantalum capacitor
+- 1x Newheaven LCD Display (Digi-Key Part Number: NHD-C0216CZ-FSW-FBW-3V3-ND)
