@@ -43,6 +43,7 @@ boolean enableWarning = ENABLEINFLUXWARNING;
 // Configure serial display settings
 int baudrate = BAUDRATE;
 boolean enableSerial = ENABLESERIAL;
+boolean enableEthernet = ENABLEETHERNET;
 // Configure general settings
 boolean dbCelsius = CELSIUS;
 
@@ -58,7 +59,7 @@ EncoderStream enc(LCDENC);
 
 // Configures channel names and Teensy pin numbers
 int chanNumber[20] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20};
-int chanPin[20] = {14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 27, 28, 29, 30, 26, 31, 25, 32, 33, 24};
+int chanPin[20] = {PIN1, PIN2, PIN3, PIN4, PIN5, PIN6, PIN7, PIN8, PIN9, PIN10, PIN11, PIN12, PIN13, PIN14, PIN15, PIN16, PIN17, PIN18, PIN19, PIN20};
 String chanName[20] = {CHANNEL1, CHANNEL2, CHANNEL3, CHANNEL4, CHANNEL5, CHANNEL6, CHANNEL7, CHANNEL8, CHANNEL9, CHANNEL10, CHANNEL11, CHANNEL12, CHANNEL13, CHANNEL14, CHANNEL15, CHANNEL16, CHANNEL17, CHANNEL18, CHANNEL19, CHANNEL20 };
 
 // Tracks and sets a maximum number of connection attempts before the ethernet client resets
@@ -71,7 +72,7 @@ SimpleTimer timer;
 
 void setup() {
   Serial.begin(baudrate);
-
+  Serial.print("Hello world.");
   //Initializes SPI
   SPI.begin();
 
@@ -83,21 +84,22 @@ void setup() {
   lcd.clear();
   lcd.cursor();
   lcd.print("Starting...");
-  delay(30000);
+  delay(300);
   lcd.clear();
 
   // Initializes encoder
   enc.begin();
   encNumber = 1;
 
-  // Initializes Ethernet connection
-  Ethernet.begin(mac);
+  if (enableEthernet == 1) {
+    // Initializes Ethernet connection
+    Ethernet.begin(mac);
 
-  // Initializes server
-  server.begin();
-  Serial.print("Local server now running at ");
-  Serial.println(Ethernet.localIP());
-
+    // Initializes server
+    server.begin();
+    Serial.print("Local server now running at ");
+    Serial.println(Ethernet.localIP());
+  }
   //
   timer.setInterval(influxTimeInterval, influxDBTemp);
 }
