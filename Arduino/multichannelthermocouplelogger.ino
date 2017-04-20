@@ -72,7 +72,6 @@ SimpleTimer timer;
 
 void setup() {
   Serial.begin(baudrate);
-  Serial.print("Hello world.");
   //Initializes SPI
   SPI.begin();
 
@@ -84,7 +83,7 @@ void setup() {
   lcd.clear();
   lcd.cursor();
   lcd.print("Starting...");
-  delay(300);
+  delay(30000);
   lcd.clear();
 
   // Initializes encoder

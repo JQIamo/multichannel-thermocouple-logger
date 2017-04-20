@@ -2,17 +2,18 @@
 
 // Serial display settings
 #define ENABLESERIAL 0 // Set as 1 to enable serial display of temperatures
+#define ENABLEETHERNET 1 // Set as 0 if the Ethernet module has not been installed
 #define BAUDRATE 9600
 
 // Local network settings
-#define ENABLELOCAL 0 // Set as 1 to enable local server and 0 to disable
+#define ENABLELOCAL 1 // Set as 1 to enable local server and 0 to disable
 #define MAC { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED }
 #define LOCALIP { 192, 168, 0, 6 }
 #define PORT 80
 #define MAXCONNECTIONS 50 // Maximum number of connection attempts before ethernet client resets (it usually takes around 10-20 connections attempts to successfully connect)
 
 // InfluxDB settings
-#define ENABLEINFLUX 1 // Set as 1 to enable influxDB and 0 to disable influxDB, remember to disable the local server before enabling InfluxDB 
+#define ENABLEINFLUX 0 // Set as 1 to enable influxDB and 0 to disable influxDB, remember to disable the local server before enabling InfluxDB 
 #define DATABASEIP { 129, 2, 40, 155 }
 #define USERNAME ""
 #define PASSWORD ""
@@ -27,7 +28,7 @@
 #define CHANNEL1 "Channel_1" // Channel names have a 16 character limit; there should be no spaces in the channel name
 #define CHANNEL2 "Channel_2"
 #define CHANNEL3 "Channel_3"
-#define CHANNEL4 "Channel_5"
+#define CHANNEL4 "Channel_4"
 #define CHANNEL5 "Channel_5"
 #define CHANNEL6 "Channel_6"
 #define CHANNEL7 "Channel_7"
@@ -44,5 +45,27 @@
 #define CHANNEL18 "Channel_18"
 #define CHANNEL19 "Channel_19"
 #define CHANNEL20 "Channel_20" 
+
+// Select Teensy pins for each channel
+#define PIN1 14
+#define PIN2 15
+#define PIN3 16
+#define PIN4 17
+#define PIN5 18
+#define PIN6 19
+#define PIN7 20
+#define PIN8 21
+#define PIN9 22
+#define PIN10 23
+#define PIN11 27
+#define PIN12 28
+#define PIN13 29
+#define PIN14 30
+#define PIN15 26
+#define PIN16 31
+#define PIN17 25
+#define PIN18 32
+#define PIN19 33
+#define PIN20 24
 
 
