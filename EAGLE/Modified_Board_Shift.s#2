@@ -9,34 +9,34 @@
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="14" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="13" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="14" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="13" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -45,8 +45,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -54,20 +54,20 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="Invisible" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="61" name="stand" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="Invisible" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="61" name="stand" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
@@ -20927,7 +20927,9 @@ Source: &lt;a href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz
 <part name="U1" library="74HC595D" deviceset="74HC595D" device="SOT109-1-L"/>
 <part name="U2" library="74HC595D" deviceset="74HC595D" device="SOT109-1-L"/>
 <part name="J1" library="connector-jqi" deviceset="AMP-31-6576" device=""/>
-<part name="U$9" library="6CH_HEADER" deviceset="6CH_HEADER" device=""/>
+<part name="U$9" library="6CH_HEADER" deviceset="6CH_HEADER" device="">
+<attribute name="DIGIKEY" value="WM7774-ND"/>
+</part>
 <part name="U$19" library="ThermoK Connector" deviceset="THERMOCOUPLE_CONNECTOR" device=""/>
 <part name="U$34" library="ThermoK Connector" deviceset="THERMOCOUPLE_CONNECTOR" device=""/>
 <part name="U$35" library="ThermoK Connector" deviceset="THERMOCOUPLE_CONNECTOR" device=""/>
@@ -21097,7 +21099,9 @@ Source: &lt;a href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz
 <part name="R20" library="jqi_passives" deviceset="R_SMD" device="R0603" value="10k">
 <attribute name="DIGIKEY" value="P33.00BZCT-ND"/>
 </part>
-<part name="J6" library="USB" deviceset="10118194-0001LF" device=""/>
+<part name="J6" library="USB" deviceset="10118194-0001LF" device="">
+<attribute name="DIGIKEY" value="609-4618-1-ND"/>
+</part>
 <part name="J7" library="connector-jqi" deviceset="AMP-31-6576" device=""/>
 <part name="J8" library="connector-jqi" deviceset="AMP-31-6576" device=""/>
 <part name="J9" library="SamacSys_Parts" deviceset="J1B1211CCD" device=""/>
@@ -21144,7 +21148,9 @@ Source: &lt;a href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz
 <part name="JP3" library="mcu-accessories" deviceset="PINHD-2X4" device="-SHROUD">
 <attribute name="PARTNO" value="75869-132LF"/>
 </part>
-<part name="U$21" library="3CH_HEADER" deviceset="3CH_HEADER" device=""/>
+<part name="U$21" library="3CH_HEADER" deviceset="3CH_HEADER" device="">
+<attribute name="DIGIKEY" value="WM7771-ND"/>
+</part>
 <part name="U$22" library="microbuilder" deviceset="GND" device=""/>
 <part name="U5" library="ADUM5401" deviceset="ADUM5401" device="RW_16-L"/>
 <part name="U$23" library="microbuilder" deviceset="GND" device=""/>
@@ -21335,7 +21341,9 @@ Source: &lt;a href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz
 <attribute name="VALUE" x="115.57" y="5.08" size="1.778" layer="96"/>
 <attribute name="NAME" x="115.57" y="16.002" size="1.778" layer="95"/>
 </instance>
-<instance part="U$9" gate="G$1" x="158.75" y="55.88"/>
+<instance part="U$9" gate="G$1" x="158.75" y="55.88">
+<attribute name="DIGIKEY" x="158.75" y="55.88" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U$19" gate="G$1" x="-95.25" y="48.26" rot="MR270">
 <attribute name="NAME" x="-102.87" y="55.88" size="1.778" layer="95" rot="MR270"/>
 <attribute name="VALUE" x="-100.33" y="55.88" size="1.778" layer="96" rot="MR270"/>
@@ -21588,7 +21596,9 @@ Source: &lt;a href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz
 <instance part="U$20" gate="G$1" x="299.72" y="101.6">
 <attribute name="VALUE" x="298.196" y="99.06" size="1.27" layer="96"/>
 </instance>
-<instance part="U$21" gate="G$1" x="138.43" y="55.88"/>
+<instance part="U$21" gate="G$1" x="138.43" y="55.88">
+<attribute name="DIGIKEY" x="138.43" y="55.88" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U$22" gate="G$1" x="146.05" y="45.72">
 <attribute name="VALUE" x="144.526" y="43.18" size="1.27" layer="96"/>
 </instance>
@@ -23307,6 +23317,7 @@ does not need capacitors.</text>
 <instance part="J6" gate="G$1" x="105.41" y="63.5" rot="R270">
 <attribute name="NAME" x="116.0849" y="70.875040625" size="1.271559375" layer="95" rot="R270"/>
 <attribute name="VALUE" x="92.7061" y="71.123940625" size="1.270659375" layer="96" rot="R270"/>
+<attribute name="DIGIKEY" x="105.41" y="63.5" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="GND6" gate="1" x="92.71" y="74.93">
 <attribute name="VALUE" x="90.17" y="72.39" size="1.778" layer="96"/>
@@ -25009,7 +25020,7 @@ Wiznet 5500 does not support Auto-MDX.
 <label x="69.596" y="55.118" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SCLK" class="0">
+<net name="SCK" class="0">
 <segment>
 <pinref part="U7" gate="G$1" pin="SCLK"/>
 <wire x1="69.85" y1="66.04" x2="80.01" y2="66.04" width="0.1524" layer="91"/>

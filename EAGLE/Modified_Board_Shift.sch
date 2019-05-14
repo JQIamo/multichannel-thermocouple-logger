@@ -9,34 +9,34 @@
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="14" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="13" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="14" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="13" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -45,8 +45,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -54,20 +54,20 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="Invisible" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="61" name="stand" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="Invisible" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="61" name="stand" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
@@ -20924,22 +20924,46 @@ Source: &lt;a href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz
 <attribute name="PARTNO" value="NRPN071PAEN-RC"/>
 </part>
 <part name="SW10" library="MF_Switches" deviceset="TACT" device="_4.2MM" value="MF-SW-TACT-4.2MM"/>
-<part name="U1" library="74HC595D" deviceset="74HC595D" device="SOT109-1-L"/>
-<part name="U2" library="74HC595D" deviceset="74HC595D" device="SOT109-1-L"/>
+<part name="U1" library="74HC595D" deviceset="74HC595D" device="SOT109-1-L">
+<attribute name="DIGIKEY" value="1727-2821-1-ND"/>
+</part>
+<part name="U2" library="74HC595D" deviceset="74HC595D" device="SOT109-1-L">
+<attribute name="DIGIKEY" value="1727-2821-1-ND"/>
+</part>
 <part name="J1" library="connector-jqi" deviceset="AMP-31-6576" device=""/>
 <part name="U$9" library="6CH_HEADER" deviceset="6CH_HEADER" device="">
 <attribute name="DIGIKEY" value="WM7774-ND"/>
 </part>
-<part name="U$19" library="ThermoK Connector" deviceset="THERMOCOUPLE_CONNECTOR" device=""/>
-<part name="U$34" library="ThermoK Connector" deviceset="THERMOCOUPLE_CONNECTOR" device=""/>
-<part name="U$35" library="ThermoK Connector" deviceset="THERMOCOUPLE_CONNECTOR" device=""/>
-<part name="U$36" library="ThermoK Connector" deviceset="THERMOCOUPLE_CONNECTOR" device=""/>
-<part name="U$37" library="ThermoK Connector" deviceset="THERMOCOUPLE_CONNECTOR" device=""/>
-<part name="U$38" library="ThermoK Connector" deviceset="THERMOCOUPLE_CONNECTOR" device=""/>
-<part name="U$39" library="ThermoK Connector" deviceset="THERMOCOUPLE_CONNECTOR" device=""/>
-<part name="U$40" library="ThermoK Connector" deviceset="THERMOCOUPLE_CONNECTOR" device=""/>
-<part name="U$41" library="ThermoK Connector" deviceset="THERMOCOUPLE_CONNECTOR" device=""/>
-<part name="U$42" library="ThermoK Connector" deviceset="THERMOCOUPLE_CONNECTOR" device=""/>
+<part name="U$19" library="ThermoK Connector" deviceset="THERMOCOUPLE_CONNECTOR" device="">
+<attribute name="DIGIKEY" value="1568-1306-ND"/>
+</part>
+<part name="U$34" library="ThermoK Connector" deviceset="THERMOCOUPLE_CONNECTOR" device="">
+<attribute name="DIGIKEY" value="1568-1306-ND"/>
+</part>
+<part name="U$35" library="ThermoK Connector" deviceset="THERMOCOUPLE_CONNECTOR" device="">
+<attribute name="DIGIKEY" value="1568-1306-ND"/>
+</part>
+<part name="U$36" library="ThermoK Connector" deviceset="THERMOCOUPLE_CONNECTOR" device="">
+<attribute name="DIGIKEY" value="1568-1306-ND"/>
+</part>
+<part name="U$37" library="ThermoK Connector" deviceset="THERMOCOUPLE_CONNECTOR" device="">
+<attribute name="DIGIKEY" value="1568-1306-ND"/>
+</part>
+<part name="U$38" library="ThermoK Connector" deviceset="THERMOCOUPLE_CONNECTOR" device="">
+<attribute name="DIGIKEY" value="1568-1306-ND"/>
+</part>
+<part name="U$39" library="ThermoK Connector" deviceset="THERMOCOUPLE_CONNECTOR" device="">
+<attribute name="DIGIKEY" value="1568-1306-ND"/>
+</part>
+<part name="U$40" library="ThermoK Connector" deviceset="THERMOCOUPLE_CONNECTOR" device="">
+<attribute name="DIGIKEY" value="1568-1306-ND"/>
+</part>
+<part name="U$41" library="ThermoK Connector" deviceset="THERMOCOUPLE_CONNECTOR" device="">
+<attribute name="DIGIKEY" value="1568-1306-ND"/>
+</part>
+<part name="U$42" library="ThermoK Connector" deviceset="THERMOCOUPLE_CONNECTOR" device="">
+<attribute name="DIGIKEY" value="1568-1306-ND"/>
+</part>
 <part name="J2" library="connector-jqi" deviceset="AMP-31-6576" device=""/>
 <part name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="4.75 kO"/>
 <part name="Q1" library="NDS0605" deviceset="NDS0605" device=""/>
@@ -20948,7 +20972,9 @@ Source: &lt;a href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz
 <part name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="100 Ohms"/>
 <part name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="10 kO"/>
 <part name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="15 kO"/>
-<part name="U3" library="ADUM5402CR" deviceset="ADUM5402CRWZ" device=""/>
+<part name="U3" library="ADUM5402CR" deviceset="ADUM5402CRWZ" device="">
+<attribute name="DIGIKEY" value="ADUM5402CRWZ-ND"/>
+</part>
 <part name="C4" library="rlc-jqi" deviceset="CAP" device="0805"/>
 <part name="C25" library="rlc-jqi" deviceset="CAP" device="0805"/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -20964,7 +20990,9 @@ Source: &lt;a href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz
 <part name="R9" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="100 Ohms"/>
 <part name="R10" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="10 kO"/>
 <part name="R11" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="15 kO"/>
-<part name="U4" library="ADUM5402CR" deviceset="ADUM5402CRWZ" device=""/>
+<part name="U4" library="ADUM5402CR" deviceset="ADUM5402CRWZ" device="">
+<attribute name="DIGIKEY" value="ADUM5402CRWZ-ND"/>
+</part>
 <part name="C29" library="rlc-jqi" deviceset="CAP" device="0805"/>
 <part name="C30" library="rlc-jqi" deviceset="CAP" device="0805"/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -20990,7 +21018,9 @@ Source: &lt;a href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz
 <part name="R16" library="rlc-jqi" deviceset="RES" device="0805" value="10 uF"/>
 <part name="R17" library="rlc-jqi" deviceset="RES" device="0805" value=".1 uF"/>
 <part name="R18" library="rlc-jqi" deviceset="RES" device="0805" value="10 uF"/>
-<part name="U6" library="AZ1117EH-3.3TRG1" deviceset="AZ1117EH-3.3TRG1" device=""/>
+<part name="U6" library="AZ1117EH-3.3TRG1" deviceset="AZ1117EH-3.3TRG1" device="">
+<attribute name="DIGIKEY" value="AZ1117EH-3.3TRG1DICT-ND"/>
+</part>
 <part name="C38" library="rlc-jqi" deviceset="CAP" device="0805" value="2.2 uF"/>
 <part name="C39" library="rlc-jqi" deviceset="CAP" device="0805" value="2.2 uF"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
@@ -21094,7 +21124,9 @@ Source: &lt;a href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz
 <attribute name="DIGIKEY" value="490-7205-1-ND"/>
 </part>
 <part name="GND71" library="supply1" deviceset="GND" device=""/>
-<part name="U$1" library="CAT811" deviceset="CAT811" device=""/>
+<part name="U$1" library="CAT811" deviceset="CAT811" device="">
+<attribute name="DIGIKEY" value="CAT811TTBI-GT3OSCT-ND"/>
+</part>
 <part name="U$2" library="microbuilder" deviceset="GND" device=""/>
 <part name="R20" library="jqi_passives" deviceset="R_SMD" device="R0603" value="10k">
 <attribute name="DIGIKEY" value="P33.00BZCT-ND"/>
@@ -21104,10 +21136,14 @@ Source: &lt;a href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz
 </part>
 <part name="J7" library="connector-jqi" deviceset="AMP-31-6576" device=""/>
 <part name="J8" library="connector-jqi" deviceset="AMP-31-6576" device=""/>
-<part name="J9" library="SamacSys_Parts" deviceset="J1B1211CCD" device=""/>
+<part name="J9" library="SamacSys_Parts" deviceset="J1B1211CCD" device="">
+<attribute name="DIGIKEY" value="1278-1052-ND"/>
+</part>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U$3" library="ADS8688" deviceset="ADS8684" device=""/>
+<part name="U$3" library="ADS8688" deviceset="ADS8684" device="">
+<attribute name="DIGIKEY" value="296-39875-2-ND"/>
+</part>
 <part name="U$4" library="microbuilder" deviceset="AGND" device=""/>
 <part name="C41" library="rlc-jqi" deviceset="CAP" device="0805" value="22 uF"/>
 <part name="U$6" library="microbuilder" deviceset="GND" device=""/>
@@ -21152,7 +21188,11 @@ Source: &lt;a href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz
 <attribute name="DIGIKEY" value="WM7771-ND"/>
 </part>
 <part name="U$22" library="microbuilder" deviceset="GND" device=""/>
-<part name="U5" library="ADUM5401" deviceset="ADUM5401" device="RW_16-L"/>
+<part name="U5" library="ADUM5401" deviceset="ADUM5401" device="RW_16-L">
+<attribute name="DIGIKEY" value="ADUM5401ARWZ-RLCT-ND"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ADUM5401ARWZRL"/>
+<attribute name="SPICEPREFIX" value="X"/>
+</part>
 <part name="U$23" library="microbuilder" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -21328,10 +21368,12 @@ Source: &lt;a href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz
 <instance part="U1" gate="A" x="11.43" y="78.74">
 <attribute name="NAME" x="37.1856" y="87.8586" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="36.5506" y="85.3186" size="2.0828" layer="96" ratio="6" rot="SR0"/>
+<attribute name="DIGIKEY" x="11.43" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U2" gate="A" x="11.43" y="40.64">
 <attribute name="NAME" x="37.1856" y="49.7586" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="36.5506" y="47.2186" size="2.0828" layer="96" ratio="6" rot="SR0"/>
+<attribute name="DIGIKEY" x="11.43" y="40.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J1" gate="TOP" x="115.57" y="30.48">
 <attribute name="VALUE" x="115.57" y="20.32" size="1.778" layer="96"/>
@@ -21347,42 +21389,52 @@ Source: &lt;a href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz
 <instance part="U$19" gate="G$1" x="-95.25" y="48.26" rot="MR270">
 <attribute name="NAME" x="-102.87" y="55.88" size="1.778" layer="95" rot="MR270"/>
 <attribute name="VALUE" x="-100.33" y="55.88" size="1.778" layer="96" rot="MR270"/>
+<attribute name="DIGIKEY" x="-95.25" y="48.26" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="U$34" gate="G$1" x="-95.25" y="12.7" rot="MR270">
 <attribute name="NAME" x="-102.87" y="20.32" size="1.778" layer="95" rot="MR270"/>
 <attribute name="VALUE" x="-100.33" y="20.32" size="1.778" layer="96" rot="MR270"/>
+<attribute name="DIGIKEY" x="-95.25" y="12.7" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="U$35" gate="G$1" x="-95.25" y="-27.94" rot="MR270">
 <attribute name="NAME" x="-102.87" y="-20.32" size="1.778" layer="95" rot="MR270"/>
 <attribute name="VALUE" x="-100.33" y="-20.32" size="1.778" layer="96" rot="MR270"/>
+<attribute name="DIGIKEY" x="-95.25" y="-27.94" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="U$36" gate="G$1" x="-95.25" y="-71.12" rot="MR270">
 <attribute name="NAME" x="-102.87" y="-63.5" size="1.778" layer="95" rot="MR270"/>
 <attribute name="VALUE" x="-100.33" y="-63.5" size="1.778" layer="96" rot="MR270"/>
+<attribute name="DIGIKEY" x="-95.25" y="-71.12" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="U$37" gate="G$1" x="-95.25" y="-111.76" rot="MR270">
 <attribute name="NAME" x="-102.87" y="-104.14" size="1.778" layer="95" rot="MR270"/>
 <attribute name="VALUE" x="-100.33" y="-104.14" size="1.778" layer="96" rot="MR270"/>
+<attribute name="DIGIKEY" x="-95.25" y="-111.76" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="U$38" gate="G$1" x="-1.27" y="-27.94" rot="MR270">
 <attribute name="NAME" x="-8.89" y="-20.32" size="1.778" layer="95" rot="MR270"/>
 <attribute name="VALUE" x="-6.35" y="-20.32" size="1.778" layer="96" rot="MR270"/>
+<attribute name="DIGIKEY" x="-1.27" y="-27.94" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="U$39" gate="G$1" x="-1.27" y="-71.12" rot="MR270">
 <attribute name="NAME" x="-8.89" y="-63.5" size="1.778" layer="95" rot="MR270"/>
 <attribute name="VALUE" x="-6.35" y="-63.5" size="1.778" layer="96" rot="MR270"/>
+<attribute name="DIGIKEY" x="-1.27" y="-71.12" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="U$40" gate="G$1" x="-1.27" y="-111.76" rot="MR270">
 <attribute name="NAME" x="-8.89" y="-104.14" size="1.778" layer="95" rot="MR270"/>
 <attribute name="VALUE" x="-6.35" y="-104.14" size="1.778" layer="96" rot="MR270"/>
+<attribute name="DIGIKEY" x="-1.27" y="-111.76" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="U$41" gate="G$1" x="92.71" y="-71.12" rot="MR270">
 <attribute name="NAME" x="85.09" y="-63.5" size="1.778" layer="95" rot="MR270"/>
 <attribute name="VALUE" x="87.63" y="-63.5" size="1.778" layer="96" rot="MR270"/>
+<attribute name="DIGIKEY" x="92.71" y="-71.12" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="U$42" gate="G$1" x="92.71" y="-111.76" rot="MR270">
 <attribute name="NAME" x="85.09" y="-104.14" size="1.778" layer="95" rot="MR270"/>
 <attribute name="VALUE" x="87.63" y="-104.14" size="1.778" layer="96" rot="MR270"/>
+<attribute name="DIGIKEY" x="92.71" y="-111.76" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="J2" gate="TOP" x="163.83" y="30.48">
 <attribute name="VALUE" x="163.83" y="22.86" size="1.778" layer="96"/>
@@ -21442,6 +21494,7 @@ Source: &lt;a href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz
 <instance part="U6" gate="G$1" x="-158.75" y="104.14">
 <attribute name="NAME" x="-166.37941875" y="109.22628125" size="1.7802" layer="95"/>
 <attribute name="VALUE" x="-166.377440625" y="96.512559375" size="1.779740625" layer="96"/>
+<attribute name="DIGIKEY" x="-158.75" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C38" gate="G$1" x="-173.99" y="99.06" rot="R90">
 <attribute name="NAME" x="-177.8" y="94.615" size="1.27" layer="95" rot="R90"/>
@@ -21481,7 +21534,9 @@ Source: &lt;a href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz
 <attribute name="VALUE" x="245.11" y="7.62" size="1.778" layer="96"/>
 <attribute name="NAME" x="245.11" y="16.002" size="1.778" layer="95"/>
 </instance>
-<instance part="U$3" gate="G$1" x="270.51" y="60.96"/>
+<instance part="U$3" gate="G$1" x="270.51" y="60.96">
+<attribute name="DIGIKEY" x="270.51" y="60.96" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U$4" gate="G$1" x="317.5" y="31.75">
 <attribute name="VALUE" x="315.976" y="29.21" size="1.27" layer="96"/>
 </instance>
@@ -21605,6 +21660,7 @@ Source: &lt;a href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz
 <instance part="U5" gate="A" x="111.76" y="105.41">
 <attribute name="NAME" x="140.0556" y="114.5286" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="139.4206" y="111.9886" size="2.0828" layer="96" ratio="6" rot="SR0"/>
+<attribute name="DIGIKEY" x="111.76" y="105.41" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -24015,6 +24071,7 @@ does not need capacitors.</text>
 <instance part="U3" gate="A" x="-114.3" y="119.38" rot="R180">
 <attribute name="NAME" x="-142.5956" y="110.2614" size="2.0828" layer="95" ratio="6" rot="SR180"/>
 <attribute name="VALUE" x="-141.9606" y="112.8014" size="2.0828" layer="96" ratio="6" rot="SR180"/>
+<attribute name="DIGIKEY" x="-114.3" y="119.38" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="C4" gate="G$1" x="-190.5" y="106.68" rot="R90">
 <attribute name="NAME" x="-194.31" y="104.775" size="1.27" layer="95" rot="R90"/>
@@ -24073,6 +24130,7 @@ does not need capacitors.</text>
 <instance part="U4" gate="A" x="-38.1" y="53.34" rot="R180">
 <attribute name="NAME" x="-66.3956" y="44.2214" size="2.0828" layer="95" ratio="6" rot="SR180"/>
 <attribute name="VALUE" x="-65.7606" y="46.7614" size="2.0828" layer="96" ratio="6" rot="SR180"/>
+<attribute name="DIGIKEY" x="-38.1" y="53.34" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="C29" gate="G$1" x="-114.3" y="40.64" rot="R90">
 <attribute name="NAME" x="-118.11" y="36.195" size="1.27" layer="95" rot="R90"/>
@@ -24714,7 +24772,9 @@ Wiznet 5500 does not support Auto-MDX.
 <instance part="GND71" gate="1" x="146.05" y="156.21">
 <attribute name="VALUE" x="143.51" y="153.67" size="1.778" layer="96"/>
 </instance>
-<instance part="U$1" gate="G$1" x="256.54" y="0"/>
+<instance part="U$1" gate="G$1" x="256.54" y="0">
+<attribute name="DIGIKEY" x="256.54" y="0" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U$2" gate="G$1" x="243.84" y="1.27">
 <attribute name="VALUE" x="242.316" y="-1.27" size="1.27" layer="96"/>
 </instance>
@@ -24726,6 +24786,7 @@ Wiznet 5500 does not support Auto-MDX.
 <instance part="J9" gate="G$1" x="280.67" y="104.14">
 <attribute name="NAME" x="299.72" y="119.38" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="299.72" y="116.84" size="1.778" layer="96" align="center-left"/>
+<attribute name="DIGIKEY" x="280.67" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND24" gate="1" x="274.32" y="38.1">
 <attribute name="VALUE" x="271.78" y="35.56" size="1.778" layer="96"/>

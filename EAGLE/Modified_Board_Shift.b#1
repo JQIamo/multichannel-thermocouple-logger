@@ -4828,11 +4828,13 @@ einem neuen Namen ab.</description>
 <attribute name="URL" value="https://factory.macrofab.com/part/MF-SW-TACT-4.2MM" x="-82.042" y="-19.304" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U1" library="74HC595D" package="SOT109-1-L" value="74HC595DSOT109-1-L" x="190.5" y="-18.288" rot="R270">
+<attribute name="DIGIKEY" value="1727-2821-1-ND" x="190.5" y="-18.288" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="74HC595D" x="190.5" y="-18.288" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="189.865" y="-15.0114" size="1.27" layer="25" ratio="6" rot="SR270"/>
 <attribute name="VENDOR" value="Nexperia" x="190.5" y="-18.288" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U2" library="74HC595D" package="SOT109-1-L" value="74HC595DSOT109-1-L" x="204.724" y="-18.288" rot="R270">
+<attribute name="DIGIKEY" value="1727-2821-1-ND" x="204.724" y="-18.288" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="74HC595D" x="204.724" y="-18.288" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="204.089" y="-15.0114" size="1.27" layer="25" ratio="6" rot="SR270"/>
 <attribute name="VENDOR" value="Nexperia" x="204.724" y="-18.288" size="1.778" layer="27" rot="R270" display="off"/>
@@ -4841,44 +4843,56 @@ einem neuen Namen ab.</description>
 <attribute name="NAME" x="-6.223" y="17.653" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="-10.033" y="24.638" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="U$9" library="6CH_HEADER" package="6CH_HEADER" value="6CH_HEADER" x="-114.808" y="28.3718"/>
+<element name="U$9" library="6CH_HEADER" package="6CH_HEADER" value="6CH_HEADER" x="-114.808" y="28.3718">
+<attribute name="DIGIKEY" value="WM7774-ND" x="-114.808" y="28.3718" size="1.778" layer="27" display="off"/>
+</element>
 <element name="U$19" library="ThermoK Connector" package="THERMOCOUPLE_CONNECTOR" value="THERMOCOUPLE_CONNECTOR" x="10.0076" y="25.9588">
+<attribute name="DIGIKEY" value="1568-1306-ND" x="10.0076" y="25.9588" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="2.3876" y="39.9288" size="1.778" layer="21"/>
 <attribute name="VALUE" x="2.3876" y="37.3888" size="1.778" layer="21"/>
 </element>
 <element name="U$34" library="ThermoK Connector" package="THERMOCOUPLE_CONNECTOR" value="THERMOCOUPLE_CONNECTOR" x="31.0134" y="25.9588">
+<attribute name="DIGIKEY" value="1568-1306-ND" x="31.0134" y="25.9588" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="23.3934" y="39.9288" size="1.778" layer="21"/>
 <attribute name="VALUE" x="23.3934" y="37.3888" size="1.778" layer="21"/>
 </element>
 <element name="U$35" library="ThermoK Connector" package="THERMOCOUPLE_CONNECTOR" value="THERMOCOUPLE_CONNECTOR" x="52.0192" y="25.9588">
+<attribute name="DIGIKEY" value="1568-1306-ND" x="52.0192" y="25.9588" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="44.3992" y="39.9288" size="1.778" layer="21"/>
 <attribute name="VALUE" x="44.3992" y="37.3888" size="1.778" layer="21"/>
 </element>
 <element name="U$36" library="ThermoK Connector" package="THERMOCOUPLE_CONNECTOR" value="THERMOCOUPLE_CONNECTOR" x="73.025" y="25.9588">
+<attribute name="DIGIKEY" value="1568-1306-ND" x="73.025" y="25.9588" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="65.405" y="39.9288" size="1.778" layer="21"/>
 <attribute name="VALUE" x="65.405" y="37.3888" size="1.778" layer="21"/>
 </element>
 <element name="U$37" library="ThermoK Connector" package="THERMOCOUPLE_CONNECTOR" value="THERMOCOUPLE_CONNECTOR" x="94.0308" y="25.9588">
+<attribute name="DIGIKEY" value="1568-1306-ND" x="94.0308" y="25.9588" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="86.4108" y="39.9288" size="1.778" layer="21"/>
 <attribute name="VALUE" x="86.4108" y="37.3888" size="1.778" layer="21"/>
 </element>
 <element name="U$38" library="ThermoK Connector" package="THERMOCOUPLE_CONNECTOR" value="THERMOCOUPLE_CONNECTOR" x="115.0366" y="25.9588">
+<attribute name="DIGIKEY" value="1568-1306-ND" x="115.0366" y="25.9588" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="107.4166" y="39.9288" size="1.778" layer="21"/>
 <attribute name="VALUE" x="107.4166" y="37.3888" size="1.778" layer="21"/>
 </element>
 <element name="U$39" library="ThermoK Connector" package="THERMOCOUPLE_CONNECTOR" value="THERMOCOUPLE_CONNECTOR" x="136.0424" y="25.9588">
+<attribute name="DIGIKEY" value="1568-1306-ND" x="136.0424" y="25.9588" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="128.4224" y="39.9288" size="1.778" layer="21"/>
 <attribute name="VALUE" x="128.4224" y="37.3888" size="1.778" layer="21"/>
 </element>
 <element name="U$40" library="ThermoK Connector" package="THERMOCOUPLE_CONNECTOR" value="THERMOCOUPLE_CONNECTOR" x="157.0482" y="25.9588">
+<attribute name="DIGIKEY" value="1568-1306-ND" x="157.0482" y="25.9588" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="149.4282" y="39.9288" size="1.778" layer="21"/>
 <attribute name="VALUE" x="149.4282" y="37.3888" size="1.778" layer="21"/>
 </element>
 <element name="U$41" library="ThermoK Connector" package="THERMOCOUPLE_CONNECTOR" value="THERMOCOUPLE_CONNECTOR" x="178.054" y="25.9588">
+<attribute name="DIGIKEY" value="1568-1306-ND" x="178.054" y="25.9588" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="170.434" y="39.9288" size="1.778" layer="21"/>
 <attribute name="VALUE" x="170.434" y="37.3888" size="1.778" layer="21"/>
 </element>
 <element name="U$42" library="ThermoK Connector" package="THERMOCOUPLE_CONNECTOR" value="THERMOCOUPLE_CONNECTOR" x="199.0598" y="25.9588">
+<attribute name="DIGIKEY" value="1568-1306-ND" x="199.0598" y="25.9588" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="191.4398" y="39.9288" size="1.778" layer="21"/>
 <attribute name="VALUE" x="191.4398" y="37.3888" size="1.778" layer="21"/>
 </element>
@@ -5056,6 +5070,7 @@ einem neuen Namen ab.</description>
 <attribute name="DESCRIPTION" value=" Ldo.Vreg Pos 3, 3v 1a Sot223 " x="-7.62" y="-18.796" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="AZ1117EH-3.3TRG1DICT-ND" x="-7.62" y="-18.796" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/diodes-incorporated/AZ1117EH-3.3TRG1/AZ1117EH-3.3TRG1DICT-ND/5001336?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="-7.62" y="-18.796" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEY" value="AZ1117EH-3.3TRG1DICT-ND" x="-7.62" y="-18.796" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Diodes Inc." x="-7.62" y="-18.796" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MP" value="AZ1117EH-3.3TRG1" x="-7.62" y="-18.796" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="-12.2237" y="-22.098659375" size="1.27101875" layer="25" ratio="10" rot="R90"/>
@@ -5200,6 +5215,7 @@ einem neuen Namen ab.</description>
 <element name="J6" library="USB" package="AMPHENOL_10118194-0001LF" value="10118194-0001LF" x="-90.424" y="-16.256" rot="R270">
 <attribute name="AVAILABILITY" value="Unavailable" x="-90.424" y="-16.256" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" value=" Micro Usb, 2.0 Type b, Rcpt, Smt " x="-90.424" y="-16.256" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY" value="609-4618-1-ND" x="-90.424" y="-16.256" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="Amphenol ICC" x="-90.424" y="-16.256" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MP" value="10118194-0001LF" x="-90.424" y="-16.256" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="-86.034859375" y="-12.21171875" size="1.271209375" layer="25" rot="R270"/>
@@ -5227,7 +5243,9 @@ einem neuen Namen ab.</description>
 <attribute name="RS_PRICE-STOCK" value="" x="-139.192" y="-23.876" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-139.192" y="-23.876" size="1.27" layer="27" align="center"/>
 </element>
-<element name="U$3" library="ADS8688" package="ADS8688" value="ADS8684" x="-61.976" y="8.636" rot="R90"/>
+<element name="U$3" library="ADS8688" package="ADS8688" value="ADS8684" x="-61.976" y="8.636" rot="R90">
+<attribute name="DIGIKEY" value="296-39875-2-ND" x="-61.976" y="8.636" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
 <element name="C41" library="rlc-jqi" package="0805" value="22 uF" x="-55.753" y="4.572" rot="R180">
 <attribute name="NAME" x="-53.213" y="3.302" size="0.889" layer="25" rot="R180"/>
 <attribute name="VALUE" x="-53.213" y="6.477" size="0.889" layer="27" rot="R180"/>
@@ -5299,10 +5317,14 @@ einem neuen Namen ab.</description>
 <attribute name="PARTNO" value="75869-132LF" x="35.56" y="-22.352" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="34.29" y="-27.559" size="1.778" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="U$21" library="3CH_HEADER" package="3CH_HEADER" value="3CH_HEADER" x="-114.808" y="-26.8478" rot="R180"/>
+<element name="U$21" library="3CH_HEADER" package="3CH_HEADER" value="3CH_HEADER" x="-114.808" y="-26.8478" rot="R180">
+<attribute name="DIGIKEY" value="WM7771-ND" x="-114.808" y="-26.8478" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="U5" library="ADUM5401" package="RW_16-L" value="ADUM5401RW_16-L" x="8.128" y="-13.716" rot="R90">
-<attribute name="MANUFACTURER_PART_NUMBER" value="ADUM5402ARWZRL" x="8.128" y="-13.716" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEY" value="ADUM5401ARWZ-RLCT-ND" x="8.128" y="-13.716" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ADUM5401ARWZRL" x="8.128" y="-13.716" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="8.763" y="-16.9926" size="1.27" layer="25" ratio="6" rot="SR90"/>
+<attribute name="SPICEPREFIX" value="X" x="8.128" y="-13.716" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VENDOR" value="Analog Devices Inc" x="8.128" y="-13.716" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 </elements>
