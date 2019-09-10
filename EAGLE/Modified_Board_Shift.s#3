@@ -14427,18 +14427,12 @@ Source: &lt;a href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz
 </class>
 </classes>
 <parts>
-<part name="C3" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF">
-<attribute name="DIGIKEY" value="1276-1007-1-ND"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC"/>
-</part>
+<part name="C3" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF"/>
 <part name="IC1" library="AlexW-Eagle-Libraries" deviceset="MAX31855" device="">
 <attribute name="DIGIKEY" value="MAX31855KASA+TCT-ND"/>
 <attribute name="PARTNO" value="MAX31855KASA+T"/>
 </part>
-<part name="C5" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF">
-<attribute name="DIGIKEY" value="1276-1007-1-ND"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC"/>
-</part>
+<part name="C5" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF"/>
 <part name="CP2" library="rcl" deviceset="C-US" device="C0805K" value="10uF">
 <attribute name="DIGIKEY" value="1276-6456-1-ND"/>
 <attribute name="PARTNO" value="CL21A106KPFNNNG"/>
@@ -14449,114 +14443,60 @@ Source: &lt;a href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz
 <attribute name="PARTNO" value="MPZ2012S102AT000"/>
 </part>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="C2" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF">
-<attribute name="DIGIKEY" value="1276-1007-1-ND"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC"/>
-</part>
+<part name="C2" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF"/>
 <part name="IC2" library="AlexW-Eagle-Libraries" deviceset="MAX31855" device="">
 <attribute name="DIGIKEY" value="MAX31855KASA+TCT-ND"/>
 <attribute name="PARTNO" value="MAX31855KASA+T"/>
 </part>
-<part name="C6" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF">
-<attribute name="DIGIKEY" value="1276-1007-1-ND"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC"/>
-</part>
-<part name="C7" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF">
-<attribute name="DIGIKEY" value="1276-1007-1-ND"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC"/>
-</part>
+<part name="C6" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF"/>
+<part name="C7" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF"/>
 <part name="IC3" library="AlexW-Eagle-Libraries" deviceset="MAX31855" device="">
 <attribute name="DIGIKEY" value="MAX31855KASA+TCT-ND"/>
 <attribute name="PARTNO" value="MAX31855KASA+T"/>
 </part>
-<part name="C8" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF">
-<attribute name="DIGIKEY" value="1276-1007-1-ND"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC"/>
-</part>
-<part name="C9" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF">
-<attribute name="DIGIKEY" value="1276-1007-1-ND"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC"/>
-</part>
+<part name="C8" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF"/>
+<part name="C9" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF"/>
 <part name="IC4" library="AlexW-Eagle-Libraries" deviceset="MAX31855" device="">
 <attribute name="DIGIKEY" value="MAX31855KASA+TCT-ND"/>
 <attribute name="PARTNO" value="MAX31855KASA+T"/>
 </part>
-<part name="C10" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF">
-<attribute name="DIGIKEY" value="1276-1007-1-ND"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC"/>
-</part>
-<part name="C11" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF">
-<attribute name="DIGIKEY" value="1276-1007-1-ND"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC"/>
-</part>
+<part name="C10" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF"/>
+<part name="C11" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF"/>
 <part name="IC5" library="AlexW-Eagle-Libraries" deviceset="MAX31855" device="">
 <attribute name="DIGIKEY" value="MAX31855KASA+TCT-ND"/>
 <attribute name="PARTNO" value="MAX31855KASA+T"/>
 </part>
-<part name="C12" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF">
-<attribute name="DIGIKEY" value="1276-1007-1-ND"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC"/>
-</part>
-<part name="C13" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF">
-<attribute name="DIGIKEY" value="1276-1007-1-ND"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC"/>
-</part>
+<part name="C12" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF"/>
+<part name="C13" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF"/>
 <part name="IC6" library="AlexW-Eagle-Libraries" deviceset="MAX31855" device="">
 <attribute name="DIGIKEY" value="MAX31855KASA+TCT-ND"/>
 <attribute name="PARTNO" value="MAX31855KASA+T"/>
 </part>
-<part name="C14" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF">
-<attribute name="DIGIKEY" value="1276-1007-1-ND"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC"/>
-</part>
-<part name="C15" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF">
-<attribute name="DIGIKEY" value="1276-1007-1-ND"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC"/>
-</part>
+<part name="C14" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF"/>
+<part name="C15" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF"/>
 <part name="IC7" library="AlexW-Eagle-Libraries" deviceset="MAX31855" device="">
 <attribute name="DIGIKEY" value="MAX31855KASA+TCT-ND"/>
 <attribute name="PARTNO" value="MAX31855KASA+T"/>
 </part>
-<part name="C16" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF">
-<attribute name="DIGIKEY" value="1276-1007-1-ND"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC"/>
-</part>
-<part name="C17" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF">
-<attribute name="DIGIKEY" value="1276-1007-1-ND"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC"/>
-</part>
+<part name="C16" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF"/>
+<part name="C17" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF"/>
 <part name="IC8" library="AlexW-Eagle-Libraries" deviceset="MAX31855" device="">
 <attribute name="DIGIKEY" value="MAX31855KASA+TCT-ND"/>
 <attribute name="PARTNO" value="MAX31855KASA+T"/>
 </part>
-<part name="C18" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF">
-<attribute name="DIGIKEY" value="1276-1007-1-ND"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC"/>
-</part>
-<part name="C19" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF">
-<attribute name="DIGIKEY" value="1276-1007-1-ND"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC"/>
-</part>
+<part name="C18" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF"/>
+<part name="C19" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF"/>
 <part name="IC9" library="AlexW-Eagle-Libraries" deviceset="MAX31855" device="">
 <attribute name="DIGIKEY" value="MAX31855KASA+TCT-ND"/>
 <attribute name="PARTNO" value="MAX31855KASA+T"/>
 </part>
-<part name="C20" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF">
-<attribute name="DIGIKEY" value="1276-1007-1-ND"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC"/>
-</part>
-<part name="C21" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF">
-<attribute name="DIGIKEY" value="1276-1007-1-ND"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC"/>
-</part>
+<part name="C20" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF"/>
+<part name="C21" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF"/>
 <part name="IC10" library="AlexW-Eagle-Libraries" deviceset="MAX31855" device="">
 <attribute name="DIGIKEY" value="MAX31855KASA+TCT-ND"/>
 <attribute name="PARTNO" value="MAX31855KASA+T"/>
 </part>
-<part name="C22" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF">
-<attribute name="DIGIKEY" value="1276-1007-1-ND"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC"/>
-</part>
+<part name="C22" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF"/>
 <part name="JP1" library="Lin-Temp-Controller" deviceset="SCRWTRM-1X2" device="/90">
 <attribute name="PARTNO" value="OSTTF020161"/>
 </part>
@@ -14872,11 +14812,9 @@ Source: &lt;a href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz
 <attribute name="PARTNO" value="AZ1117EH-3.3TRG1"/>
 </part>
 <part name="C38" library="rlc-jqi" deviceset="CAP" device="0805" value="2.2uF">
-<attribute name="DIGIKEY" value="1276-1188-1-ND"/>
 <attribute name="PARTNO" value="CL21B225KPFNNNE"/>
 </part>
 <part name="C39" library="rlc-jqi" deviceset="CAP" device="0805" value="2.2uF">
-<attribute name="DIGIKEY" value="1276-1188-1-ND"/>
 <attribute name="PARTNO" value="CL21B225KPFNNNE"/>
 </part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
@@ -15050,20 +14988,16 @@ Source: &lt;a href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz
 </part>
 <part name="U$6" library="microbuilder" deviceset="GND" device=""/>
 <part name="C43" library="rlc-jqi" deviceset="CAP" device="0805" value="2.2uF">
-<attribute name="DIGIKEY" value="1276-1188-1-ND"/>
 <attribute name="PARTNO" value="CL21B225KPFNNNE"/>
 </part>
 <part name="U$7" library="microbuilder" deviceset="AGND" device=""/>
 <part name="C44" library="rlc-jqi" deviceset="CAP" device="0805" value="2.2uF">
-<attribute name="DIGIKEY" value="1276-1188-1-ND"/>
 <attribute name="PARTNO" value="CL21B225KPFNNNE"/>
 </part>
 <part name="C46" library="rlc-jqi" deviceset="CAP" device="0805" value="2.2uF">
-<attribute name="DIGIKEY" value="1276-1188-1-ND"/>
 <attribute name="PARTNO" value="CL21B225KPFNNNE"/>
 </part>
 <part name="C47" library="rlc-jqi" deviceset="CAP" device="0805" value="2.2uF">
-<attribute name="DIGIKEY" value="1276-1188-1-ND"/>
 <attribute name="PARTNO" value="CL21B225KPFNNNE"/>
 </part>
 <part name="U$5" library="microbuilder" deviceset="AGND" device=""/>
@@ -15075,37 +15009,23 @@ Source: &lt;a href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz
 <part name="U$14" library="microbuilder" deviceset="AGND" device=""/>
 <part name="U$15" library="microbuilder" deviceset="AGND" device=""/>
 <part name="C40" library="rlc-jqi" deviceset="CAP" device="0805" value="2.2uF">
-<attribute name="DIGIKEY" value="1276-1188-1-ND"/>
 <attribute name="PARTNO" value="CL21B225KPFNNNE"/>
 </part>
 <part name="C42" library="rlc-jqi" deviceset="CAP" device="0805" value="2.2uF">
-<attribute name="DIGIKEY" value="1276-1188-1-ND"/>
 <attribute name="PARTNO" value="CL21B225KPFNNNE"/>
 </part>
 <part name="C45" library="rlc-jqi" deviceset="CAP" device="0805" value="2.2uF">
-<attribute name="DIGIKEY" value="1276-1188-1-ND"/>
 <attribute name="PARTNO" value="CL21B225KPFNNNE"/>
 </part>
 <part name="C48" library="rlc-jqi" deviceset="CAP" device="0805" value="2.2uF">
-<attribute name="DIGIKEY" value="1276-1188-1-ND"/>
 <attribute name="PARTNO" value="CL21B225KPFNNNE"/>
 </part>
 <part name="C49" library="rlc-jqi" deviceset="CAP" device="0805" value="2.2uF">
-<attribute name="DIGIKEY" value="1276-1188-1-ND"/>
 <attribute name="PARTNO" value="CL21B225KPFNNNE"/>
 </part>
-<part name="C50" library="rlc-jqi" deviceset="CAP" device="0805" value="2.2uF">
-<attribute name="DIGIKEY" value="1276-1188-1-ND"/>
-<attribute name="PARTNO" value="CL21B225KPFNNNE"/>
-</part>
-<part name="C51" library="rlc-jqi" deviceset="CAP" device="0805" value="2.2uF">
-<attribute name="DIGIKEY" value="1276-1188-1-ND"/>
-<attribute name="PARTNO" value="CL21B225KPFNNNE"/>
-</part>
-<part name="C57" library="rlc-jqi" deviceset="CAP" device="0805" value="2.2uF">
-<attribute name="DIGIKEY" value="1276-1188-1-ND"/>
-<attribute name="PARTNO" value="CL21B225KPFNNNE"/>
-</part>
+<part name="C50" library="rlc-jqi" deviceset="CAP" device="0805" value="2.2uF"/>
+<part name="C51" library="rlc-jqi" deviceset="CAP" device="0805" value="2.2uF"/>
+<part name="C57" library="rlc-jqi" deviceset="CAP" device="0805" value="2.2uF"/>
 <part name="U$16" library="microbuilder" deviceset="AGND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -15161,8 +15081,6 @@ Source: &lt;a href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz
 <instance part="C3" gate="G$1" x="-77.47" y="48.26">
 <attribute name="NAME" x="-79.76" y="49.51" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
 <attribute name="VALUE" x="-75.17" y="49.51" size="1.27" layer="96" font="vector" rot="R90" align="center"/>
-<attribute name="DIGIKEY" x="-77.47" y="48.26" size="1.778" layer="96" display="off"/>
-<attribute name="PARTNO" x="-77.47" y="48.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="IC1" gate="G$1" x="-36.83" y="58.42">
 <attribute name="NAME" x="-46.99" y="73.66" size="1.27" layer="95"/>
@@ -15173,8 +15091,6 @@ Source: &lt;a href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz
 <instance part="C5" gate="G$1" x="-64.77" y="68.58" rot="R270">
 <attribute name="NAME" x="-63.52" y="70.87" size="1.27" layer="95" font="vector" align="center"/>
 <attribute name="VALUE" x="-63.52" y="66.28" size="1.27" layer="96" font="vector" align="center"/>
-<attribute name="DIGIKEY" x="-64.77" y="68.58" size="1.778" layer="96" display="off"/>
-<attribute name="PARTNO" x="-64.77" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="CP2" gate="G$1" x="-67.31" y="106.68">
 <attribute name="NAME" x="-66.294" y="107.315" size="1.778" layer="95"/>
@@ -15195,8 +15111,6 @@ Source: &lt;a href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz
 <instance part="C2" gate="G$1" x="-77.47" y="12.7">
 <attribute name="NAME" x="-79.76" y="13.95" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
 <attribute name="VALUE" x="-75.17" y="13.95" size="1.27" layer="96" font="vector" rot="R90" align="center"/>
-<attribute name="DIGIKEY" x="-77.47" y="12.7" size="1.778" layer="96" display="off"/>
-<attribute name="PARTNO" x="-77.47" y="12.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="IC2" gate="G$1" x="-36.83" y="22.86">
 <attribute name="NAME" x="-46.99" y="38.1" size="1.27" layer="95"/>
@@ -15207,14 +15121,10 @@ Source: &lt;a href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz
 <instance part="C6" gate="G$1" x="-64.77" y="33.02" rot="R270">
 <attribute name="NAME" x="-63.52" y="35.31" size="1.27" layer="95" font="vector" align="center"/>
 <attribute name="VALUE" x="-63.52" y="30.72" size="1.27" layer="96" font="vector" align="center"/>
-<attribute name="DIGIKEY" x="-64.77" y="33.02" size="1.778" layer="96" display="off"/>
-<attribute name="PARTNO" x="-64.77" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C7" gate="G$1" x="-77.47" y="-27.94">
 <attribute name="NAME" x="-79.76" y="-26.69" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
 <attribute name="VALUE" x="-75.17" y="-26.69" size="1.27" layer="96" font="vector" rot="R90" align="center"/>
-<attribute name="DIGIKEY" x="-77.47" y="-27.94" size="1.778" layer="96" display="off"/>
-<attribute name="PARTNO" x="-77.47" y="-27.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="IC3" gate="G$1" x="-36.83" y="-17.78">
 <attribute name="NAME" x="-46.99" y="-2.54" size="1.27" layer="95"/>
@@ -15225,14 +15135,10 @@ Source: &lt;a href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz
 <instance part="C8" gate="G$1" x="-64.77" y="-7.62" rot="R270">
 <attribute name="NAME" x="-63.52" y="-5.33" size="1.27" layer="95" font="vector" align="center"/>
 <attribute name="VALUE" x="-63.52" y="-9.92" size="1.27" layer="96" font="vector" align="center"/>
-<attribute name="DIGIKEY" x="-64.77" y="-7.62" size="1.778" layer="96" display="off"/>
-<attribute name="PARTNO" x="-64.77" y="-7.62" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C9" gate="G$1" x="-77.47" y="-71.12">
 <attribute name="NAME" x="-79.76" y="-69.87" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
 <attribute name="VALUE" x="-75.17" y="-69.87" size="1.27" layer="96" font="vector" rot="R90" align="center"/>
-<attribute name="DIGIKEY" x="-77.47" y="-71.12" size="1.778" layer="96" display="off"/>
-<attribute name="PARTNO" x="-77.47" y="-71.12" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="IC4" gate="G$1" x="-36.83" y="-60.96">
 <attribute name="NAME" x="-46.99" y="-45.72" size="1.27" layer="95"/>
@@ -15243,14 +15149,10 @@ Source: &lt;a href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz
 <instance part="C10" gate="G$1" x="-64.77" y="-50.8" rot="R270">
 <attribute name="NAME" x="-63.52" y="-48.51" size="1.27" layer="95" font="vector" align="center"/>
 <attribute name="VALUE" x="-63.52" y="-53.1" size="1.27" layer="96" font="vector" align="center"/>
-<attribute name="DIGIKEY" x="-64.77" y="-50.8" size="1.778" layer="96" display="off"/>
-<attribute name="PARTNO" x="-64.77" y="-50.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C11" gate="G$1" x="-77.47" y="-111.76">
 <attribute name="NAME" x="-79.76" y="-110.51" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
 <attribute name="VALUE" x="-75.17" y="-110.51" size="1.27" layer="96" font="vector" rot="R90" align="center"/>
-<attribute name="DIGIKEY" x="-77.47" y="-111.76" size="1.778" layer="96" display="off"/>
-<attribute name="PARTNO" x="-77.47" y="-111.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="IC5" gate="G$1" x="-36.83" y="-101.6">
 <attribute name="NAME" x="-46.99" y="-86.36" size="1.27" layer="95"/>
@@ -15261,14 +15163,10 @@ Source: &lt;a href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz
 <instance part="C12" gate="G$1" x="-64.77" y="-91.44" rot="R270">
 <attribute name="NAME" x="-63.52" y="-89.15" size="1.27" layer="95" font="vector" align="center"/>
 <attribute name="VALUE" x="-63.52" y="-93.74" size="1.27" layer="96" font="vector" align="center"/>
-<attribute name="DIGIKEY" x="-64.77" y="-91.44" size="1.778" layer="96" display="off"/>
-<attribute name="PARTNO" x="-64.77" y="-91.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C13" gate="G$1" x="16.51" y="-27.94">
 <attribute name="NAME" x="14.22" y="-26.69" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
 <attribute name="VALUE" x="18.81" y="-26.69" size="1.27" layer="96" font="vector" rot="R90" align="center"/>
-<attribute name="DIGIKEY" x="16.51" y="-27.94" size="1.778" layer="96" display="off"/>
-<attribute name="PARTNO" x="16.51" y="-27.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="IC6" gate="G$1" x="57.15" y="-17.78">
 <attribute name="NAME" x="46.99" y="-2.54" size="1.27" layer="95"/>
@@ -15279,14 +15177,10 @@ Source: &lt;a href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz
 <instance part="C14" gate="G$1" x="29.21" y="-7.62" rot="R270">
 <attribute name="NAME" x="30.46" y="-5.33" size="1.27" layer="95" font="vector" align="center"/>
 <attribute name="VALUE" x="30.46" y="-9.92" size="1.27" layer="96" font="vector" align="center"/>
-<attribute name="DIGIKEY" x="29.21" y="-7.62" size="1.778" layer="96" display="off"/>
-<attribute name="PARTNO" x="29.21" y="-7.62" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C15" gate="G$1" x="16.51" y="-71.12">
 <attribute name="NAME" x="14.22" y="-69.87" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
 <attribute name="VALUE" x="18.81" y="-69.87" size="1.27" layer="96" font="vector" rot="R90" align="center"/>
-<attribute name="DIGIKEY" x="16.51" y="-71.12" size="1.778" layer="96" display="off"/>
-<attribute name="PARTNO" x="16.51" y="-71.12" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="IC7" gate="G$1" x="57.15" y="-60.96">
 <attribute name="NAME" x="46.99" y="-45.72" size="1.27" layer="95"/>
@@ -15297,14 +15191,10 @@ Source: &lt;a href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz
 <instance part="C16" gate="G$1" x="29.21" y="-50.8" rot="R270">
 <attribute name="NAME" x="30.46" y="-48.51" size="1.27" layer="95" font="vector" align="center"/>
 <attribute name="VALUE" x="30.46" y="-53.1" size="1.27" layer="96" font="vector" align="center"/>
-<attribute name="DIGIKEY" x="29.21" y="-50.8" size="1.778" layer="96" display="off"/>
-<attribute name="PARTNO" x="29.21" y="-50.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C17" gate="G$1" x="16.51" y="-111.76">
 <attribute name="NAME" x="14.22" y="-110.51" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
 <attribute name="VALUE" x="18.81" y="-110.51" size="1.27" layer="96" font="vector" rot="R90" align="center"/>
-<attribute name="DIGIKEY" x="16.51" y="-111.76" size="1.778" layer="96" display="off"/>
-<attribute name="PARTNO" x="16.51" y="-111.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="IC8" gate="G$1" x="57.15" y="-101.6">
 <attribute name="NAME" x="46.99" y="-86.36" size="1.27" layer="95"/>
@@ -15315,14 +15205,10 @@ Source: &lt;a href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz
 <instance part="C18" gate="G$1" x="29.21" y="-91.44" rot="R270">
 <attribute name="NAME" x="30.46" y="-89.15" size="1.27" layer="95" font="vector" align="center"/>
 <attribute name="VALUE" x="30.46" y="-93.74" size="1.27" layer="96" font="vector" align="center"/>
-<attribute name="DIGIKEY" x="29.21" y="-91.44" size="1.778" layer="96" display="off"/>
-<attribute name="PARTNO" x="29.21" y="-91.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C19" gate="G$1" x="110.49" y="-71.12">
 <attribute name="NAME" x="108.2" y="-69.87" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
 <attribute name="VALUE" x="112.79" y="-69.87" size="1.27" layer="96" font="vector" rot="R90" align="center"/>
-<attribute name="DIGIKEY" x="110.49" y="-71.12" size="1.778" layer="96" display="off"/>
-<attribute name="PARTNO" x="110.49" y="-71.12" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="IC9" gate="G$1" x="151.13" y="-60.96">
 <attribute name="NAME" x="140.97" y="-45.72" size="1.27" layer="95"/>
@@ -15333,14 +15219,10 @@ Source: &lt;a href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz
 <instance part="C20" gate="G$1" x="123.19" y="-50.8" rot="R270">
 <attribute name="NAME" x="124.44" y="-48.51" size="1.27" layer="95" font="vector" align="center"/>
 <attribute name="VALUE" x="124.44" y="-53.1" size="1.27" layer="96" font="vector" align="center"/>
-<attribute name="DIGIKEY" x="123.19" y="-50.8" size="1.778" layer="96" display="off"/>
-<attribute name="PARTNO" x="123.19" y="-50.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C21" gate="G$1" x="110.49" y="-111.76">
 <attribute name="NAME" x="108.2" y="-110.51" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
 <attribute name="VALUE" x="112.79" y="-110.51" size="1.27" layer="96" font="vector" rot="R90" align="center"/>
-<attribute name="DIGIKEY" x="110.49" y="-111.76" size="1.778" layer="96" display="off"/>
-<attribute name="PARTNO" x="110.49" y="-111.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="IC10" gate="G$1" x="151.13" y="-101.6">
 <attribute name="NAME" x="140.97" y="-86.36" size="1.27" layer="95"/>
@@ -15351,8 +15233,6 @@ Source: &lt;a href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz
 <instance part="C22" gate="G$1" x="123.19" y="-91.44" rot="R270">
 <attribute name="NAME" x="124.44" y="-89.15" size="1.27" layer="95" font="vector" align="center"/>
 <attribute name="VALUE" x="124.44" y="-93.74" size="1.27" layer="96" font="vector" align="center"/>
-<attribute name="DIGIKEY" x="123.19" y="-91.44" size="1.778" layer="96" display="off"/>
-<attribute name="PARTNO" x="123.19" y="-91.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="JP1" gate="G$1" x="-118.11" y="104.14" rot="R180">
 <attribute name="NAME" x="-111.76" y="98.425" size="1.778" layer="95" rot="R180"/>
@@ -15560,13 +15440,11 @@ Source: &lt;a href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz
 <attribute name="NAME" x="-177.8" y="94.615" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-177.8" y="100.33" size="1.27" layer="96" rot="R90"/>
 <attribute name="PARTNO" x="-173.99" y="99.06" size="1.778" layer="96" display="off"/>
-<attribute name="DIGIKEY" x="-173.99" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C39" gate="G$1" x="-139.7" y="99.06" rot="R90">
 <attribute name="NAME" x="-143.51" y="94.615" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-134.62" y="93.98" size="1.27" layer="96" rot="R90"/>
 <attribute name="PARTNO" x="-139.7" y="99.06" size="1.778" layer="96" display="off"/>
-<attribute name="DIGIKEY" x="-139.7" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND1" gate="1" x="-173.99" y="90.17">
 <attribute name="VALUE" x="-176.53" y="87.63" size="1.778" layer="96"/>
@@ -15624,7 +15502,6 @@ Source: &lt;a href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz
 <attribute name="NAME" x="237.49" y="56.515" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="240.03" y="54.61" size="1.27" layer="96" rot="R90"/>
 <attribute name="PARTNO" x="241.3" y="60.96" size="1.778" layer="96" display="off"/>
-<attribute name="DIGIKEY" x="241.3" y="60.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U$7" gate="G$1" x="241.3" y="48.26">
 <attribute name="VALUE" x="239.776" y="45.72" size="1.27" layer="96"/>
@@ -15633,19 +15510,16 @@ Source: &lt;a href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz
 <attribute name="NAME" x="309.88" y="56.515" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="312.42" y="55.88" size="1.27" layer="96" rot="R90"/>
 <attribute name="PARTNO" x="313.69" y="60.96" size="1.778" layer="96" display="off"/>
-<attribute name="DIGIKEY" x="313.69" y="60.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C46" gate="G$1" x="307.34" y="77.47" rot="R180">
 <attribute name="NAME" x="311.785" y="73.66" size="1.27" layer="95" rot="R180"/>
 <attribute name="VALUE" x="313.69" y="80.01" size="1.27" layer="96" rot="R180"/>
 <attribute name="PARTNO" x="307.34" y="77.47" size="1.778" layer="96" display="off"/>
-<attribute name="DIGIKEY" x="307.34" y="77.47" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C47" gate="G$1" x="220.98" y="78.74" rot="R90">
 <attribute name="NAME" x="217.17" y="74.295" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="223.52" y="73.66" size="1.27" layer="96" rot="R90"/>
 <attribute name="PARTNO" x="220.98" y="78.74" size="1.778" layer="96" display="off"/>
-<attribute name="DIGIKEY" x="220.98" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U$5" gate="G$1" x="171.45" y="20.32">
 <attribute name="VALUE" x="169.926" y="17.78" size="1.27" layer="96"/>
@@ -15675,49 +15549,38 @@ Source: &lt;a href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz
 <attribute name="NAME" x="325.12" y="52.705" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="334.01" y="52.07" size="1.27" layer="96" rot="R90"/>
 <attribute name="PARTNO" x="328.93" y="57.15" size="1.778" layer="96" display="off"/>
-<attribute name="DIGIKEY" x="328.93" y="57.15" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C42" gate="G$1" x="339.09" y="57.15" rot="R90">
 <attribute name="NAME" x="335.28" y="52.705" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="344.17" y="52.07" size="1.27" layer="96" rot="R90"/>
 <attribute name="PARTNO" x="339.09" y="57.15" size="1.778" layer="96" display="off"/>
-<attribute name="DIGIKEY" x="339.09" y="57.15" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C45" gate="G$1" x="349.25" y="57.15" rot="R90">
 <attribute name="NAME" x="345.44" y="52.705" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="354.33" y="52.07" size="1.27" layer="96" rot="R90"/>
 <attribute name="PARTNO" x="349.25" y="57.15" size="1.778" layer="96" display="off"/>
-<attribute name="DIGIKEY" x="349.25" y="57.15" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C48" gate="G$1" x="359.41" y="57.15" rot="R90">
 <attribute name="NAME" x="355.6" y="52.705" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="364.49" y="52.07" size="1.27" layer="96" rot="R90"/>
 <attribute name="PARTNO" x="359.41" y="57.15" size="1.778" layer="96" display="off"/>
-<attribute name="DIGIKEY" x="359.41" y="57.15" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C49" gate="G$1" x="369.57" y="57.15" rot="R90">
 <attribute name="NAME" x="365.76" y="52.705" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="374.65" y="52.07" size="1.27" layer="96" rot="R90"/>
 <attribute name="PARTNO" x="369.57" y="57.15" size="1.778" layer="96" display="off"/>
-<attribute name="DIGIKEY" x="369.57" y="57.15" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C50" gate="G$1" x="379.73" y="57.15" rot="R90">
 <attribute name="NAME" x="375.92" y="52.705" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="384.81" y="52.07" size="1.27" layer="96" rot="R90"/>
-<attribute name="PARTNO" x="379.73" y="57.15" size="1.778" layer="96" display="off"/>
-<attribute name="DIGIKEY" x="379.73" y="57.15" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C51" gate="G$1" x="389.89" y="57.15" rot="R90">
 <attribute name="NAME" x="386.08" y="52.705" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="394.97" y="52.07" size="1.27" layer="96" rot="R90"/>
-<attribute name="PARTNO" x="389.89" y="57.15" size="1.778" layer="96" display="off"/>
-<attribute name="DIGIKEY" x="389.89" y="57.15" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C57" gate="G$1" x="401.32" y="57.15" rot="R90">
 <attribute name="NAME" x="397.51" y="52.705" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="406.4" y="52.07" size="1.27" layer="96" rot="R90"/>
-<attribute name="PARTNO" x="401.32" y="57.15" size="1.778" layer="96" display="off"/>
-<attribute name="DIGIKEY" x="401.32" y="57.15" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U$16" gate="G$1" x="408.94" y="46.99">
 <attribute name="VALUE" x="407.416" y="44.45" size="1.27" layer="96"/>

@@ -4551,20 +4551,14 @@ einem neuen Namen ab.</description>
 </autorouter>
 <elements>
 <element name="C3" library="microbuilder" package="0805-NO" value="0.1uF" x="10.4346" y="13.2954">
-<attribute name="DIGIKEY" value="1276-1007-1-ND" x="10.4346" y="13.2954" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="8.8471" y="14.2479" size="0.8128" layer="25" ratio="18"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC" x="10.4346" y="13.2954" size="1.778" layer="27" display="off"/>
 </element>
 <element name="IC1" library="AlexW-Eagle-Libraries" package="SOIC8" value="MAX31855" x="10.3124" y="6.8072" rot="R180">
-<attribute name="DIGIKEY" value="MAX31855KASA+TCT-ND" x="10.3124" y="6.8072" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="12.9794" y="8.7122" size="1.27" layer="25" rot="R270"/>
-<attribute name="PARTNO" value="MAX31855KASA+T" x="10.3124" y="6.8072" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="6.3754" y="8.7122" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C5" library="microbuilder" package="0805-NO" value="0.1uF" x="6.604" y="10.3886" rot="R90">
-<attribute name="DIGIKEY" value="1276-1007-1-ND" x="6.604" y="10.3886" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="6.731" y="12.4206" size="0.8128" layer="25" ratio="18" rot="R90"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC" x="6.604" y="10.3886" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="7.366" y="12.4206" size="0.4064" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="CP2" library="rcl" package="C0805K" value="10uF" x="134.98" y="-21.654" rot="R270">
@@ -4574,211 +4568,145 @@ einem neuen Namen ab.</description>
 <attribute name="VALUE" x="133.08" y="-20.654" size="1.016" layer="27" rot="R270"/>
 </element>
 <element name="L4" library="rlc-jqi" package="0805" value="1k" x="131.542" y="-19.7">
-<attribute name="DIGIKEY" value="445-5223-1-ND" x="131.542" y="-19.7" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY" value="445-5223-1" x="131.542" y="-19.7" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="129.002" y="-18.43" size="0.889" layer="25"/>
 <attribute name="PARTNO" value="MPZ2012S102AT000" x="131.542" y="-19.7" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="129.002" y="-21.605" size="0.889" layer="27"/>
 </element>
 <element name="C2" library="microbuilder" package="0805-NO" value="0.1uF" x="31.454" y="13.4">
-<attribute name="DIGIKEY" value="1276-1007-1-ND" x="31.454" y="13.4" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="33.486" y="13.273" size="0.8128" layer="25" ratio="18"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC" x="31.454" y="13.4" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="33.486" y="12.638" size="0.4064" layer="27" ratio="10"/>
 </element>
 <element name="IC2" library="AlexW-Eagle-Libraries" package="SOIC8" value="MAX31855" x="31.3" y="6.8072" rot="R180">
-<attribute name="DIGIKEY" value="MAX31855KASA+TCT-ND" x="31.3" y="6.8072" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="33.967" y="8.7122" size="1.27" layer="25" rot="R270"/>
-<attribute name="PARTNO" value="MAX31855KASA+T" x="31.3" y="6.8072" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="27.363" y="8.7122" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C6" library="microbuilder" package="0805-NO" value="0.1uF" x="27.4" y="10.8" rot="R90">
-<attribute name="DIGIKEY" value="1276-1007-1-ND" x="27.4" y="10.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="27.527" y="12.832" size="0.8128" layer="25" ratio="18" rot="R90"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC" x="27.4" y="10.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="28.162" y="12.832" size="0.4064" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C7" library="microbuilder" package="0805-NO" value="0.1uF" x="52.3" y="13.3">
-<attribute name="DIGIKEY" value="1276-1007-1-ND" x="52.3" y="13.3" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="54.332" y="13.173" size="0.8128" layer="25" ratio="18"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC" x="52.3" y="13.3" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="54.332" y="12.538" size="0.4064" layer="27" ratio="10"/>
 </element>
 <element name="IC3" library="AlexW-Eagle-Libraries" package="SOIC8" value="MAX31855" x="52.3" y="6.8072" rot="R180">
-<attribute name="DIGIKEY" value="MAX31855KASA+TCT-ND" x="52.3" y="6.8072" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="54.967" y="8.7122" size="1.27" layer="25" rot="R270"/>
-<attribute name="PARTNO" value="MAX31855KASA+T" x="52.3" y="6.8072" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="48.363" y="8.7122" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C8" library="microbuilder" package="0805-NO" value="0.1uF" x="48.3" y="11.3" rot="R90">
-<attribute name="DIGIKEY" value="1276-1007-1-ND" x="48.3" y="11.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="48.427" y="13.332" size="0.8128" layer="25" ratio="18" rot="R90"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC" x="48.3" y="11.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="49.062" y="13.332" size="0.4064" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C9" library="microbuilder" package="0805-NO" value="0.1uF" x="73.8" y="13.6">
-<attribute name="DIGIKEY" value="1276-1007-1-ND" x="73.8" y="13.6" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="75.832" y="13.473" size="0.8128" layer="25" ratio="18"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC" x="73.8" y="13.6" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="75.832" y="12.838" size="0.4064" layer="27" ratio="10"/>
 </element>
 <element name="IC4" library="AlexW-Eagle-Libraries" package="SOIC8" value="MAX31855" x="73.8" y="6.8072" rot="R180">
-<attribute name="DIGIKEY" value="MAX31855KASA+TCT-ND" x="73.8" y="6.8072" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="76.467" y="8.7122" size="1.27" layer="25" rot="R270"/>
-<attribute name="PARTNO" value="MAX31855KASA+T" x="73.8" y="6.8072" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="69.863" y="8.7122" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C10" library="microbuilder" package="0805-NO" value="0.1uF" x="70.4" y="11.4" rot="R90">
-<attribute name="DIGIKEY" value="1276-1007-1-ND" x="70.4" y="11.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="70.527" y="13.432" size="0.8128" layer="25" ratio="18" rot="R90"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC" x="70.4" y="11.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="71.162" y="13.432" size="0.4064" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C11" library="microbuilder" package="0805-NO" value="0.1uF" x="94.62" y="13.62">
-<attribute name="DIGIKEY" value="1276-1007-1-ND" x="94.62" y="13.62" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="96.652" y="13.493" size="0.8128" layer="25" ratio="18"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC" x="94.62" y="13.62" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="96.652" y="12.858" size="0.4064" layer="27" ratio="10"/>
 </element>
 <element name="IC5" library="AlexW-Eagle-Libraries" package="SOIC8" value="MAX31855" x="94.8" y="6.8072" rot="R180">
-<attribute name="DIGIKEY" value="MAX31855KASA+TCT-ND" x="94.8" y="6.8072" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="97.467" y="8.7122" size="1.27" layer="25" rot="R270"/>
-<attribute name="PARTNO" value="MAX31855KASA+T" x="94.8" y="6.8072" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="90.863" y="8.7122" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C12" library="microbuilder" package="0805-NO" value="0.1uF" x="91.27" y="11.27" rot="R90">
-<attribute name="DIGIKEY" value="1276-1007-1-ND" x="91.27" y="11.27" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="91.397" y="13.302" size="0.8128" layer="25" ratio="18" rot="R90"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC" x="91.27" y="11.27" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="92.032" y="13.302" size="0.4064" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C13" library="microbuilder" package="0805-NO" value="0.1uF" x="116.87" y="13.7">
-<attribute name="DIGIKEY" value="1276-1007-1-ND" x="116.87" y="13.7" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="118.902" y="13.573" size="0.8128" layer="25" ratio="18"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC" x="116.87" y="13.7" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="118.902" y="12.938" size="0.4064" layer="27" ratio="10"/>
 </element>
 <element name="IC6" library="AlexW-Eagle-Libraries" package="SOIC8" value="MAX31855" x="116.92" y="6.8072" rot="R180">
-<attribute name="DIGIKEY" value="MAX31855KASA+TCT-ND" x="116.92" y="6.8072" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="119.587" y="8.7122" size="1.27" layer="25" rot="R270"/>
-<attribute name="PARTNO" value="MAX31855KASA+T" x="116.92" y="6.8072" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="112.983" y="8.7122" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C14" library="microbuilder" package="0805-NO" value="0.1uF" x="113.252" y="11.2" rot="R90">
-<attribute name="DIGIKEY" value="1276-1007-1-ND" x="113.252" y="11.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="113.379" y="13.232" size="0.8128" layer="25" ratio="18" rot="R90"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC" x="113.252" y="11.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="114.014" y="13.232" size="0.4064" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C15" library="microbuilder" package="0805-NO" value="0.1uF" x="137.04" y="13.45">
-<attribute name="DIGIKEY" value="1276-1007-1-ND" x="137.04" y="13.45" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="139.072" y="13.323" size="0.8128" layer="25" ratio="18"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC" x="137.04" y="13.45" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="139.072" y="12.688" size="0.4064" layer="27" ratio="10"/>
 </element>
 <element name="IC7" library="AlexW-Eagle-Libraries" package="SOIC8" value="MAX31855" x="137.2" y="6.8072" rot="R180">
-<attribute name="DIGIKEY" value="MAX31855KASA+TCT-ND" x="137.2" y="6.8072" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="139.867" y="8.7122" size="1.27" layer="25" rot="R270"/>
-<attribute name="PARTNO" value="MAX31855KASA+T" x="137.2" y="6.8072" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="133.263" y="8.7122" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C16" library="microbuilder" package="0805-NO" value="0.1uF" x="133.55" y="11.29" rot="R90">
-<attribute name="DIGIKEY" value="1276-1007-1-ND" x="133.55" y="11.29" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="133.677" y="13.322" size="0.8128" layer="25" ratio="18" rot="R90"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC" x="133.55" y="11.29" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="134.312" y="13.322" size="0.4064" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C17" library="microbuilder" package="0805-NO" value="0.1uF" x="158.1" y="13.5">
-<attribute name="DIGIKEY" value="1276-1007-1-ND" x="158.1" y="13.5" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="160.132" y="13.373" size="0.8128" layer="25" ratio="18"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC" x="158.1" y="13.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="160.132" y="12.738" size="0.4064" layer="27" ratio="10"/>
 </element>
 <element name="IC8" library="AlexW-Eagle-Libraries" package="SOIC8" value="MAX31855" x="158.1" y="6.8072" rot="R180">
-<attribute name="DIGIKEY" value="MAX31855KASA+TCT-ND" x="158.1" y="6.8072" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="160.767" y="8.7122" size="1.27" layer="25" rot="R270"/>
-<attribute name="PARTNO" value="MAX31855KASA+T" x="158.1" y="6.8072" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="154.163" y="8.7122" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C18" library="microbuilder" package="0805-NO" value="0.1uF" x="154.2" y="11.1" rot="R90">
-<attribute name="DIGIKEY" value="1276-1007-1-ND" x="154.2" y="11.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="154.327" y="13.132" size="0.8128" layer="25" ratio="18" rot="R90"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC" x="154.2" y="11.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="154.962" y="13.132" size="0.4064" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C19" library="microbuilder" package="0805-NO" value="0.1uF" x="179.6" y="13.5">
-<attribute name="DIGIKEY" value="1276-1007-1-ND" x="179.6" y="13.5" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="181.632" y="13.373" size="0.8128" layer="25" ratio="18"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC" x="179.6" y="13.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="181.632" y="12.738" size="0.4064" layer="27" ratio="10"/>
 </element>
 <element name="IC9" library="AlexW-Eagle-Libraries" package="SOIC8" value="MAX31855" x="179.5" y="6.8072" rot="R180">
-<attribute name="DIGIKEY" value="MAX31855KASA+TCT-ND" x="179.5" y="6.8072" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="182.167" y="8.7122" size="1.27" layer="25" rot="R270"/>
-<attribute name="PARTNO" value="MAX31855KASA+T" x="179.5" y="6.8072" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="175.563" y="8.7122" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C20" library="microbuilder" package="0805-NO" value="0.1uF" x="175.8" y="11.3" rot="R90">
-<attribute name="DIGIKEY" value="1276-1007-1-ND" x="175.8" y="11.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="175.927" y="13.332" size="0.8128" layer="25" ratio="18" rot="R90"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC" x="175.8" y="11.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="176.562" y="13.332" size="0.4064" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C21" library="microbuilder" package="0805-NO" value="0.1uF" x="201.4" y="13.3">
-<attribute name="DIGIKEY" value="1276-1007-1-ND" x="201.4" y="13.3" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="203.432" y="13.173" size="0.8128" layer="25" ratio="18"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC" x="201.4" y="13.3" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="203.432" y="12.538" size="0.4064" layer="27" ratio="10"/>
 </element>
 <element name="IC10" library="AlexW-Eagle-Libraries" package="SOIC8" value="MAX31855" x="201.5" y="6.8072" rot="R180">
-<attribute name="DIGIKEY" value="MAX31855KASA+TCT-ND" x="201.5" y="6.8072" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="204.167" y="8.7122" size="1.27" layer="25" rot="R270"/>
-<attribute name="PARTNO" value="MAX31855KASA+T" x="201.5" y="6.8072" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="197.563" y="8.7122" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C22" library="microbuilder" package="0805-NO" value="0.1uF" x="197.8" y="11.2" rot="R90">
-<attribute name="DIGIKEY" value="1276-1007-1-ND" x="197.8" y="11.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="197.927" y="13.232" size="0.8128" layer="25" ratio="18" rot="R90"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC" x="197.8" y="11.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="198.562" y="13.232" size="0.4064" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="JP1" library="Lin-Temp-Controller" package="1X02_RA_SCRWTRM" value="" x="157.988" y="-21.336" rot="R180">
 <attribute name="DIGIKEY" value="ED2623-ND" x="157.988" y="-21.336" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFR_PN" value="OSTTF020161" x="157.988" y="-21.336" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="162.533" y="-19.296" size="1.27" layer="25" ratio="10" rot="R270"/>
-<attribute name="PARTNO" value="OSTTF020161" x="157.988" y="-21.336" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="152.193" y="-18.796" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="ENC1" library="aom_driver" package="PEC092320FS" value="PEC09" x="-140.208" y="27.686" rot="R90">
-<attribute name="DIGIKEY" value="PEC09-2320F-S0015-ND" x="-140.208" y="27.686" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PARTNO" value="PEC09-2320F-S0015" x="-140.208" y="27.686" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="C23" library="microbuilder" package="0805-NO" value="0.1uF" x="-144.272" y="15.24" rot="R90">
-<attribute name="DIGIKEY" value="1276-1007-1-ND" x="-144.272" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="ENC1" library="aom_driver" package="PEC092320FS" value="PEC09" x="-140.208" y="27.686" rot="R90"/>
+<element name="C23" library="microbuilder" package="0805-NO" value="100nF" x="-144.272" y="15.24" rot="R90">
 <attribute name="NAME" x="-144.145" y="17.272" size="0.8128" layer="25" ratio="18" rot="R90"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC" x="-144.272" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="-143.51" y="17.272" size="0.4064" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="C26" library="microbuilder" package="0805-NO" value="0.1uF" x="-132.588" y="22.098" rot="R90">
-<attribute name="DIGIKEY" value="1276-1007-1-ND" x="-132.588" y="22.098" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C26" library="microbuilder" package="0805-NO" value="100nF" x="-132.588" y="22.098" rot="R90">
 <attribute name="NAME" x="-132.461" y="24.13" size="0.8128" layer="25" ratio="18" rot="R90"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC" x="-132.588" y="22.098" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="-131.826" y="24.13" size="0.4064" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="U$18" library="JQI_Logo" package="JQI_LOGO_NEGATIVE-SILKSCREEN" value="" x="106.807" y="-11.43"/>
-<element name="C24" library="microbuilder" package="0805-NO" value="0.1uF" x="-140.716" y="15.24" rot="R90">
-<attribute name="DIGIKEY" value="1276-1007-1-ND" x="-140.716" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C24" library="microbuilder" package="0805-NO" value="100nF" x="-140.716" y="15.24" rot="R90">
 <attribute name="NAME" x="-140.589" y="17.272" size="0.8128" layer="25" ratio="18" rot="R90"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC" x="-140.716" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="-139.954" y="17.272" size="0.4064" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="JP2" library="mcu-accessories" package="ML08" value="" x="-83.82" y="7.366" rot="R180">
-<attribute name="DIGIKEY" value="609-3530-ND" x="-83.82" y="7.366" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-74.93" y="2.159" size="1.778" layer="25" ratio="10" rot="R180"/>
 <attribute name="PARTNO" value="75869-132LF" x="-83.82" y="7.366" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="-85.09" y="2.159" size="1.778" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="U8" library="teensy_block_with_programmer" package="QFP50P1200X1200X160-64N" value="MK20DX256VLH7" x="-77.724" y="-6.604">
-<attribute name="DIGIKEY" value="MK20DX256VLH7-ND" x="-77.724" y="-6.604" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-79.9084" y="-2.794" size="0.8128" layer="25" font="vector" ratio="15" rot="SR0"/>
 <attribute name="PARTNO" value="MK20DX256VLH7" x="-77.724" y="-6.604" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-79.9084" y="-11.049" size="0.8128" layer="25" font="vector" ratio="15" rot="SR0"/>
@@ -4790,44 +4718,36 @@ einem neuen Namen ab.</description>
 <attribute name="VALUE" x="-68.7072" y="-10.9326" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R43" library="teensy_block_with_programmer" package="R_0603" value="39" x="-87.5792" y="-5.8674">
-<attribute name="DIGIKEY" value="P39.0HCT-ND" x="-87.5792" y="-5.8674" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-88.7792" y="-5.0674" size="1.016" layer="25" font="vector"/>
 <attribute name="PARTNO" value="ERJ-3EKF39R0V" x="-87.5792" y="-5.8674" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R44" library="teensy_block_with_programmer" package="R_0603" value="39" x="-86.8172" y="-4.2164">
-<attribute name="DIGIKEY" value="P39.0HCT-ND" x="-86.8172" y="-4.2164" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-88.0172" y="-3.4164" size="1.016" layer="25" font="vector"/>
 <attribute name="PARTNO" value="ERJ-3EKF39R0V" x="-86.8172" y="-4.2164" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C71" library="teensy_block_with_programmer" package="C_MLCC_0603" value="2.2uF" x="-85.3186" y="-8.0264" rot="R90">
-<attribute name="DIGIKEY" value="1276-2016-1-ND" x="-85.3186" y="-8.0264" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="-86.1186" y="-9.3264" size="1.016" layer="25" font="vector" rot="R90"/>
 <attribute name="PARTNO" value="CL10B225KP8NFNC" x="-85.3186" y="-8.0264" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C72" library="teensy_block_with_programmer" package="C_MLCC_0603" value="2.2uF" x="-86.1822" y="-2.1082">
-<attribute name="DIGIKEY" value="1276-2016-1-ND" x="-86.1822" y="-2.1082" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-87.4822" y="-1.3082" size="1.016" layer="25" font="vector"/>
 <attribute name="PARTNO" value="CL10B225KP8NFNC" x="-86.1822" y="-2.1082" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C73" library="teensy_block_with_programmer" package="C_MLCC_0603" value="0.1uF" x="-74.6506" y="-15.5448" rot="R90">
-<attribute name="DIGIKEY" value="311-1341-6-ND" x="-74.6506" y="-15.5448" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C73" library="teensy_block_with_programmer" package="C_MLCC_0603" value="100nF" x="-74.6506" y="-15.5448" rot="R90">
 <attribute name="NAME" x="-75.4506" y="-16.8448" size="1.016" layer="25" font="vector" rot="R90"/>
-<attribute name="PARTNO" value="CC0603KRX7R8BB104" x="-74.6506" y="-15.5448" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="CL10B104KB8SFNC" x="-74.6506" y="-15.5448" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C74" library="teensy_block_with_programmer" package="C_MLCC_0603" value="0.1uF" x="-80.772" y="-14.732" rot="R90">
-<attribute name="DIGIKEY" value="311-1341-6-ND" x="-80.772" y="-14.732" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C74" library="teensy_block_with_programmer" package="C_MLCC_0603" value="100nF" x="-80.772" y="-14.732" rot="R90">
 <attribute name="NAME" x="-81.572" y="-16.032" size="1.016" layer="25" font="vector" rot="R90"/>
-<attribute name="PARTNO" value="CC0603KRX7R8BB104" x="-80.772" y="-14.732" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="CL10B104KB8SFNC" x="-80.772" y="-14.732" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C75" library="teensy_block_with_programmer" package="C_MLCC_0603" value="0.1uF" x="-70.612" y="-1.651" rot="R180">
-<attribute name="DIGIKEY" value="311-1341-6-ND" x="-70.612" y="-1.651" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="C75" library="teensy_block_with_programmer" package="C_MLCC_0603" value="100nF" x="-70.612" y="-1.651" rot="R180">
 <attribute name="NAME" x="-69.312" y="-2.451" size="1.016" layer="25" font="vector" rot="R180"/>
-<attribute name="PARTNO" value="CC0603KRX7R8BB104" x="-70.612" y="-1.651" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="CL10B104KB8SFNC" x="-70.612" y="-1.651" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C76" library="teensy_block_with_programmer" package="C_MLCC_0603" value="0.1uF" x="-83.5152" y="-13.7668">
-<attribute name="DIGIKEY" value="311-1341-6-ND" x="-83.5152" y="-13.7668" size="1.778" layer="27" display="off"/>
+<element name="C76" library="teensy_block_with_programmer" package="C_MLCC_0603" value="100nF" x="-83.5152" y="-13.7668">
 <attribute name="NAME" x="-84.8152" y="-12.9668" size="1.016" layer="25" font="vector"/>
-<attribute name="PARTNO" value="CC0603KRX7R8BB104" x="-83.5152" y="-13.7668" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="CL10B104KB8SFNC" x="-83.5152" y="-13.7668" size="1.778" layer="27" display="off"/>
 </element>
 <element name="3X3MM1" library="teensy_block_with_programmer" package="QFN50P300X300X100-17N" value="CURRENT_BOOTLOADER3X3MM" x="-77.47" y="-16.256" rot="R180">
 <attribute name="NAME" x="-74.0156" y="-20.193" size="2.0828" layer="25" ratio="10" rot="SR180"/>
@@ -4835,25 +4755,20 @@ einem neuen Namen ab.</description>
 <attribute name="VALUE" x="-74.0156" y="-11.176" size="2.0828" layer="27" ratio="10" rot="SR180"/>
 </element>
 <element name="R45" library="teensy_block_with_programmer" package="R_0603" value="10k" x="-76.454" y="-27.432">
-<attribute name="DIGIKEY" value="P10.0KHCT-ND" x="-76.454" y="-27.432" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-77.654" y="-26.632" size="1.016" layer="25" font="vector"/>
 <attribute name="PARTNO" value="ERJ-3EKF1002V" x="-76.454" y="-27.432" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R46" library="teensy_block_with_programmer" package="R_0603" value="10k" x="-76.2" y="-19.304" rot="R180">
-<attribute name="DIGIKEY" value="P10.0KHCT-ND" x="-76.2" y="-19.304" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-75" y="-20.104" size="1.016" layer="25" font="vector" rot="R180"/>
 <attribute name="PARTNO" value="ERJ-3EKF1002V" x="-76.2" y="-19.304" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="J3" library="Eurocard-HV-piezo-driver" package="1X7_LOW_PROFILE" value="" x="-80.518" y="-24.765">
-<attribute name="DIGIKEY" value="S5800-07-ND" x="-80.518" y="-24.765" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="NRPN071PAEN-RC" x="-80.518" y="-24.765" size="1.778" layer="27" display="off"/>
 </element>
 <element name="SW10" library="MF_Switches" package="TACT4.2MM" value="MF-SW-TACT-4.2MM" x="-82.042" y="-19.304" rot="R270">
-<attribute name="DIGIKEY" value="CKN10502CT-ND" x="-82.042" y="-19.304" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="HOUSEPART" value="YES" x="-82.042" y="-19.304" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="MF-SW-TACT-4.2MM" x="-82.042" y="-19.304" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="-80.042" y="-16.504" size="1.016" layer="25" font="vector" ratio="16" rot="R270"/>
-<attribute name="PARTNO" value="PTS810 SJM 250 SMTR LFS" x="-82.042" y="-19.304" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="POPULATE" value="1" x="-82.042" y="-19.304" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="URL" value="https://factory.macrofab.com/part/MF-SW-TACT-4.2MM" x="-82.042" y="-19.304" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
@@ -4872,9 +4787,7 @@ einem neuen Namen ab.</description>
 <attribute name="VENDOR" value="Nexperia" x="204.724" y="-18.288" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="J1" library="connector-jqi" package="AMP-31-6576" value="AMP-31-6576" x="-13.208" y="33.528" rot="R180">
-<attribute name="DIGIKEY" value="ARF2136-ND" x="-13.208" y="33.528" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-6.223" y="17.653" size="1.27" layer="25" rot="R180"/>
-<attribute name="PARTNO" value="031-6576" x="-13.208" y="33.528" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="-10.033" y="24.638" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="U$9" library="6CH_HEADER" package="6CH_HEADER" value="6CH_HEADER" x="-114.808" y="28.3718">
@@ -4942,57 +4855,41 @@ einem neuen Namen ab.</description>
 <attribute name="VALUE" x="191.4398" y="37.3888" size="1.778" layer="21"/>
 </element>
 <element name="J2" library="connector-jqi" package="AMP-31-6576" value="AMP-31-6576" x="-53.848" y="33.528" rot="R180">
-<attribute name="DIGIKEY" value="ARF2136-ND" x="-53.848" y="33.528" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-46.863" y="17.653" size="1.27" layer="25" rot="R180"/>
-<attribute name="PARTNO" value="031-6576" x="-53.848" y="33.528" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="-35.433" y="6.35" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="4.75k" x="-23.114" y="5.842" rot="R270">
-<attribute name="DIGIKEY" value="RNCP0805FTD4K75CT-ND" x="-23.114" y="5.842" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="-21.844" y="6.477" size="1.27" layer="25" rot="R270"/>
-<attribute name="PARTNO" value="RNCP0805FTD4K75" x="-23.114" y="5.842" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="-25.654" y="6.477" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="Q1" library="NDS0605" package="SOT23" value="NDS0605" x="-19.304" y="5.334" rot="R180">
 <attribute name="AVAILABILITY" value="Good" x="-19.304" y="5.334" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value=" NDS0605 P-Channel 60 V 5 Ohm Enhancement Mode Field Effect Transistor - SOT-23 " x="-19.304" y="5.334" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGIKEY" value="NDS0605CT-ND" x="-19.304" y="5.334" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="ON" x="-19.304" y="5.334" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MP" value="NDS0605" x="-19.304" y="5.334" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-20.576490625" y="4.061509375" size="1.018" layer="25" ratio="18" rot="R180"/>
 <attribute name="PACKAGE" value="SOT-23-3 Fairchild Semiconductor" x="-19.304" y="5.334" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PARTNO" value="NDS0605" x="-19.304" y="5.334" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PRICE" value="0.18 USD" x="-19.304" y="5.334" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="-17.39623125" y="8.5136" size="0.813978125" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="Q2" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" package="SOT23" package3d_urn="urn:adsk.eagle:package:29752/1" value="BSS123" x="-4.699" y="13.462" rot="R270">
-<attribute name="DIGIKEY" value="1727-5173-1-ND" x="-4.699" y="13.462" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="-2.159" y="14.478" size="1.27" layer="25"/>
-<attribute name="PARTNO" value="PMBF170,215" x="-4.699" y="13.462" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="-7.874" y="15.367" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="100" x="-15.113" y="5.08">
-<attribute name="DIGIKEY" value="P100DACT-ND" x="-15.113" y="5.08" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-15.748" y="6.35" size="1.27" layer="25"/>
-<attribute name="PARTNO" value="ERA-6AEB101V" x="-15.113" y="5.08" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-15.748" y="2.54" size="1.27" layer="27"/>
 </element>
 <element name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="100" x="-9.398" y="14.224" rot="R270">
-<attribute name="DIGIKEY" value="P100DACT-ND" x="-9.398" y="14.224" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="-8.128" y="14.859" size="1.27" layer="25" rot="R270"/>
-<attribute name="PARTNO" value="ERA-6AEB101V" x="-9.398" y="14.224" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="-11.938" y="14.859" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="10k" x="-18.669" y="9.525" rot="R270">
-<attribute name="DIGIKEY" value="1276-3670-1-ND" x="-18.669" y="9.525" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="-17.399" y="10.16" size="1.27" layer="25" rot="R270"/>
-<attribute name="PARTNO" value="RC0603F103CS" x="-18.669" y="9.525" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="-21.209" y="10.16" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="15k" x="-12.827" y="14.224" rot="R90">
-<attribute name="DIGIKEY" value="A129763CT-ND" x="-12.827" y="14.224" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="-14.097" y="13.589" size="1.27" layer="25" rot="R90"/>
-<attribute name="PARTNO" value="CRGCQ0805F15K" x="-12.827" y="14.224" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="-10.287" y="13.589" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="U3" library="ADUM5402CR" package="RW_16" value="ADUM5402CRWZ" x="-5.08" y="5.08" rot="R90">
@@ -5003,75 +4900,53 @@ einem neuen Namen ab.</description>
 <attribute name="VENDOR" value="Analog Devices Inc" x="-5.08" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C4" library="rlc-jqi" package="0805" value="10nF" x="-23.114" y="0.254" rot="R90">
-<attribute name="DIGIKEY" value="1276-1007-1-ND" x="-23.114" y="0.254" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="-24.384" y="-2.286" size="0.889" layer="25" rot="R90"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC" x="-23.114" y="0.254" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="-21.209" y="-2.286" size="0.889" layer="27" rot="R90"/>
 </element>
 <element name="C25" library="rlc-jqi" package="0805" value="0.1uF" x="-14.732" y="0.254" rot="R90">
-<attribute name="DIGIKEY" value="1276-1007-1-ND" x="-14.732" y="0.254" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="-16.002" y="-2.286" size="0.889" layer="25" rot="R90"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC" x="-14.732" y="0.254" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="-12.827" y="-2.286" size="0.889" layer="27" rot="R90"/>
 </element>
 <element name="C27" library="rlc-jqi" package="0805" value="0.1uF" x="-12.7" y="10.16" rot="R270">
-<attribute name="DIGIKEY" value="1276-1007-1-ND" x="-12.7" y="10.16" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="-11.43" y="12.7" size="0.889" layer="25" rot="R270"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC" x="-12.7" y="10.16" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="-14.605" y="12.7" size="0.889" layer="27" rot="R270"/>
 </element>
 <element name="C28" library="rlc-jqi" package="0805" value="0.1uF" x="-8.89" y="-4.572" rot="R180">
-<attribute name="DIGIKEY" value="1276-1007-1-ND" x="-8.89" y="-4.572" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-6.35" y="-5.842" size="0.889" layer="25" rot="R180"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC" x="-8.89" y="-4.572" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="-6.35" y="-2.667" size="0.889" layer="27" rot="R180"/>
 </element>
 <element name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="4.75k" x="-38.227" y="13.208" rot="R180">
-<attribute name="DIGIKEY" value="RNCP0805FTD4K75CT-ND" x="-38.227" y="13.208" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-37.592" y="11.938" size="1.27" layer="25" rot="R180"/>
-<attribute name="PARTNO" value="RNCP0805FTD4K75" x="-38.227" y="13.208" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="-37.592" y="15.748" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="Q3" library="NDS0605" package="SOT23" value="NDS0605" x="-39.243" y="9.398" rot="R90">
 <attribute name="AVAILABILITY" value="Good" x="-70.993" y="-13.462" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value=" NDS0605 P-Channel 60 V 5 Ohm Enhancement Mode Field Effect Transistor - SOT-23 " x="-70.993" y="-13.462" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIGIKEY" value="NDS0605CT-ND" x="-39.243" y="9.398" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="ON" x="-70.993" y="-13.462" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MP" value="NDS0605" x="-70.993" y="-13.462" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="-40.515490625" y="10.670490625" size="1.018" layer="25" ratio="18" rot="R90"/>
 <attribute name="PACKAGE" value="SOT-23-3 Fairchild Semiconductor" x="-70.993" y="-13.462" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PARTNO" value="NDS0605" x="-39.243" y="9.398" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="0.18 USD" x="-70.993" y="-13.462" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="-36.0634" y="7.49023125" size="0.813978125" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="Q4" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" package="SOT23" package3d_urn="urn:adsk.eagle:package:29752/1" value="BSS123" x="-29.718" y="-3.048" rot="R180">
-<attribute name="DIGIKEY" value="1727-5173-1-ND" x="-29.718" y="-3.048" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-27.305" y="-5.461" size="1.27" layer="25" rot="R180"/>
-<attribute name="PARTNO" value="PMBF170,215" x="-29.718" y="-3.048" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="-27.813" y="0.127" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R8" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="100" x="-38.354" y="5.08" rot="R270">
-<attribute name="DIGIKEY" value="P100DACT-ND" x="-38.354" y="5.08" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="-37.084" y="5.715" size="1.27" layer="25" rot="R270"/>
-<attribute name="PARTNO" value="ERA-6AEB101V" x="-38.354" y="5.08" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="-40.894" y="5.715" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R9" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="100" x="-30.988" y="2.286" rot="R180">
-<attribute name="DIGIKEY" value="P100DACT-ND" x="-30.988" y="2.286" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-30.353" y="1.016" size="1.27" layer="25" rot="R180"/>
-<attribute name="PARTNO" value="ERA-6AEB101V" x="-30.988" y="2.286" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="-30.353" y="4.826" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R10" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="10k" x="-33.655" y="9.525" rot="R180">
-<attribute name="DIGIKEY" value="1276-3670-1-ND" x="-33.655" y="9.525" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-33.02" y="8.255" size="1.27" layer="25" rot="R180"/>
-<attribute name="PARTNO" value="RC0603F103CS" x="-33.655" y="9.525" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="-33.02" y="12.065" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R11" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="15k" x="-30.861" y="5.588">
-<attribute name="DIGIKEY" value="A129763CT-ND" x="-30.861" y="5.588" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-31.496" y="6.858" size="1.27" layer="25"/>
-<attribute name="PARTNO" value="CRGCQ0805F15K" x="-30.861" y="5.588" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-31.496" y="3.048" size="1.27" layer="27"/>
 </element>
 <element name="U4" library="ADUM5402CR" package="RW_16" value="ADUM5402CRWZ" x="-39.878" y="-4.572">
@@ -5082,111 +4957,75 @@ einem neuen Namen ab.</description>
 <attribute name="VENDOR" value="Analog Devices Inc" x="-84.328" y="-29.972" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C29" library="rlc-jqi" package="0805" value="10nF" x="-45.974" y="8.636">
-<attribute name="DIGIKEY" value="1276-1007-1-ND" x="-45.974" y="8.636" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-48.514" y="9.906" size="0.889" layer="25"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC" x="-45.974" y="8.636" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-48.514" y="6.731" size="0.889" layer="27"/>
 </element>
 <element name="C30" library="rlc-jqi" package="0805" value="0.1uF" x="-45.974" y="11.684">
-<attribute name="DIGIKEY" value="1276-1007-1-ND" x="-45.974" y="11.684" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-48.514" y="12.954" size="0.889" layer="25"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC" x="-45.974" y="11.684" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-48.514" y="9.779" size="0.889" layer="27"/>
 </element>
 <element name="C31" library="rlc-jqi" package="0805" value="0.1uF" x="-34.798" y="2.159" rot="R180">
-<attribute name="DIGIKEY" value="1276-1007-1-ND" x="-34.798" y="2.159" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-32.258" y="0.889" size="0.889" layer="25" rot="R180"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC" x="-34.798" y="2.159" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="-32.258" y="4.064" size="0.889" layer="27" rot="R180"/>
 </element>
 <element name="C32" library="rlc-jqi" package="0805" value="0.1uF" x="-49.022" y="-1.016" rot="R90">
-<attribute name="DIGIKEY" value="1276-1007-1-ND" x="-49.022" y="-1.016" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="-50.292" y="-3.556" size="0.889" layer="25" rot="R90"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC" x="-49.022" y="-1.016" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="-47.117" y="-3.556" size="0.889" layer="27" rot="R90"/>
 </element>
 <element name="C1" library="rlc-jqi" package="0805" value="0.1uF" x="197.104" y="-20.828" rot="R270">
-<attribute name="DIGIKEY" value="1276-1007-1-ND" x="197.104" y="-20.828" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="198.374" y="-18.288" size="0.889" layer="25" rot="R270"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC" x="197.104" y="-20.828" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="195.199" y="-18.288" size="0.889" layer="27" rot="R270"/>
 </element>
 <element name="C33" library="rlc-jqi" package="0805" value="0.1uF" x="210.82" y="-21.844" rot="R270">
-<attribute name="DIGIKEY" value="1276-1007-1-ND" x="210.82" y="-21.844" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="212.09" y="-19.304" size="0.889" layer="25" rot="R270"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC" x="210.82" y="-21.844" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="208.915" y="-19.304" size="0.889" layer="27" rot="R270"/>
 </element>
 <element name="R7" library="rlc-jqi" package="0805" value="4.7k" x="-124.46" y="21.844" rot="R90">
-<attribute name="DIGIKEY" value="311-4.7KARCT-ND" x="-124.46" y="21.844" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="-125.73" y="19.304" size="0.889" layer="25" rot="R90"/>
-<attribute name="PARTNO" value="RC0805JR-074K7L" x="-124.46" y="21.844" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="-122.555" y="19.304" size="0.889" layer="27" rot="R90"/>
 </element>
 <element name="R12" library="rlc-jqi" package="0805" value="4.7k" x="-120.396" y="21.844" rot="R90">
-<attribute name="DIGIKEY" value="311-4.7KARCT-ND" x="-120.396" y="21.844" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="-121.666" y="19.304" size="0.889" layer="25" rot="R90"/>
-<attribute name="PARTNO" value="RC0805JR-074K7L" x="-120.396" y="21.844" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="-118.491" y="19.304" size="0.889" layer="27" rot="R90"/>
 </element>
 <element name="R13" library="rlc-jqi" package="0805" value="4.7k" x="-116.332" y="21.844" rot="R90">
-<attribute name="DIGIKEY" value="311-4.7KARCT-ND" x="-116.332" y="21.844" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="-117.602" y="19.304" size="0.889" layer="25" rot="R90"/>
-<attribute name="PARTNO" value="RC0805JR-074K7L" x="-116.332" y="21.844" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="-114.427" y="19.304" size="0.889" layer="27" rot="R90"/>
 </element>
 <element name="R14" library="rlc-jqi" package="0805" value="4.7k" x="-112.268" y="21.844" rot="R90">
-<attribute name="DIGIKEY" value="311-4.7KARCT-ND" x="-112.268" y="21.844" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="-113.538" y="19.304" size="0.889" layer="25" rot="R90"/>
-<attribute name="PARTNO" value="RC0805JR-074K7L" x="-112.268" y="21.844" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="-110.363" y="19.304" size="0.889" layer="27" rot="R90"/>
 </element>
 <element name="C34" library="rlc-jqi" package="0805" value="10uF" x="-15.24" y="10.16" rot="R270">
-<attribute name="DIGIKEY" value="1276-6456-1-ND" x="-15.24" y="10.16" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="-13.97" y="12.7" size="0.889" layer="25" rot="R270"/>
-<attribute name="PARTNO" value="CL21A106KPFNNNG" x="-15.24" y="10.16" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="-17.145" y="12.7" size="0.889" layer="27" rot="R270"/>
 </element>
 <element name="C35" library="rlc-jqi" package="0805" value="10uF" x="-35.052" y="4.572" rot="R180">
-<attribute name="DIGIKEY" value="1276-6456-1-ND" x="-35.052" y="4.572" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-32.512" y="3.302" size="0.889" layer="25" rot="R180"/>
-<attribute name="PARTNO" value="CL21A106KPFNNNG" x="-35.052" y="4.572" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="-32.512" y="6.477" size="0.889" layer="27" rot="R180"/>
 </element>
 <element name="C36" library="rlc-jqi" package="0805" value="10uF" x="-51.816" y="-1.016" rot="R90">
-<attribute name="DIGIKEY" value="1276-6456-1-ND" x="-51.816" y="-1.016" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="-53.086" y="-3.556" size="0.889" layer="25" rot="R90"/>
-<attribute name="PARTNO" value="CL21A106KPFNNNG" x="-51.816" y="-1.016" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="-49.911" y="-3.556" size="0.889" layer="27" rot="R90"/>
 </element>
 <element name="C37" library="rlc-jqi" package="0805" value="10uF" x="-9.017" y="-7.112" rot="R180">
-<attribute name="DIGIKEY" value="1276-6456-1-ND" x="-9.017" y="-7.112" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-6.477" y="-8.382" size="0.889" layer="25" rot="R180"/>
-<attribute name="PARTNO" value="CL21A106KPFNNNG" x="-9.017" y="-7.112" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="-6.477" y="-5.207" size="0.889" layer="27" rot="R180"/>
 </element>
 <element name="C77" library="rlc-jqi" package="0805" value="0.1uF" x="3.81" y="-21.844" rot="R180">
-<attribute name="DIGIKEY" value="1276-1007-1-ND" x="3.81" y="-21.844" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="6.35" y="-23.114" size="0.889" layer="25" rot="R180"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC" x="3.81" y="-21.844" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="6.35" y="-19.939" size="0.889" layer="27" rot="R180"/>
 </element>
 <element name="C78" library="rlc-jqi" package="0805" value="10uF" x="3.81" y="-24.384" rot="R180">
-<attribute name="DIGIKEY" value="1276-6456-1-ND" x="3.81" y="-24.384" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="6.35" y="-25.654" size="0.889" layer="25" rot="R180"/>
-<attribute name="PARTNO" value="CL21A106KPFNNNG" x="3.81" y="-24.384" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="6.35" y="-22.479" size="0.889" layer="27" rot="R180"/>
 </element>
 <element name="C79" library="rlc-jqi" package="0805" value="0.1uF" x="4.318" y="-5.969" rot="R180">
-<attribute name="DIGIKEY" value="1276-1007-1-ND" x="4.318" y="-5.969" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="6.858" y="-7.239" size="0.889" layer="25" rot="R180"/>
-<attribute name="PARTNO" value="CL21F104ZBCNNNC" x="4.318" y="-5.969" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="6.858" y="-4.064" size="0.889" layer="27" rot="R180"/>
 </element>
 <element name="C80" library="rlc-jqi" package="0805" value="10uF" x="4.318" y="-3.429" rot="R180">
-<attribute name="DIGIKEY" value="1276-6456-1-ND" x="4.318" y="-3.429" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="6.858" y="-4.699" size="0.889" layer="25" rot="R180"/>
-<attribute name="PARTNO" value="CL21A106KPFNNNG" x="4.318" y="-3.429" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="6.858" y="-1.524" size="0.889" layer="27" rot="R180"/>
 </element>
 <element name="U6" library="AZ1117EH-3.3TRG1" package="SOT230P700X180-4N" value="AZ1117EH-3.3TRG1" x="-7.62" y="-18.796" rot="R90">
@@ -5202,21 +5041,15 @@ einem neuen Namen ab.</description>
 <attribute name="VALUE" x="-1.514959375" y="-22.499059375" size="1.27105" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C38" library="rlc-jqi" package="0805" value="2.2uF" x="-4.064" y="-24.384" rot="R180">
-<attribute name="DIGIKEY" value="1276-1188-1-ND" x="-4.064" y="-24.384" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-1.524" y="-25.654" size="0.889" layer="25" rot="R180"/>
-<attribute name="PARTNO" value="CL21B225KPFNNNE" x="-4.064" y="-24.384" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="-1.524" y="-22.479" size="0.889" layer="27" rot="R180"/>
 </element>
 <element name="C39" library="rlc-jqi" package="0805" value="2.2uF" x="-8.636" y="-24.384">
-<attribute name="DIGIKEY" value="1276-1188-1-ND" x="-8.636" y="-24.384" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-11.176" y="-23.114" size="0.889" layer="25"/>
-<attribute name="PARTNO" value="CL21B225KPFNNNE" x="-8.636" y="-24.384" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-11.176" y="-26.289" size="0.889" layer="27"/>
 </element>
 <element name="J4" library="connector-jqi" package="AMP-31-6576" value="AMP-31-6576" x="-36.322" y="33.528" rot="R180">
-<attribute name="DIGIKEY" value="ARF2136-ND" x="-36.322" y="33.528" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-27.813" y="17.145" size="1.27" layer="25" rot="R180"/>
-<attribute name="PARTNO" value="031-6576" x="-36.322" y="33.528" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="-17.907" y="6.35" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="U7" library="Poe" package="W5500" value="W5500" x="-117.6274" y="-6.3246">
@@ -5388,15 +5221,11 @@ einem neuen Namen ab.</description>
 <attribute name="VALUE" x="-99.97185" y="-35.199959375" size="1.270459375" layer="27"/>
 </element>
 <element name="J7" library="connector-jqi" package="AMP-31-6576" value="AMP-31-6576" x="-71.374" y="33.528" rot="R180">
-<attribute name="DIGIKEY" value="ARF2136-ND" x="-71.374" y="33.528" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-61.849" y="33.909" size="1.27" layer="25" rot="R180"/>
-<attribute name="PARTNO" value="031-6576" x="-71.374" y="33.528" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="-52.959" y="6.35" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="J8" library="connector-jqi" package="AMP-31-6576" value="AMP-31-6576" x="-88.9" y="33.528" rot="R180">
-<attribute name="DIGIKEY" value="ARF2136-ND" x="-88.9" y="33.528" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-97.155" y="33.909" size="1.27" layer="25" rot="R180"/>
-<attribute name="PARTNO" value="031-6576" x="-88.9" y="33.528" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="-70.485" y="6.35" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="J9" library="SamacSys_Parts" package="J1B1211CCD" value="J1B1211CCD" x="-139.192" y="-23.876">
@@ -5424,99 +5253,70 @@ einem neuen Namen ab.</description>
 <attribute name="VALUE" x="-53.213" y="6.477" size="0.889" layer="27" rot="R180"/>
 </element>
 <element name="C43" library="rlc-jqi" package="0805" value="2.2uF" x="-55.372" y="7.366" rot="R180">
-<attribute name="DIGIKEY" value="1276-1188-1-ND" x="-55.372" y="7.366" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-52.832" y="6.096" size="0.889" layer="25" rot="R180"/>
-<attribute name="PARTNO" value="CL21B225KPFNNNE" x="-55.372" y="7.366" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="-52.832" y="9.271" size="0.889" layer="27" rot="R180"/>
 </element>
 <element name="C44" library="rlc-jqi" package="0805" value="2.2uF" x="-68.072" y="8.128">
-<attribute name="DIGIKEY" value="1276-1188-1-ND" x="-68.072" y="8.128" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-70.612" y="9.398" size="0.889" layer="25"/>
-<attribute name="PARTNO" value="CL21B225KPFNNNE" x="-68.072" y="8.128" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-70.612" y="6.223" size="0.889" layer="27"/>
 </element>
 <element name="C46" library="rlc-jqi" package="0805" value="2.2uF" x="-68.58" y="5.588">
-<attribute name="DIGIKEY" value="1276-1188-1-ND" x="-68.58" y="5.588" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-71.12" y="6.858" size="0.889" layer="25"/>
-<attribute name="PARTNO" value="CL21B225KPFNNNE" x="-68.58" y="5.588" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-71.12" y="3.683" size="0.889" layer="27"/>
 </element>
 <element name="C47" library="rlc-jqi" package="0805" value="2.2uF" x="-51.943" y="5.969" rot="R180">
-<attribute name="DIGIKEY" value="1276-1188-1-ND" x="-51.943" y="5.969" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-49.403" y="4.699" size="0.889" layer="25" rot="R180"/>
-<attribute name="PARTNO" value="CL21B225KPFNNNE" x="-51.943" y="5.969" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="-49.403" y="7.874" size="0.889" layer="27" rot="R180"/>
 </element>
 <element name="C40" library="rlc-jqi" package="0805" value="2.2uF" x="-55.88" y="10.16" rot="R180">
-<attribute name="DIGIKEY" value="1276-1188-1-ND" x="-55.88" y="10.16" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-53.34" y="8.89" size="0.889" layer="25" rot="R180"/>
-<attribute name="PARTNO" value="CL21B225KPFNNNE" x="-55.88" y="10.16" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="-53.34" y="12.065" size="0.889" layer="27" rot="R180"/>
 </element>
 <element name="C42" library="rlc-jqi" package="0805" value="2.2uF" x="-51.816" y="9.144" rot="R180">
-<attribute name="DIGIKEY" value="1276-1188-1-ND" x="-51.816" y="9.144" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-49.276" y="7.874" size="0.889" layer="25" rot="R180"/>
-<attribute name="PARTNO" value="CL21B225KPFNNNE" x="-51.816" y="9.144" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="-49.276" y="11.049" size="0.889" layer="27" rot="R180"/>
 </element>
 <element name="C45" library="rlc-jqi" package="0805" value="2.2uF" x="-55.88" y="13.335" rot="R180">
-<attribute name="DIGIKEY" value="1276-1188-1-ND" x="-55.88" y="13.335" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-53.34" y="12.065" size="0.889" layer="25" rot="R180"/>
-<attribute name="PARTNO" value="CL21B225KPFNNNE" x="-55.88" y="13.335" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="-53.34" y="15.24" size="0.889" layer="27" rot="R180"/>
 </element>
 <element name="C48" library="rlc-jqi" package="0805" value="2.2uF" x="-51.816" y="12.192" rot="R180">
-<attribute name="DIGIKEY" value="1276-1188-1-ND" x="-51.816" y="12.192" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-49.276" y="10.922" size="0.889" layer="25" rot="R180"/>
-<attribute name="PARTNO" value="CL21B225KPFNNNE" x="-51.816" y="12.192" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="-49.276" y="14.097" size="0.889" layer="27" rot="R180"/>
 </element>
 <element name="C49" library="rlc-jqi" package="0805" value="2.2uF" x="-68.072" y="10.668">
-<attribute name="DIGIKEY" value="1276-1188-1-ND" x="-68.072" y="10.668" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-70.612" y="11.938" size="0.889" layer="25"/>
-<attribute name="PARTNO" value="CL21B225KPFNNNE" x="-68.072" y="10.668" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-70.612" y="8.763" size="0.889" layer="27"/>
 </element>
 <element name="C50" library="rlc-jqi" package="0805" value="2.2uF" x="-72.136" y="8.636">
-<attribute name="DIGIKEY" value="1276-1188-1-ND" x="-72.136" y="8.636" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-74.676" y="9.906" size="0.889" layer="25"/>
-<attribute name="PARTNO" value="CL21B225KPFNNNE" x="-72.136" y="8.636" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-74.676" y="6.731" size="0.889" layer="27"/>
 </element>
 <element name="C51" library="rlc-jqi" package="0805" value="2.2uF" x="-68.072" y="13.208">
-<attribute name="DIGIKEY" value="1276-1188-1-ND" x="-68.072" y="13.208" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-70.612" y="14.478" size="0.889" layer="25"/>
-<attribute name="PARTNO" value="CL21B225KPFNNNE" x="-68.072" y="13.208" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-70.612" y="11.303" size="0.889" layer="27"/>
 </element>
 <element name="C57" library="rlc-jqi" package="0805" value="2.2uF" x="-72.136" y="12.192">
-<attribute name="DIGIKEY" value="1276-1188-1-ND" x="-72.136" y="12.192" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-74.676" y="13.462" size="0.889" layer="25"/>
-<attribute name="PARTNO" value="CL21B225KPFNNNE" x="-72.136" y="12.192" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-74.676" y="10.287" size="0.889" layer="27"/>
 </element>
 <element name="L1" library="rlc-jqi" package="0805" value="1k" x="-64.008" y="1.524" rot="R90">
-<attribute name="DIGIKEY" value="445-5223-1-ND" x="-64.008" y="1.524" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DIGIKEY_NUMBER" value="445-5223-1-ND" x="-64.008" y="1.524" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="-65.278" y="-1.016" size="0.889" layer="25" rot="R90"/>
 <attribute name="PARTNO" value="MPZ2012S102AT000" x="-64.008" y="1.524" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="-62.103" y="-1.016" size="0.889" layer="27" rot="R90"/>
 </element>
 <element name="L2" library="rlc-jqi" package="0805" value="1k" x="-58.928" y="1.524" rot="R90">
-<attribute name="DIGIKEY" value="445-5223-1-ND" x="-58.928" y="1.524" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DIGIKEY_NUMBER" value="445-5223-1-ND" x="-58.928" y="1.524" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="-60.198" y="-1.016" size="0.889" layer="25" rot="R90"/>
 <attribute name="PARTNO" value="MPZ2012S102AT000" x="-58.928" y="1.524" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="-57.023" y="-1.016" size="0.889" layer="27" rot="R90"/>
 </element>
 <element name="C58" library="rlc-jqi" package="0805" value="10uF" x="-61.468" y="-1.524">
-<attribute name="DIGIKEY" value="1276-6456-1-ND" x="-61.468" y="-1.524" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-64.008" y="-0.254" size="0.889" layer="25"/>
-<attribute name="PARTNO" value="CL21A106KPFNNNG" x="-61.468" y="-1.524" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-64.008" y="-3.429" size="0.889" layer="27"/>
 </element>
 <element name="JP3" library="mcu-accessories" package="ML08" value="" x="35.56" y="-22.352" rot="R180">
-<attribute name="DIGIKEY" value="609-3530-ND" x="35.56" y="-22.352" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="44.45" y="-27.559" size="1.778" layer="25" ratio="10" rot="R180"/>
 <attribute name="PARTNO" value="75869-132LF" x="35.56" y="-22.352" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="34.29" y="-27.559" size="1.778" layer="27" ratio="10" rot="R180"/>
