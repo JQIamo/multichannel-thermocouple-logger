@@ -1,0 +1,9 @@
+# Ignore list for Eagle
+*.s#?
+*.b#?
+*.l#?
+*.b$?
+*.s$?
+*.l$?
+*.pro
+*.job
