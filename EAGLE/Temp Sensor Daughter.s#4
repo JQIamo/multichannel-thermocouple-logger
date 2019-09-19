@@ -836,7 +836,10 @@ by exp-lbrs-replace2.ulp</description>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C1" library="rlc-jqi" deviceset="CAP" device="0805" value="10nF"/>
+<part name="C1" library="rlc-jqi" deviceset="CAP" device="0805" value="10nF">
+<attribute name="DIGIKEY" value="1276-1015-2-ND"/>
+<attribute name="PARTNO" value="CL21B103KBANNNC"/>
+</part>
 <part name="U$2" library="SH-7000" deviceset="SH-7050B" device="">
 <attribute name="DIGIKEY" value="563-1215-1-ND"/>
 <attribute name="PARTNO" value="SH-7050TB"/>
@@ -878,6 +881,8 @@ by exp-lbrs-replace2.ulp</description>
 <instance part="C1" gate="G$1" x="-176.53" y="152.4" rot="R90">
 <attribute name="NAME" x="-180.34" y="147.955" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-171.45" y="147.32" size="1.27" layer="96" rot="R90"/>
+<attribute name="DIGIKEY" x="-176.53" y="152.4" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="PARTNO" x="-176.53" y="152.4" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="U$2" gate="G$1" x="-81.28" y="137.16">
 <attribute name="DIGIKEY" x="-81.28" y="137.16" size="1.778" layer="96" display="off"/>

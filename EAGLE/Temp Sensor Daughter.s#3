@@ -768,10 +768,10 @@ by exp-lbrs-replace2.ulp</description>
 <smd name="8" x="2.54" y="-4" dx="1" dy="3" layer="1"/>
 <smd name="C2" x="0" y="-4" dx="1" dy="3" layer="1"/>
 <smd name="2" x="-2.54" y="-4" dx="1" dy="3" layer="1"/>
-<wire x1="-3.65" y1="3.55" x2="-3.65" y2="-3.55" width="0.2" layer="1"/>
-<wire x1="-3.65" y1="-3.55" x2="3.65" y2="-3.55" width="0.2" layer="1"/>
-<wire x1="3.65" y1="-3.55" x2="3.65" y2="3.55" width="0.2" layer="1"/>
-<wire x1="3.65" y1="3.55" x2="-3.65" y2="3.55" width="0.2" layer="1"/>
+<wire x1="-3.65" y1="3.55" x2="-3.65" y2="-3.55" width="0.2" layer="21"/>
+<wire x1="-3.65" y1="-3.55" x2="3.65" y2="-3.55" width="0.2" layer="21"/>
+<wire x1="3.65" y1="-3.55" x2="3.65" y2="3.55" width="0.2" layer="21"/>
+<wire x1="3.65" y1="3.55" x2="-3.65" y2="3.55" width="0.2" layer="21"/>
 </package>
 </packages>
 <symbols>
