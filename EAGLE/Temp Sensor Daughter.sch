@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.2">
+<eagle version="9.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -401,6 +401,8 @@ by exp-lbrs-replace2.ulp</description>
 <smd name="1" x="-1.95" y="1.75" dx="1.4" dy="0.7" layer="1"/>
 <smd name="2" x="-1.95" y="-1.75" dx="1.4" dy="0.7" layer="1"/>
 <smd name="C" x="1.95" y="0" dx="1.4" dy="0.7" layer="1"/>
+<text x="-1.27" y="6.35" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="3.81" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -823,10 +825,22 @@ by exp-lbrs-replace2.ulp</description>
 <attribute name="DIGIKEY" value="1276-1015-2-ND"/>
 <attribute name="PARTNO" value="CL21B103KBANNNC"/>
 </part>
-<part name="U$2" library="Temp Sensor Daughter" deviceset="CK_SWITCH" device=""/>
-<part name="U$3" library="Temp Sensor Daughter" deviceset="CK_SWITCH" device=""/>
-<part name="U$4" library="Temp Sensor Daughter" deviceset="CK_SWITCH" device=""/>
-<part name="U$5" library="Temp Sensor Daughter" deviceset="CK_SWITCH" device=""/>
+<part name="U$2" library="Temp Sensor Daughter" deviceset="CK_SWITCH" device="">
+<attribute name="DIGIKEY" value="CKN10546CT-ND"/>
+<attribute name="PARTNO" value="TDD01H0SB1R"/>
+</part>
+<part name="U$3" library="Temp Sensor Daughter" deviceset="CK_SWITCH" device="">
+<attribute name="DIGIKEY" value="CKN10546CT-ND"/>
+<attribute name="PARTNO" value="TDD01H0SB1R"/>
+</part>
+<part name="U$4" library="Temp Sensor Daughter" deviceset="CK_SWITCH" device="">
+<attribute name="DIGIKEY" value="CKN10546CT-ND"/>
+<attribute name="PARTNO" value="TDD01H0SB1R"/>
+</part>
+<part name="U$5" library="Temp Sensor Daughter" deviceset="CK_SWITCH" device="">
+<attribute name="DIGIKEY" value="CKN10546CT-ND"/>
+<attribute name="PARTNO" value="TDD01H0SB1R"/>
+</part>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -840,51 +854,63 @@ by exp-lbrs-replace2.ulp</description>
 </text>
 </plain>
 <instances>
-<instance part="U5" gate="A" x="-138.43" y="137.16" smashed="yes">
+<instance part="U5" gate="A" x="-138.43" y="137.16">
 <attribute name="NAME" x="-154.5844" y="152.6286" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="-155.2194" y="148.8186" size="2.0828" layer="96" ratio="6" rot="SR0"/>
 <attribute name="DIGIKEY" x="-138.43" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="PARTNO" x="-138.43" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="X1" gate="G$1" x="-182.88" y="132.08" smashed="yes">
+<instance part="X1" gate="G$1" x="-182.88" y="132.08">
 <attribute name="NAME" x="-185.42" y="135.382" size="1.778" layer="95"/>
 <attribute name="PARTNO" x="-182.88" y="132.08" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U$1" gate="G$1" x="-191.77" y="152.4" smashed="yes" rot="R90">
+<instance part="U$1" gate="G$1" x="-191.77" y="152.4" rot="R90">
 <attribute name="NAME" x="-199.39" y="144.78" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-196.85" y="144.78" size="1.778" layer="96" rot="R90"/>
 <attribute name="DIGIKEY" x="-191.77" y="152.4" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PARTNO" x="-191.77" y="152.4" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="GND2" gate="1" x="-106.68" y="138.43" smashed="yes">
+<instance part="GND2" gate="1" x="-106.68" y="138.43">
 <attribute name="VALUE" x="-109.22" y="135.89" size="1.778" layer="96"/>
 </instance>
-<instance part="GND7" gate="1" x="-177.8" y="134.62" smashed="yes">
+<instance part="GND7" gate="1" x="-177.8" y="134.62">
 <attribute name="VALUE" x="-180.34" y="132.08" size="1.778" layer="96"/>
 </instance>
-<instance part="GND1" gate="1" x="-177.8" y="121.92" smashed="yes">
+<instance part="GND1" gate="1" x="-177.8" y="121.92">
 <attribute name="VALUE" x="-180.34" y="119.38" size="1.778" layer="96"/>
 </instance>
-<instance part="C1" gate="G$1" x="-176.53" y="152.4" smashed="yes" rot="R90">
+<instance part="C1" gate="G$1" x="-176.53" y="152.4" rot="R90">
 <attribute name="NAME" x="-180.34" y="147.955" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-171.45" y="147.32" size="1.27" layer="96" rot="R90"/>
 <attribute name="DIGIKEY" x="-176.53" y="152.4" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PARTNO" x="-176.53" y="152.4" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="U$2" gate="G$1" x="-77.47" y="116.84" smashed="yes" rot="R180"/>
-<instance part="U$3" gate="G$1" x="-77.47" y="128.27" smashed="yes" rot="R180"/>
-<instance part="U$4" gate="G$1" x="-77.47" y="139.7" smashed="yes" rot="R180"/>
-<instance part="U$5" gate="G$1" x="-77.47" y="151.13" smashed="yes" rot="R180"/>
-<instance part="GND3" gate="1" x="-67.31" y="115.57" smashed="yes">
+<instance part="U$2" gate="G$1" x="-77.47" y="116.84" rot="R180">
+<attribute name="DIGIKEY" x="-77.47" y="116.84" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="PARTNO" x="-77.47" y="116.84" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="U$3" gate="G$1" x="-77.47" y="128.27" rot="R180">
+<attribute name="DIGIKEY" x="-77.47" y="128.27" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="PARTNO" x="-77.47" y="128.27" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="U$4" gate="G$1" x="-77.47" y="139.7" rot="R180">
+<attribute name="DIGIKEY" x="-77.47" y="139.7" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="PARTNO" x="-77.47" y="139.7" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="U$5" gate="G$1" x="-77.47" y="151.13" rot="R180">
+<attribute name="DIGIKEY" x="-77.47" y="151.13" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="PARTNO" x="-77.47" y="151.13" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="GND3" gate="1" x="-67.31" y="115.57">
 <attribute name="VALUE" x="-69.85" y="113.03" size="1.778" layer="96"/>
 </instance>
-<instance part="GND4" gate="1" x="-67.31" y="127" smashed="yes">
+<instance part="GND4" gate="1" x="-67.31" y="127">
 <attribute name="VALUE" x="-69.85" y="124.46" size="1.778" layer="96"/>
 </instance>
-<instance part="GND5" gate="1" x="-67.31" y="138.43" smashed="yes">
+<instance part="GND5" gate="1" x="-67.31" y="138.43">
 <attribute name="VALUE" x="-69.85" y="135.89" size="1.778" layer="96"/>
 </instance>
-<instance part="GND6" gate="1" x="-67.31" y="149.86" smashed="yes">
+<instance part="GND6" gate="1" x="-67.31" y="149.86">
 <attribute name="VALUE" x="-69.85" y="147.32" size="1.778" layer="96"/>
 </instance>
 </instances>

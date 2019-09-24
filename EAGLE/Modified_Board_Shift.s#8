@@ -14468,7 +14468,10 @@ Source: &lt;a href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz
 <part name="IC10" library="AlexW-Eagle-Libraries" deviceset="MAX31855" device=""/>
 <part name="C22" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF"/>
 <part name="JP1" library="Lin-Temp-Controller" deviceset="SCRWTRM-1X2" device="/90"/>
-<part name="ENC1" library="aom_driver" deviceset="PEC09" device=""/>
+<part name="ENC1" library="aom_driver" deviceset="PEC09" device="">
+<attribute name="DIGIKEY" value="PEC09-2320F-S0015-ND"/>
+<attribute name="PARTNO" value="PEC09-2320F-S0015"/>
+</part>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="C23" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="100nF"/>
 <part name="C26" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="100nF"/>
@@ -14476,11 +14479,13 @@ Source: &lt;a href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz
 <part name="C24" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="100nF"/>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
 <part name="JP2" library="mcu-accessories" deviceset="PINHD-2X4" device="-SHROUD">
+<attribute name="DIGIKEY" value="609-3530-ND"/>
 <attribute name="PARTNO" value="75869-132LF"/>
 </part>
 <part name="GND48" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME3" library="frames" deviceset="FRAME_A_L" device=""/>
 <part name="U8" library="teensy_block_with_programmer" deviceset="MK20DX256VLH7" device="">
+<attribute name="DIGIKEY" value="MK20DX256VLH7-ND"/>
 <attribute name="PARTNO" value="MK20DX256VLH7"/>
 </part>
 <part name="X12" library="teensy_block_with_programmer" deviceset="CRYSTAL-3.2-2.5" device="">
@@ -14497,10 +14502,12 @@ Source: &lt;a href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz
 </part>
 <part name="GND50" library="teensy_block_with_programmer" deviceset="GND" device=""/>
 <part name="C71" library="teensy_block_with_programmer" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="2.2uF">
+<attribute name="DIGIKEY" value="1276-2016-1-ND"/>
 <attribute name="PARTNO" value="CL10B225KP8NFNC"/>
 </part>
 <part name="GND53" library="teensy_block_with_programmer" deviceset="GND" device=""/>
 <part name="C72" library="teensy_block_with_programmer" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="2.2uF">
+<attribute name="DIGIKEY" value="1276-2016-1-ND"/>
 <attribute name="PARTNO" value="CL10B225KP8NFNC"/>
 </part>
 <part name="GND54" library="teensy_block_with_programmer" deviceset="GND" device=""/>
@@ -14531,6 +14538,7 @@ Source: &lt;a href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz
 </part>
 <part name="GND63" library="teensy_block_with_programmer" deviceset="GND" device=""/>
 <part name="J3" library="Eurocard-HV-piezo-driver" deviceset="MTA07-100" device="_LOW_PROFILE">
+<attribute name="DIGIKEY" value="S5800-07-ND"/>
 <attribute name="PARTNO" value="NRPN071PAEN-RC"/>
 </part>
 <part name="SW10" library="MF_Switches" deviceset="TACT" device="_4.2MM" value="MF-SW-TACT-4.2MM"/>
@@ -14593,13 +14601,21 @@ Source: &lt;a href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz
 <part name="Q2" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" deviceset="BSS123" device="" package3d_urn="urn:adsk.eagle:package:29752/1"/>
 <part name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="100"/>
 <part name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="100"/>
-<part name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="10k"/>
-<part name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="15k"/>
+<part name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="10k">
+<attribute name="DIGIKEY" value="1276-3670-1-ND"/>
+</part>
+<part name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="15k">
+<attribute name="DIGIKEY" value="A129763CT-ND"/>
+<attribute name="PARTNO" value="CRGCQ0805F15K"/>
+</part>
 <part name="U3" library="ADUM5402CR" deviceset="ADUM5402CRWZ" device="">
 <attribute name="DIGIKEY" value="ADUM5402CRWZ-ND"/>
 <attribute name="PARTNO" value="ADUM5402CRWZ"/>
 </part>
-<part name="C4" library="rlc-jqi" deviceset="CAP" device="0805" value="10nF"/>
+<part name="C4" library="rlc-jqi" deviceset="CAP" device="0805" value="10nF">
+<attribute name="DIGIKEY" value="1276-1007-1-ND"/>
+<attribute name="PARTNO" value="CL21F104ZBCNNNC"/>
+</part>
 <part name="C25" library="rlc-jqi" deviceset="CAP" device="0805" value="0.1uF"/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -14612,13 +14628,21 @@ Source: &lt;a href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz
 <part name="Q4" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" deviceset="BSS123" device="" package3d_urn="urn:adsk.eagle:package:29752/1"/>
 <part name="R8" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="100"/>
 <part name="R9" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="100"/>
-<part name="R10" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="10k"/>
-<part name="R11" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="15k"/>
+<part name="R10" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="10k">
+<attribute name="DIGIKEY" value="1276-3670-1-ND"/>
+</part>
+<part name="R11" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="15k">
+<attribute name="DIGIKEY" value="A129763CT-ND"/>
+<attribute name="PARTNO" value="CRGCQ0805F15K"/>
+</part>
 <part name="U4" library="ADUM5402CR" deviceset="ADUM5402CRWZ" device="">
 <attribute name="DIGIKEY" value="ADUM5402CRWZ-ND"/>
 <attribute name="PARTNO" value="ADUM5402CRWZ"/>
 </part>
-<part name="C29" library="rlc-jqi" deviceset="CAP" device="0805" value="10nF"/>
+<part name="C29" library="rlc-jqi" deviceset="CAP" device="0805" value="10nF">
+<attribute name="DIGIKEY" value="1276-1007-1-ND"/>
+<attribute name="PARTNO" value="CL21F104ZBCNNNC"/>
+</part>
 <part name="C30" library="rlc-jqi" deviceset="CAP" device="0805" value="0.1uF"/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -14847,6 +14871,7 @@ Source: &lt;a href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz
 <part name="C58" library="rlc-jqi" deviceset="CAP" device="0805" value="10uF"/>
 <part name="U$20" library="microbuilder" deviceset="AGND" device=""/>
 <part name="JP3" library="mcu-accessories" deviceset="PINHD-2X4" device="-SHROUD">
+<attribute name="DIGIKEY" value="609-3530-ND"/>
 <attribute name="PARTNO" value="75869-132LF"/>
 </part>
 <part name="U$21" library="3CH_HEADER" deviceset="3CH_HEADER" device="">
@@ -15017,7 +15042,10 @@ Source: &lt;a href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz
 <attribute name="NAME" x="-111.76" y="98.425" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-111.76" y="109.22" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="ENC1" gate="G$1" x="-155.194" y="-104.14"/>
+<instance part="ENC1" gate="G$1" x="-155.194" y="-104.14">
+<attribute name="DIGIKEY" x="-155.194" y="-104.14" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="-155.194" y="-104.14" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND5" gate="1" x="-134.62" y="-123.19">
 <attribute name="VALUE" x="-137.16" y="-125.73" size="1.778" layer="96"/>
 </instance>
@@ -16974,6 +17002,7 @@ does not need capacitors.</text>
 <attribute name="PARTNO" x="105.41" y="40.894" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="99.06" y="49.149" size="1.778" layer="95"/>
 <attribute name="VALUE" x="99.06" y="33.274" size="1.778" layer="96"/>
+<attribute name="DIGIKEY" x="105.41" y="40.894" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND48" gate="1" x="127" y="43.434">
 <attribute name="VALUE" x="124.46" y="40.894" size="1.778" layer="96"/>
@@ -16982,6 +17011,7 @@ does not need capacitors.</text>
 <attribute name="PARTNO" x="69.85" y="150.114" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="66.294" y="206.756" size="1.778" layer="95"/>
 <attribute name="VALUE" x="64.77" y="96.774" size="1.778" layer="96"/>
+<attribute name="DIGIKEY" x="69.85" y="150.114" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="X12" gate="G$1" x="113.03" y="114.554" rot="R90">
 <attribute name="PARTNO" x="113.03" y="114.554" size="1.778" layer="96" display="off"/>
@@ -17012,6 +17042,7 @@ does not need capacitors.</text>
 <attribute name="PARTNO" x="144.78" y="195.834" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="144.2085" y="195.7705" size="1.524" layer="95" rot="R180"/>
 <attribute name="VALUE" x="144.2085" y="200.2155" size="1.524" layer="96" rot="R180"/>
+<attribute name="DIGIKEY" x="144.78" y="195.834" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND53" gate="1" x="144.78" y="188.214">
 <attribute name="VALUE" x="142.24" y="185.674" size="1.778" layer="96"/>
@@ -17020,6 +17051,7 @@ does not need capacitors.</text>
 <attribute name="PARTNO" x="133.35" y="185.674" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="132.7785" y="185.6105" size="1.524" layer="95" rot="R180"/>
 <attribute name="VALUE" x="132.7785" y="190.0555" size="1.524" layer="96" rot="R180"/>
+<attribute name="DIGIKEY" x="133.35" y="185.674" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND54" gate="1" x="133.35" y="175.514">
 <attribute name="VALUE" x="130.81" y="172.974" size="1.778" layer="96"/>
@@ -17076,6 +17108,7 @@ does not need capacitors.</text>
 <attribute name="PARTNO" x="171.45" y="192.024" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="171.45" y="181.864" size="1.778" layer="95" rot="MR270"/>
 <attribute name="VALUE" x="175.26" y="181.864" size="1.778" layer="96" rot="MR270"/>
+<attribute name="DIGIKEY" x="171.45" y="192.024" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SW10" gate="G$1" x="161.29" y="43.434">
 <attribute name="NAME" x="158.75" y="51.054" size="1.016" layer="95" font="vector" align="top-left"/>
@@ -17094,6 +17127,7 @@ does not need capacitors.</text>
 <attribute name="PARTNO" x="34.29" y="38.354" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="27.94" y="46.609" size="1.778" layer="95"/>
 <attribute name="VALUE" x="27.94" y="30.734" size="1.778" layer="96"/>
+<attribute name="DIGIKEY" x="34.29" y="38.354" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U$23" gate="G$1" x="48.26" y="31.75">
 <attribute name="VALUE" x="46.736" y="29.21" size="1.27" layer="96"/>
@@ -17775,10 +17809,13 @@ does not need capacitors.</text>
 <instance part="R5" gate="G$1" x="-213.36" y="144.78" rot="R270">
 <attribute name="NAME" x="-211.8614" y="148.59" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-216.662" y="148.59" size="1.778" layer="96" rot="R270"/>
+<attribute name="DIGIKEY" x="-213.36" y="144.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R6" gate="G$1" x="-218.44" y="101.6" rot="R90">
 <attribute name="NAME" x="-219.9386" y="97.79" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-215.138" y="97.79" size="1.778" layer="96" rot="R90"/>
+<attribute name="DIGIKEY" x="-218.44" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="-218.44" y="101.6" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U3" gate="A" x="-114.3" y="119.38" rot="R180">
 <attribute name="NAME" x="-142.5956" y="110.2614" size="2.0828" layer="95" ratio="6" rot="SR180"/>
@@ -17789,6 +17826,8 @@ does not need capacitors.</text>
 <instance part="C4" gate="G$1" x="-190.5" y="106.68" rot="R90">
 <attribute name="NAME" x="-194.31" y="104.775" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-185.42" y="101.6" size="1.27" layer="96" rot="R90"/>
+<attribute name="DIGIKEY" x="-190.5" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="PARTNO" x="-190.5" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C25" gate="G$1" x="-193.04" y="152.4" rot="R90">
 <attribute name="NAME" x="-196.85" y="147.955" size="1.27" layer="95" rot="R90"/>
@@ -17835,10 +17874,13 @@ does not need capacitors.</text>
 <instance part="R10" gate="G$1" x="-139.7" y="78.74" rot="R270">
 <attribute name="NAME" x="-138.2014" y="82.55" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-143.002" y="82.55" size="1.778" layer="96" rot="R270"/>
+<attribute name="DIGIKEY" x="-139.7" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R11" gate="G$1" x="-144.78" y="35.56" rot="R90">
 <attribute name="NAME" x="-146.2786" y="31.75" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-141.478" y="31.75" size="1.778" layer="96" rot="R90"/>
+<attribute name="DIGIKEY" x="-144.78" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="-144.78" y="35.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U4" gate="A" x="-38.1" y="53.34" rot="R180">
 <attribute name="NAME" x="-66.3956" y="44.2214" size="2.0828" layer="95" ratio="6" rot="SR180"/>
@@ -17849,6 +17891,8 @@ does not need capacitors.</text>
 <instance part="C29" gate="G$1" x="-114.3" y="40.64" rot="R90">
 <attribute name="NAME" x="-118.11" y="36.195" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-109.22" y="35.56" size="1.27" layer="96" rot="R90"/>
+<attribute name="DIGIKEY" x="-114.3" y="40.64" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="PARTNO" x="-114.3" y="40.64" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C30" gate="G$1" x="-116.84" y="86.36" rot="R90">
 <attribute name="NAME" x="-120.65" y="81.915" size="1.27" layer="95" rot="R90"/>
