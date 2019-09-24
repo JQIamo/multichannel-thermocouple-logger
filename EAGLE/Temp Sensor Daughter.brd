@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.0">
+<eagle version="9.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -274,6 +274,15 @@ by exp-lbrs-replace2.ulp</description>
 <pad name="ANCHOR2" x="5.08" y="0" drill="2" diameter="2.032"/>
 <text x="-3.175" y="3.81" size="1.27" layer="25">&gt;NAME</text>
 </package>
+<package name="CK_SWITCH">
+<wire x1="-1.2" y1="3" x2="1.2" y2="3" width="0.1524" layer="21"/>
+<wire x1="1.2" y1="3" x2="1.2" y2="-3" width="0.1524" layer="21"/>
+<wire x1="1.2" y1="-3" x2="-1.2" y2="-3" width="0.1524" layer="21"/>
+<wire x1="-1.2" y1="-3" x2="-1.2" y2="3" width="0.1524" layer="21"/>
+<smd name="1" x="-1.95" y="1.75" dx="1.4" dy="0.7" layer="1"/>
+<smd name="2" x="-1.95" y="-1.75" dx="1.4" dy="0.7" layer="1"/>
+<smd name="C" x="1.95" y="0" dx="1.4" dy="0.7" layer="1"/>
+</package>
 </packages>
 </library>
 <library name="rlc-jqi">
@@ -288,19 +297,6 @@ by exp-lbrs-replace2.ulp</description>
 <text x="-2.54" y="-1.905" size="0.889" layer="27">&gt;VALUE</text>
 <rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="51"/>
 <rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="51"/>
-</package>
-</packages>
-</library>
-<library name="CK_SWITCH">
-<packages>
-<package name="CK_SWITCH">
-<smd name="C" x="1.95" y="0" dx="1.4" dy="0.7" layer="1"/>
-<smd name="1" x="-1.95" y="1.75" dx="1.4" dy="0.7" layer="1"/>
-<smd name="2" x="-1.95" y="-1.75" dx="1.4" dy="0.7" layer="1"/>
-<wire x1="-1.2" y1="3" x2="1.2" y2="3" width="0.1524" layer="21"/>
-<wire x1="1.2" y1="3" x2="1.2" y2="-3" width="0.1524" layer="21"/>
-<wire x1="1.2" y1="-3" x2="-1.2" y2="-3" width="0.1524" layer="21"/>
-<wire x1="-1.2" y1="-3" x2="-1.2" y2="3" width="0.1524" layer="21"/>
 </package>
 </packages>
 </library>
@@ -497,34 +493,34 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U5" library="Temp Sensor Daughter" package="21-0268" value="MAX31850KATB+" x="11.938" y="16.891" rot="R270">
+<element name="U5" library="Temp Sensor Daughter" package="21-0268" value="MAX31850KATB+" x="11.938" y="16.891" smashed="yes" rot="R270">
 <attribute name="DIGIKEY" value="MAX31850KATB+-ND" x="11.938" y="16.891" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="MAX31850KATB+" x="11.938" y="16.891" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="11.303" y="20.1676" size="1.27" layer="25" ratio="6" rot="SR270"/>
 <attribute name="PARTNO" value="MAX31850KATB+" x="11.938" y="16.891" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VENDOR" value="Maxim Integrated Products" x="11.938" y="16.891" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="X1" library="Temp Sensor Daughter" package="BNC90" value="BNC-H" x="12.065" y="29.21" rot="MR0">
+<element name="X1" library="Temp Sensor Daughter" package="BNC90" value="BNC-H" x="12.065" y="29.21" smashed="yes" rot="MR0">
 <attribute name="DIGIKEY" value="A32268-ND" x="12.065" y="29.21" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="15.24" y="33.02" size="1.27" layer="26" rot="MR0"/>
 <attribute name="PARTNO" value="5227161-3" x="12.065" y="29.21" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="U$1" library="Temp Sensor Daughter" package="THERMOCOUPLE_CONNECTOR" value="THERMOCOUPLE_CONNECTOR" x="11.938" y="10.541" rot="MR180">
+<element name="U$1" library="Temp Sensor Daughter" package="THERMOCOUPLE_CONNECTOR" value="THERMOCOUPLE_CONNECTOR" x="11.938" y="10.541" smashed="yes" rot="MR180">
 <attribute name="DIGIKEY" value="1568-1306-ND" x="11.938" y="10.541" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="4.318" y="-3.429" size="1.778" layer="22" rot="MR180"/>
 <attribute name="PARTNO" value="PRT-13612" x="11.938" y="10.541" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="4.318" y="-0.889" size="1.778" layer="22" rot="MR180"/>
 </element>
-<element name="C1" library="rlc-jqi" package="0805" value="10nF" x="12.192" y="20.701">
+<element name="C1" library="rlc-jqi" package="0805" value="10nF" x="12.192" y="20.701" smashed="yes">
 <attribute name="DIGIKEY" value="1276-1015-2-ND" x="12.192" y="20.701" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="9.652" y="21.971" size="0.889" layer="25"/>
 <attribute name="PARTNO" value="CL21B103KBANNNC" x="12.192" y="20.701" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="9.652" y="18.796" size="0.889" layer="27"/>
 </element>
-<element name="U$2" library="CK_SWITCH" package="CK_SWITCH" value="CK_SWITCH" x="4.7244" y="10.16" rot="R180"/>
-<element name="U$3" library="CK_SWITCH" package="CK_SWITCH" value="CK_SWITCH" x="9.7536" y="10.16" rot="R180"/>
-<element name="U$4" library="CK_SWITCH" package="CK_SWITCH" value="CK_SWITCH" x="14.7828" y="10.16" rot="R180"/>
-<element name="U$5" library="CK_SWITCH" package="CK_SWITCH" value="CK_SWITCH" x="19.812" y="10.16" rot="R180"/>
+<element name="U$2" library="Temp Sensor Daughter" package="CK_SWITCH" value="CK_SWITCH" x="4.7244" y="10.16" smashed="yes" rot="R180"/>
+<element name="U$3" library="Temp Sensor Daughter" package="CK_SWITCH" value="CK_SWITCH" x="9.7536" y="10.16" smashed="yes" rot="R180"/>
+<element name="U$4" library="Temp Sensor Daughter" package="CK_SWITCH" value="CK_SWITCH" x="14.7828" y="10.16" smashed="yes" rot="R180"/>
+<element name="U$5" library="Temp Sensor Daughter" package="CK_SWITCH" value="CK_SWITCH" x="19.812" y="10.16" smashed="yes" rot="R180"/>
 </elements>
 <signals>
 <signal name="N$4">
