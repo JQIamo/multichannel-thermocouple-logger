@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.0">
+<eagle version="9.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1738,7 +1738,7 @@ reflow soldering</description>
 <smd name="P$1" x="-2.35" y="0" dx="4.1" dy="2.7" layer="1" rot="R90" stop="no" cream="no"/>
 <smd name="P$2" x="2.35" y="0" dx="4.1" dy="2.7" layer="1" rot="R90" stop="no" cream="no"/>
 <text x="-3.5" y="3" size="0.7" layer="25">&gt;NAME</text>
-<polygon width="0.1" layer="1" pour="hatch">
+<polygon width="0.1" layer="1" pour="cutout">
 <vertex x="-2.75" y="2.75"/>
 <vertex x="2.75" y="2.75"/>
 <vertex x="2.75" y="-2.75"/>
