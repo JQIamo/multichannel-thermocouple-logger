@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.2">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4177,10 +4177,10 @@ einem neuen Namen ab.</description>
 <attribute name="SPICEPREFIX" value="X" x="165.1" y="18.034" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VENDOR" value="Analog Devices Inc" x="165.1" y="18.034" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C63" library="rlc-jqi" package="0805" value="47uF" x="282.956" y="9.906" smashed="yes" rot="R90">
-<attribute name="DIGIKEY" value="1276-6456-1-ND" x="282.956" y="9.906" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C63" library="rlc-jqi" package="0805" value="22uF" x="282.956" y="9.906" smashed="yes" rot="R90">
+<attribute name="DIGIKEY" value="1276-6687-1-ND" x="282.956" y="9.906" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="281.686" y="11.43" size="0.889" layer="25" rot="R180"/>
-<attribute name="PARTNO" value="CL21A106KPFNNNG" x="282.956" y="9.906" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="CL21A226KQCLRNC" x="282.956" y="9.906" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="CP1" library="Modified_Board_Shift" package="SERIESS_TYPEV" value="220uF" x="299.212" y="10.414" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="PCE3955CT-ND" x="299.212" y="10.414" size="1.778" layer="27" rot="R180" display="off"/>
