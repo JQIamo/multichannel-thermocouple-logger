@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.2">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -13528,9 +13528,9 @@ SPI is provided for easy integration with the external MCU. The W5500's SPI supp
 <attribute name="SPICEPREFIX" value="X"/>
 </part>
 <part name="U$23" library="Modified_Board_Shift" deviceset="GND" device=""/>
-<part name="C63" library="rlc-jqi" deviceset="CAP" device="0805" value="47uF">
-<attribute name="DIGIKEY" value="1276-6456-1-ND"/>
-<attribute name="PARTNO" value="CL21A106KPFNNNG"/>
+<part name="C63" library="rlc-jqi" deviceset="CAP" device="0805" value="22uF">
+<attribute name="DIGIKEY" value="1276-6687-1-ND"/>
+<attribute name="PARTNO" value="CL21A226KQCLRNC"/>
 </part>
 <part name="CP1" library="Modified_Board_Shift" deviceset="SERIESS_TYPEV" device="" value="220uF">
 <attribute name="DIGIKEY" value="PCE3955CT-ND"/>
