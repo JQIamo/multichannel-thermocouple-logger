@@ -3250,18 +3250,6 @@ Metric Code Size 2012</description>
 <packageinstance name="C0805K"/>
 </packageinstances>
 </package3d>
-<package3d name="C0402" urn="urn:adsk.eagle:package:23626/1" type="box" library_version="3">
-<description>CAPACITOR</description>
-<packageinstances>
-<packageinstance name="C0402"/>
-</packageinstances>
-</package3d>
-<package3d name="C0504" urn="urn:adsk.eagle:package:23624/1" type="box" library_version="3">
-<description>CAPACITOR</description>
-<packageinstances>
-<packageinstance name="C0504"/>
-</packageinstances>
-</package3d>
 <package3d name="C0603" urn="urn:adsk.eagle:package:23616/2" type="model" library_version="3">
 <description>CAPACITOR</description>
 <packageinstances>
@@ -3284,12 +3272,6 @@ Metric Code Size 2012</description>
 <description>CAPACITOR</description>
 <packageinstances>
 <packageinstance name="C1210"/>
-</packageinstances>
-</package3d>
-<package3d name="C1310" urn="urn:adsk.eagle:package:23620/1" type="box" library_version="3">
-<description>CAPACITOR</description>
-<packageinstances>
-<packageinstance name="C1310"/>
 </packageinstances>
 </package3d>
 <package3d name="C1608" urn="urn:adsk.eagle:package:23621/2" type="model" library_version="3">
@@ -3725,13 +3707,6 @@ Metric Code Size 4532</description>
 <packageinstance name="C1812K"/>
 </packageinstances>
 </package3d>
-<package3d name="C1825K" urn="urn:adsk.eagle:package:23684/1" type="box" library_version="3">
-<description>Ceramic Chip Capacitor KEMET 1825 reflow solder
-Metric Code Size 4564</description>
-<packageinstances>
-<packageinstance name="C1825K"/>
-</packageinstances>
-</package3d>
 <package3d name="C2220K" urn="urn:adsk.eagle:package:23687/2" type="model" library_version="3">
 <description>Ceramic Chip Capacitor KEMET 2220 reflow solderMetric Code Size 5650</description>
 <packageinstances>
@@ -3770,6 +3745,32 @@ Source: AVX .. aphvc.pdf</description>
 <packageinstance name="C01005"/>
 </packageinstances>
 </package3d>
+<package3d name="CAPC1005X60" urn="urn:adsk.eagle:package:23626/2" type="model" library_version="10">
+<description>Chip, 1.00 X 0.50 X 0.60 mm body
+&lt;p&gt;Chip package with body size 1.00 X 0.50 X 0.60 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="C0402"/>
+</packageinstances>
+</package3d>
+<package3d name="C0504" urn="urn:adsk.eagle:package:23624/2" type="model" library_version="10">
+<description>CAPACITOR</description>
+<packageinstances>
+<packageinstance name="C0504"/>
+</packageinstances>
+</package3d>
+<package3d name="C1310" urn="urn:adsk.eagle:package:23620/2" type="model" library_version="10">
+<description>CAPACITOR</description>
+<packageinstances>
+<packageinstance name="C1310"/>
+</packageinstances>
+</package3d>
+<package3d name="C1825K" urn="urn:adsk.eagle:package:23684/2" type="model" library_version="10">
+<description>Ceramic Chip Capacitor KEMET 1825 reflow solder
+Metric Code Size 4564</description>
+<packageinstances>
+<packageinstance name="C1825K"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="C-US" urn="urn:adsk.eagle:symbol:23201/1" library_version="3">
@@ -3784,7 +3785,7 @@ Source: AVX .. aphvc.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="C-US" urn="urn:adsk.eagle:component:23794/42" prefix="C" uservalue="yes" library_version="3">
+<deviceset name="C-US" urn="urn:adsk.eagle:component:23794/43" prefix="C" uservalue="yes" library_version="10">
 <description>&lt;B&gt;CAPACITOR&lt;/B&gt;, American symbol</description>
 <gates>
 <gate name="G$1" symbol="C-US" x="0" y="0"/>
@@ -3796,7 +3797,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23626/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23626/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -3810,7 +3811,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23624/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23624/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -3880,7 +3881,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23620/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23620/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -4790,7 +4791,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23684/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23684/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -9843,7 +9844,7 @@ Source: VISHAY wscwsn.pdf</description>
 <smd name="P$1" x="-2.35" y="0" dx="4.1" dy="2.7" layer="1" rot="R90" stop="no" cream="no"/>
 <smd name="P$2" x="2.35" y="0" dx="4.1" dy="2.7" layer="1" rot="R90" stop="no" cream="no"/>
 <text x="-3.5" y="3" size="0.7" layer="25">&gt;NAME</text>
-<polygon width="0.1" layer="1" pour="hatch">
+<polygon width="0.1" layer="1" pour="cutout">
 <vertex x="-2.75" y="2.75"/>
 <vertex x="2.75" y="2.75"/>
 <vertex x="2.75" y="-2.75"/>
@@ -12832,6 +12833,9 @@ SPI is provided for easy integration with the external MCU. The W5500's SPI supp
 </class>
 <class number="1" name="power 3.3v" width="0.9" drill="0">
 </class>
+<class number="2" name="wiznet" width="0.762" drill="0">
+<clearance class="2" value="0.1778"/>
+</class>
 </classes>
 <parts>
 <part name="C3" library="Modified_Board_Shift" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF">
@@ -13414,7 +13418,6 @@ SPI is provided for easy integration with the external MCU. The W5500's SPI supp
 </part>
 <part name="GND49" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="C68" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0306" value="22nF">
 <attribute name="DIGIKEY" value="490-4317-1-ND"/>
 <attribute name="PARTNO" value="LLL185R71E223MA01L"/>
@@ -13489,14 +13492,6 @@ SPI is provided for easy integration with the external MCU. The W5500's SPI supp
 <attribute name="DIGIKEY" value="1276-1188-1-ND"/>
 <attribute name="PARTNO" value="CL21B225KPFNNNE"/>
 </part>
-<part name="U$5" library="Modified_Board_Shift" deviceset="AGND" device=""/>
-<part name="U$8" library="Modified_Board_Shift" deviceset="AGND" device=""/>
-<part name="U$10" library="Modified_Board_Shift" deviceset="AGND" device=""/>
-<part name="U$11" library="Modified_Board_Shift" deviceset="AGND" device=""/>
-<part name="U$12" library="Modified_Board_Shift" deviceset="AGND" device=""/>
-<part name="U$13" library="Modified_Board_Shift" deviceset="AGND" device=""/>
-<part name="U$14" library="Modified_Board_Shift" deviceset="AGND" device=""/>
-<part name="U$15" library="Modified_Board_Shift" deviceset="AGND" device=""/>
 <part name="U$16" library="Modified_Board_Shift" deviceset="AGND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -13542,6 +13537,15 @@ SPI is provided for easy integration with the external MCU. The W5500's SPI supp
 <attribute name="PARTNO" value="EEE-1VA221UP"/>
 </part>
 <part name="U$24" library="Modified_Board_Shift" deviceset="AGND" device=""/>
+<part name="C40" library="rlc-jqi" deviceset="CAP" device="0805" value="10nF">
+<attribute name="DIGIKEY" value="1276-1007-1-ND"/>
+<attribute name="PARTNO" value="CL21F104ZBCNNNC"/>
+</part>
+<part name="GND10" library="supply1" deviceset="GND" device=""/>
+<part name="R15" library="Modified_Board_Shift" deviceset="R_SMD" device="R0603" value="10k">
+<attribute name="DIGIKEY" value="P10.0KHCT-ND"/>
+<attribute name="PARTNO" value="ERJ-3EKF1002V"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -14038,30 +14042,6 @@ SPI is provided for easy integration with the external MCU. The W5500's SPI supp
 <attribute name="VALUE" x="223.52" y="73.66" size="1.27" layer="96" rot="R90"/>
 <attribute name="PARTNO" x="220.98" y="78.74" size="1.778" layer="96" display="off"/>
 <attribute name="DIGIKEY" x="220.98" y="78.74" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="U$5" gate="G$1" x="171.45" y="20.32" smashed="yes">
-<attribute name="VALUE" x="169.926" y="17.78" size="1.27" layer="96"/>
-</instance>
-<instance part="U$8" gate="G$1" x="171.45" y="5.08" smashed="yes">
-<attribute name="VALUE" x="169.926" y="2.54" size="1.27" layer="96"/>
-</instance>
-<instance part="U$10" gate="G$1" x="194.31" y="5.08" smashed="yes">
-<attribute name="VALUE" x="192.786" y="2.54" size="1.27" layer="96"/>
-</instance>
-<instance part="U$11" gate="G$1" x="194.31" y="20.32" smashed="yes">
-<attribute name="VALUE" x="192.786" y="17.78" size="1.27" layer="96"/>
-</instance>
-<instance part="U$12" gate="G$1" x="226.06" y="20.32" smashed="yes">
-<attribute name="VALUE" x="224.536" y="17.78" size="1.27" layer="96"/>
-</instance>
-<instance part="U$13" gate="G$1" x="226.06" y="5.08" smashed="yes">
-<attribute name="VALUE" x="224.536" y="2.54" size="1.27" layer="96"/>
-</instance>
-<instance part="U$14" gate="G$1" x="252.73" y="20.32" smashed="yes">
-<attribute name="VALUE" x="251.206" y="17.78" size="1.27" layer="96"/>
-</instance>
-<instance part="U$15" gate="G$1" x="252.73" y="5.08" smashed="yes">
-<attribute name="VALUE" x="251.206" y="2.54" size="1.27" layer="96"/>
 </instance>
 <instance part="U$16" gate="G$1" x="408.94" y="46.99" smashed="yes">
 <attribute name="VALUE" x="407.416" y="44.45" size="1.27" layer="96"/>
@@ -14912,6 +14892,16 @@ SPI is provided for easy integration with the external MCU. The W5500's SPI supp
 <wire x1="228.6" y1="109.22" x2="228.6" y2="113.03" width="0.1524" layer="91"/>
 <label x="220.98" y="113.03" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U2" gate="A" pin="!_2"/>
+<wire x1="69.85" y1="25.4" x2="86.36" y2="25.4" width="0.1524" layer="91"/>
+<label x="71.12" y="25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="A" pin="!_2"/>
+<wire x1="69.85" y1="63.5" x2="86.36" y2="63.5" width="0.1524" layer="91"/>
+<label x="71.12" y="63.5" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="GNDISO3" class="0">
 <segment>
@@ -15305,34 +15295,18 @@ SPI is provided for easy integration with the external MCU. The W5500's SPI supp
 <pinref part="U$3" gate="G$1" pin="AGND4"/>
 <wire x1="295.91" y1="60.96" x2="309.88" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="317.5" y1="68.58" x2="317.5" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="AIN_2GND"/>
 <wire x1="317.5" y1="53.34" x2="317.5" y2="49.53" width="0.1524" layer="91"/>
-<wire x1="317.5" y1="49.53" x2="317.5" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="317.5" y1="45.72" x2="317.5" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="317.5" y1="40.64" x2="317.5" y2="34.29" width="0.1524" layer="91"/>
-<wire x1="295.91" y1="40.64" x2="317.5" y2="40.64" width="0.1524" layer="91"/>
-<junction x="317.5" y="40.64"/>
-<pinref part="U$3" gate="G$1" pin="AIN_3GND"/>
-<wire x1="295.91" y1="45.72" x2="317.5" y2="45.72" width="0.1524" layer="91"/>
-<junction x="317.5" y="45.72"/>
+<wire x1="317.5" y1="49.53" x2="317.5" y2="34.29" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$1" pin="AGND"/>
 <wire x1="309.88" y1="63.5" x2="309.88" y2="60.96" width="0.1524" layer="91"/>
 <junction x="309.88" y="60.96"/>
-<wire x1="309.88" y1="60.96" x2="309.88" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="309.88" y1="55.88" x2="309.88" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="309.88" y1="50.8" x2="309.88" y2="49.53" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="60.96" x2="309.88" y2="49.53" width="0.1524" layer="91"/>
 <wire x1="309.88" y1="49.53" x2="317.5" y2="49.53" width="0.1524" layer="91"/>
 <junction x="317.5" y="49.53"/>
 <pinref part="C44" gate="G$1" pin="P$1"/>
 <wire x1="313.69" y1="55.88" x2="313.69" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="313.69" y1="53.34" x2="317.5" y2="53.34" width="0.1524" layer="91"/>
 <junction x="317.5" y="53.34"/>
-<pinref part="U$3" gate="G$1" pin="AIN5_GND"/>
-<wire x1="295.91" y1="55.88" x2="309.88" y2="55.88" width="0.1524" layer="91"/>
-<junction x="309.88" y="55.88"/>
-<pinref part="U$3" gate="G$1" pin="AIN_4GND"/>
-<wire x1="295.91" y1="50.8" x2="309.88" y2="50.8" width="0.1524" layer="91"/>
-<junction x="309.88" y="50.8"/>
 <junction x="317.5" y="68.58"/>
 </segment>
 <segment>
@@ -15358,83 +15332,15 @@ SPI is provided for easy integration with the external MCU. The W5500's SPI supp
 <pinref part="U$3" gate="G$1" pin="REFSEL"/>
 <wire x1="257.81" y1="78.74" x2="234.95" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="234.95" y1="78.74" x2="234.95" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="53.34" x2="243.84" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="53.34" x2="243.84" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="AUX_GND"/>
 <pinref part="U$3" gate="G$1" pin="AUX_IN"/>
 <wire x1="257.81" y1="63.5" x2="255.27" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="AUX_GND"/>
 <wire x1="255.27" y1="63.5" x2="255.27" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="255.27" y1="60.96" x2="257.81" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="255.27" y1="60.96" x2="245.11" y2="60.96" width="0.1524" layer="91"/>
 <junction x="255.27" y="60.96"/>
-<wire x1="245.11" y1="60.96" x2="245.11" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="245.11" y1="55.88" x2="245.11" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="245.11" y1="53.34" x2="241.3" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="AIN_6GND"/>
-<wire x1="257.81" y1="55.88" x2="245.11" y2="55.88" width="0.1524" layer="91"/>
-<junction x="245.11" y="55.88"/>
-<pinref part="U$3" gate="G$1" pin="AIN_7GND"/>
-<wire x1="257.81" y1="50.8" x2="245.11" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="245.11" y1="50.8" x2="245.11" y2="53.34" width="0.1524" layer="91"/>
-<junction x="245.11" y="53.34"/>
-<pinref part="U$3" gate="G$1" pin="AIN_0GND"/>
-<wire x1="257.81" y1="45.72" x2="245.11" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="245.11" y1="45.72" x2="245.11" y2="50.8" width="0.1524" layer="91"/>
-<junction x="245.11" y="50.8"/>
-<pinref part="U$3" gate="G$1" pin="AIN_1GND"/>
-<wire x1="257.81" y1="40.64" x2="245.11" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="245.11" y1="40.64" x2="245.11" y2="45.72" width="0.1524" layer="91"/>
-<junction x="245.11" y="45.72"/>
-</segment>
-<segment>
-<pinref part="J2" gate="TOP" pin="2"/>
-<wire x1="168.91" y1="25.4" x2="171.45" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="171.45" y1="25.4" x2="171.45" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="AGND"/>
-</segment>
-<segment>
-<pinref part="J2" gate="BOT" pin="2"/>
-<wire x1="168.91" y1="10.16" x2="171.45" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="171.45" y1="10.16" x2="171.45" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="U$8" gate="G$1" pin="AGND"/>
-</segment>
-<segment>
-<pinref part="J4" gate="BOT" pin="2"/>
-<wire x1="191.77" y1="10.16" x2="194.31" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="194.31" y1="10.16" x2="194.31" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="U$10" gate="G$1" pin="AGND"/>
-</segment>
-<segment>
-<pinref part="J4" gate="TOP" pin="2"/>
-<wire x1="191.77" y1="25.4" x2="194.31" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="194.31" y1="25.4" x2="194.31" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="U$11" gate="G$1" pin="AGND"/>
-</segment>
-<segment>
-<pinref part="J7" gate="TOP" pin="2"/>
-<wire x1="223.52" y1="25.4" x2="226.06" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="25.4" x2="226.06" y2="22.86" width="0.1524" layer="91"/>
-<label x="226.06" y="24.13" size="1.778" layer="95"/>
-<pinref part="U$12" gate="G$1" pin="AGND"/>
-</segment>
-<segment>
-<pinref part="J7" gate="BOT" pin="2"/>
-<wire x1="223.52" y1="10.16" x2="226.06" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="10.16" x2="226.06" y2="7.62" width="0.1524" layer="91"/>
-<label x="226.06" y="8.89" size="1.778" layer="95"/>
-<pinref part="U$13" gate="G$1" pin="AGND"/>
-</segment>
-<segment>
-<pinref part="J8" gate="TOP" pin="2"/>
-<wire x1="250.19" y1="25.4" x2="252.73" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="252.73" y1="25.4" x2="252.73" y2="22.86" width="0.1524" layer="91"/>
-<label x="252.73" y="24.13" size="1.778" layer="95"/>
-<pinref part="U$14" gate="G$1" pin="AGND"/>
-</segment>
-<segment>
-<pinref part="J8" gate="BOT" pin="2"/>
-<wire x1="250.19" y1="10.16" x2="252.73" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="252.73" y1="10.16" x2="252.73" y2="7.62" width="0.1524" layer="91"/>
-<label x="252.73" y="8.89" size="1.778" layer="95"/>
-<pinref part="U$15" gate="G$1" pin="AGND"/>
+<wire x1="255.27" y1="60.96" x2="243.84" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="323.85" y1="52.07" x2="408.94" y2="52.07" width="0.1524" layer="91"/>
@@ -15659,6 +15565,86 @@ SPI is provided for easy integration with the external MCU. The W5500's SPI supp
 <label x="309.88" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="FLOATING_GND" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="AIN_6GND"/>
+<wire x1="257.81" y1="55.88" x2="245.11" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="AIN_7GND"/>
+<wire x1="257.81" y1="50.8" x2="245.11" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="245.11" y1="50.8" x2="245.11" y2="55.88" width="0.1524" layer="91"/>
+<junction x="245.11" y="50.8"/>
+<pinref part="U$3" gate="G$1" pin="AIN_0GND"/>
+<wire x1="257.81" y1="45.72" x2="245.11" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="245.11" y1="45.72" x2="245.11" y2="50.8" width="0.1524" layer="91"/>
+<junction x="245.11" y="45.72"/>
+<pinref part="U$3" gate="G$1" pin="AIN_1GND"/>
+<wire x1="257.81" y1="40.64" x2="254" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="254" y1="40.64" x2="245.11" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="245.11" y1="40.64" x2="245.11" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="245.11" y1="40.64" x2="238.76" y2="40.64" width="0.1524" layer="91"/>
+<junction x="245.11" y="40.64"/>
+<label x="224.282" y="40.64" size="1.778" layer="95"/>
+<pinref part="U$3" gate="G$1" pin="AIN5_GND"/>
+<wire x1="295.91" y1="55.88" x2="302.26" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="55.88" x2="302.26" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="AIN_4GND"/>
+<wire x1="302.26" y1="50.8" x2="295.91" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="AIN_3GND"/>
+<wire x1="295.91" y1="45.72" x2="302.26" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="45.72" x2="302.26" y2="50.8" width="0.1524" layer="91"/>
+<junction x="302.26" y="50.8"/>
+<pinref part="U$3" gate="G$1" pin="AIN_2GND"/>
+<wire x1="295.91" y1="40.64" x2="302.26" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="40.64" x2="302.26" y2="45.72" width="0.1524" layer="91"/>
+<junction x="302.26" y="45.72"/>
+<wire x1="302.26" y1="40.64" x2="302.26" y2="35.56" width="0.1524" layer="91"/>
+<junction x="302.26" y="40.64"/>
+<wire x1="302.26" y1="35.56" x2="254" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="254" y1="35.56" x2="254" y2="40.64" width="0.1524" layer="91"/>
+<junction x="254" y="40.64"/>
+<pinref part="J2" gate="TOP" pin="2"/>
+<wire x1="168.91" y1="25.4" x2="175.26" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="25.4" x2="175.26" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="20.32" x2="180.34" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="20.32" x2="193.04" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="20.32" x2="193.04" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="J4" gate="TOP" pin="2"/>
+<wire x1="193.04" y1="25.4" x2="191.77" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="20.32" x2="205.74" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="20.32" x2="231.14" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="20.32" x2="231.14" y2="25.4" width="0.1524" layer="91"/>
+<junction x="193.04" y="20.32"/>
+<pinref part="J7" gate="TOP" pin="2"/>
+<wire x1="231.14" y1="25.4" x2="223.52" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="20.32" x2="236.22" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="20.32" x2="238.76" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="20.32" x2="256.54" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="20.32" x2="256.54" y2="25.4" width="0.1524" layer="91"/>
+<junction x="231.14" y="20.32"/>
+<pinref part="J8" gate="TOP" pin="2"/>
+<wire x1="256.54" y1="25.4" x2="250.19" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="40.64" x2="238.76" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="40.64" x2="238.76" y2="20.32" width="0.1524" layer="91"/>
+<junction x="238.76" y="20.32"/>
+<pinref part="J2" gate="BOT" pin="2"/>
+<wire x1="168.91" y1="10.16" x2="180.34" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="10.16" x2="180.34" y2="20.32" width="0.1524" layer="91"/>
+<junction x="180.34" y="20.32"/>
+<pinref part="J4" gate="BOT" pin="2"/>
+<wire x1="191.77" y1="10.16" x2="205.74" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="10.16" x2="205.74" y2="20.32" width="0.1524" layer="91"/>
+<junction x="205.74" y="20.32"/>
+<pinref part="J7" gate="BOT" pin="2"/>
+<wire x1="223.52" y1="10.16" x2="236.22" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="10.16" x2="236.22" y2="20.32" width="0.1524" layer="91"/>
+<junction x="236.22" y="20.32"/>
+<pinref part="J8" gate="BOT" pin="2"/>
+<wire x1="250.19" y1="10.16" x2="266.7" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="10.16" x2="266.7" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="20.32" x2="256.54" y2="20.32" width="0.1524" layer="91"/>
+<junction x="256.54" y="20.32"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -15827,6 +15813,12 @@ does not need capacitors.</text>
 </instance>
 <instance part="U$23" gate="G$1" x="48.26" y="31.75" smashed="yes">
 <attribute name="VALUE" x="46.736" y="29.21" size="1.27" layer="96"/>
+</instance>
+<instance part="R15" gate="G$1" x="8.89" y="185.674" smashed="yes" rot="R270">
+<attribute name="PARTNO" x="8.89" y="185.674" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="9.2075" y="192.9765" size="1.524" layer="95" rot="R270"/>
+<attribute name="VALUE" x="9.2075" y="182.3402" size="1.524" layer="96" rot="R270"/>
+<attribute name="DIGIKEY" x="8.89" y="185.674" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -16148,7 +16140,7 @@ does not need capacitors.</text>
 <label x="107.95" y="101.854" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D_P" class="0">
+<net name="D_P" class="2">
 <segment>
 <pinref part="R44" gate="G$1" pin="1"/>
 <wire x1="105.41" y1="86.614" x2="105.41" y2="80.01" width="0.1524" layer="91"/>
@@ -16158,7 +16150,7 @@ does not need capacitors.</text>
 <wire x1="105.41" y1="80.01" x2="107.95" y2="80.01" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="D_N" class="0">
+<net name="D_N" class="2">
 <segment>
 <pinref part="R43" gate="G$1" pin="1"/>
 <wire x1="110.49" y1="86.614" x2="110.49" y2="78.74" width="0.1524" layer="91"/>
@@ -16231,6 +16223,12 @@ does not need capacitors.</text>
 <label x="175.26" y="199.644" size="1.778" layer="95" xref="yes"/>
 <pinref part="J3" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<pinref part="R15" gate="G$1" pin="1"/>
+<wire x1="8.89" y1="190.754" x2="8.89" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="8.89" y1="195.58" x2="15.24" y2="195.58" width="0.1524" layer="91"/>
+<label x="10.16" y="195.58" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PROGRAM_PUSHBUTTON" class="0">
 <segment>
@@ -16262,16 +16260,18 @@ does not need capacitors.</text>
 </net>
 <net name="RESETWIZ" class="0">
 <segment>
-<wire x1="41.91" y1="178.054" x2="27.94" y2="178.054" width="0.1524" layer="91"/>
-<label x="15.494" y="177.292" size="1.778" layer="95"/>
+<label x="28.702" y="178.054" size="1.778" layer="95"/>
 <pinref part="U8" gate="G$1" pin="D9/RX2/PWM"/>
+<wire x1="26.67" y1="178.054" x2="41.91" y2="178.054" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SSWIZ" class="0">
 <segment>
-<wire x1="41.91" y1="175.514" x2="34.29" y2="175.514" width="0.1524" layer="91"/>
-<label x="26.416" y="174.752" size="1.778" layer="95"/>
+<label x="32.766" y="175.768" size="1.778" layer="95"/>
 <pinref part="U8" gate="G$1" pin="D10/TX2/PWM"/>
+<pinref part="R15" gate="G$1" pin="2"/>
+<wire x1="8.89" y1="180.594" x2="8.89" y2="175.514" width="0.1524" layer="91"/>
+<wire x1="8.89" y1="175.514" x2="41.91" y2="175.514" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MISOWIZ" class="0">
@@ -17274,9 +17274,6 @@ Wiznet 5500 does not support Auto-MDX.
 <instance part="GND8" gate="1" x="241.3" y="115.57" smashed="yes">
 <attribute name="VALUE" x="238.76" y="113.03" size="1.778" layer="96"/>
 </instance>
-<instance part="GND22" gate="1" x="222.25" y="77.47" smashed="yes">
-<attribute name="VALUE" x="219.71" y="74.93" size="1.778" layer="96"/>
-</instance>
 <instance part="C68" gate="G$1" x="274.32" y="91.44" smashed="yes" rot="R270">
 <attribute name="DIGIKEY" x="274.32" y="91.44" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="NAME" x="274.3835" y="90.8685" size="1.524" layer="95" rot="R270"/>
@@ -17337,6 +17334,15 @@ Wiznet 5500 does not support Auto-MDX.
 </instance>
 <instance part="GND29" gate="1" x="245.11" y="69.85" smashed="yes">
 <attribute name="VALUE" x="242.57" y="67.31" size="1.778" layer="96"/>
+</instance>
+<instance part="C40" gate="G$1" x="86.36" y="132.08" smashed="yes" rot="R90">
+<attribute name="NAME" x="82.55" y="130.175" size="1.27" layer="95" rot="R90"/>
+<attribute name="VALUE" x="91.44" y="127" size="1.27" layer="96" rot="R90"/>
+<attribute name="DIGIKEY" x="86.36" y="132.08" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="PARTNO" x="86.36" y="132.08" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="GND10" gate="1" x="86.36" y="121.92" smashed="yes">
+<attribute name="VALUE" x="83.82" y="119.38" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -17409,7 +17415,7 @@ Wiznet 5500 does not support Auto-MDX.
 <wire x1="201.93" y1="71.12" x2="176.53" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="TX_P" class="0">
+<net name="TX_P" class="2">
 <segment>
 <pinref part="R32" gate="G$1" pin="2"/>
 <wire x1="203.2" y1="55.88" x2="217.17" y2="55.88" width="0.1524" layer="91"/>
@@ -17425,7 +17431,7 @@ Wiznet 5500 does not support Auto-MDX.
 <pinref part="J9" gate="G$1" pin="TD+"/>
 </segment>
 </net>
-<net name="TX_N" class="0">
+<net name="TX_N" class="2">
 <segment>
 <pinref part="R33" gate="G$1" pin="2"/>
 <wire x1="203.2" y1="50.8" x2="209.55" y2="50.8" width="0.1524" layer="91"/>
@@ -17541,16 +17547,6 @@ Wiznet 5500 does not support Auto-MDX.
 <wire x1="241.3" y1="118.11" x2="241.3" y2="120.65" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R26" gate="G$1" pin="2"/>
-<wire x1="218.44" y1="83.82" x2="218.44" y2="80.01" width="0.1524" layer="91"/>
-<pinref part="R28" gate="G$1" pin="2"/>
-<wire x1="218.44" y1="80.01" x2="222.25" y2="80.01" width="0.1524" layer="91"/>
-<wire x1="222.25" y1="80.01" x2="224.79" y2="80.01" width="0.1524" layer="91"/>
-<wire x1="224.79" y1="80.01" x2="224.79" y2="85.09" width="0.1524" layer="91"/>
-<pinref part="GND22" gate="1" pin="GND"/>
-<junction x="222.25" y="80.01"/>
-</segment>
-<segment>
 <pinref part="GND55" gate="1" pin="GND"/>
 <pinref part="C68" gate="G$1" pin="2"/>
 <wire x1="266.7" y1="91.44" x2="269.24" y2="91.44" width="0.1524" layer="91"/>
@@ -17591,6 +17587,11 @@ Wiznet 5500 does not support Auto-MDX.
 <wire x1="280.67" y1="76.2" x2="245.11" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="245.11" y1="76.2" x2="245.11" y2="72.39" width="0.1524" layer="91"/>
 <pinref part="GND29" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C40" gate="G$1" pin="P$1"/>
+<pinref part="GND10" gate="1" pin="GND"/>
+<wire x1="86.36" y1="124.46" x2="86.36" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="INTN" class="0">
@@ -17725,7 +17726,7 @@ Wiznet 5500 does not support Auto-MDX.
 <label x="257.81" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="RX_N" class="0">
+<net name="RX_N" class="2">
 <segment>
 <wire x1="242.57" y1="86.36" x2="242.57" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="C52" gate="G$1" pin="2"/>
@@ -17735,7 +17736,7 @@ Wiznet 5500 does not support Auto-MDX.
 <pinref part="J9" gate="G$1" pin="RD-"/>
 </segment>
 </net>
-<net name="RX_P" class="0">
+<net name="RX_P" class="2">
 <segment>
 <wire x1="245.11" y1="96.52" x2="245.11" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="C53" gate="G$1" pin="2"/>
@@ -17745,11 +17746,24 @@ Wiznet 5500 does not support Auto-MDX.
 <pinref part="J9" gate="G$1" pin="RD+"/>
 </segment>
 </net>
-<net name="N$21" class="0">
+<net name="RCT" class="0">
 <segment>
 <pinref part="C68" gate="G$1" pin="1"/>
-<wire x1="276.86" y1="91.44" x2="280.67" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="91.44" x2="279.4" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="J9" gate="G$1" pin="RCT"/>
+<wire x1="279.4" y1="91.44" x2="280.67" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="91.44" x2="279.4" y2="93.98" width="0.1524" layer="91"/>
+<junction x="279.4" y="91.44"/>
+<wire x1="279.4" y1="93.98" x2="269.24" y2="93.98" width="0.1524" layer="91"/>
+<label x="269.24" y="93.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R26" gate="G$1" pin="2"/>
+<wire x1="218.44" y1="83.82" x2="218.44" y2="80.01" width="0.1524" layer="91"/>
+<pinref part="R28" gate="G$1" pin="2"/>
+<wire x1="218.44" y1="80.01" x2="224.79" y2="80.01" width="0.1524" layer="91"/>
+<wire x1="224.79" y1="80.01" x2="224.79" y2="85.09" width="0.1524" layer="91"/>
+<label x="218.948" y="79.756" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$75" class="0">
@@ -17842,6 +17856,15 @@ Wiznet 5500 does not support Auto-MDX.
 <pinref part="J9" gate="G$1" pin="YELLOW-"/>
 <pinref part="R29" gate="G$1" pin="2"/>
 <wire x1="280.67" y1="60.96" x2="278.13" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<pinref part="U7" gate="G$1" pin="1V2O"/>
+<wire x1="110.49" y1="124.46" x2="110.49" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="C40" gate="G$1" pin="P$2"/>
+<wire x1="110.49" y1="144.78" x2="86.36" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="144.78" x2="86.36" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
