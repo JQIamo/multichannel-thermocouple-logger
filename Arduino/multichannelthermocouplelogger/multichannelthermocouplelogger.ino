@@ -23,7 +23,7 @@ int LCD_CS = 5;
 LCD_ST7032 lcd(LCD_RST, LCD_RS, LCD_CS);
 
 int maxSO = 0;
-int maxCS;
+int maxCS = 18;
 int maxSCK = 8;
 
 // Channel number selected by the rotary encoder
@@ -131,15 +131,18 @@ void loop() {
 
 }
 
-void serialTemp() {
+void serialTemp() { //Currently modifyting SerialTemp
   int cTemp;
   int fTemp;
   int currentChanNumber;
   int i = 0;
 
+  for ( j = 0; j < 10; j++){
+    digitalWriteFast(14, HIGH); //reset shiftreg
+  };
+  digitalWriteFast(14, LOW); //send first read command to shiftreg
+
   while (i < 20 ) {
-    // Select Teensy pin number
-    maxCS = chanPin[i];
 
     // Create thermocouple-to-digital converter object and assign pin numbers
     Adafruit_MAX31855 kTC(maxSCK, maxCS, maxSO);
@@ -147,7 +150,7 @@ void serialTemp() {
     cTemp = kTC.readCelsius();
     fTemp = kTC.readFarenheit();
 
-    currentChanNumber = chanNumber[i];
+    currentChanNumber = i;
 
     if (cTemp != 0 && fTemp != 0) {
       if ( enableCustomNames == 1 ) {
@@ -183,7 +186,6 @@ void LCDTemp() {
     // Since the initial element of the array is numbered 0
     i = encNumber - 1;
 
-    maxCS = chanPin[i];
 
     lcd.setCursor(0, 0);
 
@@ -273,8 +275,7 @@ void ethernetTemp() {
           client.println();
           client.println("<!DOCTYPE HTML>");
           client.println("<html>");
-          while (i < 20 ) {
-            maxCS = chanPin[i];
+          while (i < 20 ) {;
             currentChanNumber = chanNumber[i];
 
             // Create thermocouple-to-digital converter object and assign pin numbers
@@ -340,7 +341,6 @@ void influxDBTemp() {
   EthernetClient client;
 
   while (i < 20 ) {
-    maxCS = chanPin[i];
     currentChanNumber = chanNumber[i];
     String currentChanName = chanName[i];
     // Create thermocouple-to-digital converter object and assign pin numbers
@@ -478,5 +478,3 @@ void rotaryEncoder() {
     }
   }
 }
-
-

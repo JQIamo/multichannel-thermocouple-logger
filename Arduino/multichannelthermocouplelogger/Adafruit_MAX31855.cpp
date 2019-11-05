@@ -131,17 +131,18 @@ double Adafruit_MAX31855::readFarenheit(void) {  //'farenheit' is spelled wrong.
   return f;
 }
 
-uint32_t Adafruit_MAX31855::spiread32(void) { 
+uint32_t Adafruit_MAX31855::spiread32(void) { //Modify this for shiftreg stuff
   int i;
   uint32_t d = 0;
 
   if(hSPI) {
     return hspiread32();
   }
-
+  
   digitalWriteFast(sclk, LOW);
   delayMicroseconds(delaySpeed);
-  digitalWriteFast(cs, LOW);
+  digitalWriteFast(cs, HIGH); //send high to shift bits
+  //need shift reg clock to be slow
   delayMicroseconds(delaySpeed);
 
   for (i=31; i>=0; i--)
@@ -157,7 +158,7 @@ uint32_t Adafruit_MAX31855::spiread32(void) {
    delayMicroseconds(delaySpeed);
   }
 
-  digitalWriteFast(cs, HIGH);
+  //digitalWriteFast(cs, HIGH);
   //Serial.println(d, HEX);
   return d;
 }
