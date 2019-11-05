@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.0">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -224,16 +224,28 @@ by exp-lbrs-replace2.ulp</description>
 <smd name="11" x="0" y="0" dx="2.413" dy="2.3876" layer="1" cream="no"/>
 <text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 <polygon width="0.0254" layer="31">
-<vertex x="-0.9922" y="1.0938"/>
-<vertex x="-0.9922" y="-1.0938"/>
-<vertex x="-0.1" y="-1.0938"/>
-<vertex x="-0.1" y="1.0938"/>
+<vertex x="-0.8636" y="-0.3032"/>
+<vertex x="-0.8636" y="-0.9668"/>
+<vertex x="-0.227" y="-0.9668"/>
+<vertex x="-0.227" y="-0.3032"/>
 </polygon>
 <polygon width="0.0254" layer="31">
-<vertex x="0.1" y="1.0938"/>
-<vertex x="0.1" y="-1.0938"/>
-<vertex x="0.9922" y="-1.0938"/>
-<vertex x="0.9922" y="1.0938"/>
+<vertex x="0.227" y="-0.3032"/>
+<vertex x="0.227" y="-0.9668"/>
+<vertex x="0.8636" y="-0.9668"/>
+<vertex x="0.8636" y="-0.3032"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="-0.8636" y="0.9668"/>
+<vertex x="-0.8636" y="0.3032"/>
+<vertex x="-0.2286" y="0.3032"/>
+<vertex x="-0.2286" y="0.9668"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="0.2286" y="0.9668"/>
+<vertex x="0.2286" y="0.3032"/>
+<vertex x="0.8636" y="0.3032"/>
+<vertex x="0.8636" y="0.9668"/>
 </polygon>
 </package>
 <package name="21-0268-L">

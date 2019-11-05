@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.0">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -270,16 +270,28 @@ by exp-lbrs-replace2.ulp</description>
 <smd name="11" x="0" y="0" dx="2.413" dy="2.3876" layer="1" cream="no"/>
 <text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 <polygon width="0.0254" layer="31">
-<vertex x="-0.9922" y="1.0938"/>
-<vertex x="-0.9922" y="-1.0938"/>
-<vertex x="-0.1" y="-1.0938"/>
-<vertex x="-0.1" y="1.0938"/>
+<vertex x="-0.8636" y="-0.3032"/>
+<vertex x="-0.8636" y="-0.9668"/>
+<vertex x="-0.227" y="-0.9668"/>
+<vertex x="-0.227" y="-0.3032"/>
 </polygon>
 <polygon width="0.0254" layer="31">
-<vertex x="0.1" y="1.0938"/>
-<vertex x="0.1" y="-1.0938"/>
-<vertex x="0.9922" y="-1.0938"/>
-<vertex x="0.9922" y="1.0938"/>
+<vertex x="0.227" y="-0.3032"/>
+<vertex x="0.227" y="-0.9668"/>
+<vertex x="0.8636" y="-0.9668"/>
+<vertex x="0.8636" y="-0.3032"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="-0.8636" y="0.9668"/>
+<vertex x="-0.8636" y="0.3032"/>
+<vertex x="-0.2286" y="0.3032"/>
+<vertex x="-0.2286" y="0.9668"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="0.2286" y="0.9668"/>
+<vertex x="0.2286" y="0.3032"/>
+<vertex x="0.8636" y="0.3032"/>
+<vertex x="0.8636" y="0.9668"/>
 </polygon>
 </package>
 <package name="21-0268-L">
@@ -854,63 +866,63 @@ by exp-lbrs-replace2.ulp</description>
 </text>
 </plain>
 <instances>
-<instance part="U5" gate="A" x="-138.43" y="137.16">
+<instance part="U5" gate="A" x="-138.43" y="137.16" smashed="yes">
 <attribute name="NAME" x="-154.5844" y="152.6286" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="-155.2194" y="148.8186" size="2.0828" layer="96" ratio="6" rot="SR0"/>
 <attribute name="DIGIKEY" x="-138.43" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="PARTNO" x="-138.43" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="X1" gate="G$1" x="-182.88" y="132.08">
+<instance part="X1" gate="G$1" x="-182.88" y="132.08" smashed="yes">
 <attribute name="NAME" x="-185.42" y="135.382" size="1.778" layer="95"/>
 <attribute name="PARTNO" x="-182.88" y="132.08" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U$1" gate="G$1" x="-191.77" y="152.4" rot="R90">
+<instance part="U$1" gate="G$1" x="-191.77" y="152.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="-199.39" y="144.78" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-196.85" y="144.78" size="1.778" layer="96" rot="R90"/>
 <attribute name="DIGIKEY" x="-191.77" y="152.4" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PARTNO" x="-191.77" y="152.4" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="GND2" gate="1" x="-106.68" y="138.43">
+<instance part="GND2" gate="1" x="-106.68" y="138.43" smashed="yes">
 <attribute name="VALUE" x="-109.22" y="135.89" size="1.778" layer="96"/>
 </instance>
-<instance part="GND7" gate="1" x="-177.8" y="134.62">
+<instance part="GND7" gate="1" x="-177.8" y="134.62" smashed="yes">
 <attribute name="VALUE" x="-180.34" y="132.08" size="1.778" layer="96"/>
 </instance>
-<instance part="GND1" gate="1" x="-177.8" y="121.92">
+<instance part="GND1" gate="1" x="-177.8" y="121.92" smashed="yes">
 <attribute name="VALUE" x="-180.34" y="119.38" size="1.778" layer="96"/>
 </instance>
-<instance part="C1" gate="G$1" x="-176.53" y="152.4" rot="R90">
+<instance part="C1" gate="G$1" x="-176.53" y="152.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="-180.34" y="147.955" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-171.45" y="147.32" size="1.27" layer="96" rot="R90"/>
 <attribute name="DIGIKEY" x="-176.53" y="152.4" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PARTNO" x="-176.53" y="152.4" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="U$2" gate="G$1" x="-77.47" y="116.84" rot="R180">
+<instance part="U$2" gate="G$1" x="-77.47" y="116.84" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" x="-77.47" y="116.84" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="PARTNO" x="-77.47" y="116.84" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="U$3" gate="G$1" x="-77.47" y="128.27" rot="R180">
+<instance part="U$3" gate="G$1" x="-77.47" y="128.27" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" x="-77.47" y="128.27" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="PARTNO" x="-77.47" y="128.27" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="U$4" gate="G$1" x="-77.47" y="139.7" rot="R180">
+<instance part="U$4" gate="G$1" x="-77.47" y="139.7" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" x="-77.47" y="139.7" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="PARTNO" x="-77.47" y="139.7" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="U$5" gate="G$1" x="-77.47" y="151.13" rot="R180">
+<instance part="U$5" gate="G$1" x="-77.47" y="151.13" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" x="-77.47" y="151.13" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="PARTNO" x="-77.47" y="151.13" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="GND3" gate="1" x="-67.31" y="115.57">
+<instance part="GND3" gate="1" x="-67.31" y="115.57" smashed="yes">
 <attribute name="VALUE" x="-69.85" y="113.03" size="1.778" layer="96"/>
 </instance>
-<instance part="GND4" gate="1" x="-67.31" y="127">
+<instance part="GND4" gate="1" x="-67.31" y="127" smashed="yes">
 <attribute name="VALUE" x="-69.85" y="124.46" size="1.778" layer="96"/>
 </instance>
-<instance part="GND5" gate="1" x="-67.31" y="138.43">
+<instance part="GND5" gate="1" x="-67.31" y="138.43" smashed="yes">
 <attribute name="VALUE" x="-69.85" y="135.89" size="1.778" layer="96"/>
 </instance>
-<instance part="GND6" gate="1" x="-67.31" y="149.86">
+<instance part="GND6" gate="1" x="-67.31" y="149.86" smashed="yes">
 <attribute name="VALUE" x="-69.85" y="147.32" size="1.778" layer="96"/>
 </instance>
 </instances>
