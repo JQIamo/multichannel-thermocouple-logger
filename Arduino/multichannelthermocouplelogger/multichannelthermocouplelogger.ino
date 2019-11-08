@@ -23,7 +23,7 @@ int LCD_CS = 5;
 LCD_ST7032 lcd(LCD_RST, LCD_RS, LCD_CS);
 
 int maxSO = 0;
-int maxCS = 18;
+//int maxCS = 18;
 int maxSCK = 8;
 
 // Channel number selected by the rotary encoder
@@ -59,7 +59,7 @@ EncoderStream enc(LCDENC);
 
 // Configures channel names and Teensy pin numbers
 int chanNumber[20] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20};
-int chanPin[20] = {PIN1, PIN2, PIN3, PIN4, PIN5, PIN6, PIN7, PIN8, PIN9, PIN10, PIN11, PIN12, PIN13, PIN14, PIN15, PIN16, PIN17, PIN18, PIN19, PIN20};
+//int chanPin[20] = {PIN1, PIN2, PIN3, PIN4, PIN5, PIN6, PIN7, PIN8, PIN9, PIN10, PIN11, PIN12, PIN13, PIN14, PIN15, PIN16, PIN17, PIN18, PIN19, PIN20};
 String chanName[20] = {CHANNEL1, CHANNEL2, CHANNEL3, CHANNEL4, CHANNEL5, CHANNEL6, CHANNEL7, CHANNEL8, CHANNEL9, CHANNEL10, CHANNEL11, CHANNEL12, CHANNEL13, CHANNEL14, CHANNEL15, CHANNEL16, CHANNEL17, CHANNEL18, CHANNEL19, CHANNEL20 };
 
 // Tracks and sets a maximum number of connection attempts before the ethernet client resets
@@ -70,10 +70,16 @@ int maxConnections = MAXCONNECTIONS;
 // Creates timer object
 SimpleTimer timer;
 
+void init_shift_reg(int dso, int sckshift);
+
 void setup() {
+
+  init_shift_reg(int dso, int sckshift);
+  dso = csMAX;
   Serial.begin(baudrate);
   //Initializes SPI
   SPI.begin();
+  SPI.setClockDivider(SPI_CLOCK_DIV32); //clock needs to be slow so shift register holds value while MAX is read
 
   // The MAX31855 needs time to stabilize
   delay(500);
@@ -137,15 +143,14 @@ void serialTemp() { //Currently modifyting SerialTemp
   int currentChanNumber;
   int i = 0;
 
-  for ( j = 0; j < 10; j++){
-    digitalWriteFast(14, HIGH); //reset shiftreg
-  };
-  digitalWriteFast(14, LOW); //send first read command to shiftreg
+  init_shift_reg(DSO, SHIFTSCK);
+  
+  digitalWriteFast(DSO, LOW); //send first read command to shiftreg
 
-  while (i < 20 ) {
+  while (i < 10 ) {
 
     // Create thermocouple-to-digital converter object and assign pin numbers
-    Adafruit_MAX31855 kTC(maxSCK, maxCS, maxSO);
+    Adafruit_MAX31855 kTC(maxSCK, DSO, maxSO);
 
     cTemp = kTC.readCelsius();
     fTemp = kTC.readFarenheit();
@@ -478,3 +483,15 @@ void rotaryEncoder() {
     }
   }
 }
+
+void init_shift_reg(int dso, int sckshift){
+  int i;
+  pinMode(dso, OUTPUT);
+  pinMode(sckshift, OUTPUT);
+
+  digitalWriteFast(dso, HIGH);
+
+  for( i = 0; i < 16; i++){
+    digitalWriteFast(sckshift, HIGH);
+    digitalWriteFast(sckshift, LOW);
+  };

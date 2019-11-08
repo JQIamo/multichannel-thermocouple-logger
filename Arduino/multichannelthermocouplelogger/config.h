@@ -8,7 +8,7 @@
 // Local network settings
 #define ENABLELOCAL 1 // Set as 1 to enable local server and 0 to disable
 #define MAC { 0xBE, 0xAC, 0xEF, 0x00, 0x00, 0x01 }
-#define LOCALIP { 192, 168, 0, 6 }
+#define LOCALIP { 128, 8, 195, 50 }
 #define PORT 80
 #define MAXCONNECTIONS 50 // Maximum number of connection attempts before ethernet client resets (it usually takes around 10-20 connections attempts to successfully connect)
 
@@ -44,7 +44,12 @@
 #define CHANNEL17 "Channel_17"
 #define CHANNEL18 "Channel_18"
 #define CHANNEL19 "Channel_19"
-#define CHANNEL20 "Channel_20" 
+#define CHANNEL20 "Channel_20"
+
+
+//Shift_register_configuration_pins
+#define DSO 18
+#define SCKSHIFT 14
 
 // Select Teensy pins for each channel
 #define PIN1 14

@@ -26,14 +26,14 @@
 
 const int delaySpeed = 30;
 
-Adafruit_MAX31855::Adafruit_MAX31855(int8_t SCLK, int8_t CS, int8_t MISO) {
+Adafruit_MAX31855::Adafruit_MAX31855(int8_t SCLK, int8_t SHIFTCLK, int8_t MISO) {
   sclk = SCLK;
-  cs = CS;
+  shiftclk = SHIFTCLK;
   miso = MISO;
   hSPI = 0;
 
   //define pin modes
-  pinMode(cs, OUTPUT);
+  //pinMode(cs, OUTPUT);
   pinMode(sclk, OUTPUT); 
   pinMode(miso, INPUT);
 
@@ -141,8 +141,8 @@ uint32_t Adafruit_MAX31855::spiread32(void) { //Modify this for shiftreg stuff
   
   digitalWriteFast(sclk, LOW);
   delayMicroseconds(delaySpeed);
-  digitalWriteFast(cs, HIGH); //send high to shift bits
-  //need shift reg clock to be slow
+  digitalWriteFast(shiftclk, HIGH);
+  digitalWriteFast(shiftclk, LOW);
   delayMicroseconds(delaySpeed);
 
   for (i=31; i>=0; i--)

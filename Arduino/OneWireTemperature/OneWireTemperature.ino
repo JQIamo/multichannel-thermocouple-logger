@@ -10,6 +10,8 @@
 #define TYPE_MAX31850 3
 
 void PrintTemps(OneWire ds);
+void init_shift_reg(int dso, int sckshift);
+void step_shift_reg(int dso, int sckshfit)
 
 
 //small board options
@@ -18,8 +20,10 @@ void PrintTemps(OneWire ds);
 //large board options
 OneWire ds1(20,21,24);
 OneWire ds2(17, 19, 25);
+
 void setup(void) {
   Serial.begin(9600);
+  init_shift_reg(18, 14);
 }
 
 void loop(void) {
@@ -29,6 +33,8 @@ void loop(void) {
   Serial.println("Channel 2");
   PrintTemps(ds2);
   //delay(250);
+
+  step_shift_reg(int dso, int sckshfit)
 
 }
 
@@ -148,9 +154,28 @@ void PrintTemps(OneWire ds){
   };
 
 
+void init_shift_reg(int dso, int sckshift){
+  int i;
+  pinMode(dso, OUTPUT);
+  pinMode(sckshift, OUTPUT);
+
+  digitalWriteFast(dso, HIGH);
+
+  for( i = 0; i < 16; i++){
+    digitalWriteFast(sckshift, HIGH);
+    digitalWriteFast(sckshift, LOW);
+  };
+  
+};
 
 
+void step_shift_reg(int dso, int sckshfit){
+  digitalWriteFast(sckshift, HIGH);
+  digitalWriteFast(sckshfit(LOW);
 
+  digitalWriteFast(dso, HIGH);
+  
+};
 
 
 
