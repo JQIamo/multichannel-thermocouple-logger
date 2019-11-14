@@ -11,7 +11,7 @@
 
 void PrintTemps(OneWire ds);
 void init_shift_reg(int dso, int sckshift);
-void step_shift_reg(int dso, int sckshfit)
+void step_shift_reg(int dso, int sckshfit);
 
 
 //small board options
