@@ -44,12 +44,7 @@
 #define CHANNEL17 "Channel_17"
 #define CHANNEL18 "Channel_18"
 #define CHANNEL19 "Channel_19"
-#define CHANNEL20 "Channel_20"
-
-
-//Shift_register_configuration_pins
-#define DSO 18
-#define SCKSHIFT 14
+#define CHANNEL20 "Channel_20" 
 
 // Select Teensy pins for each channel
 #define PIN1 14

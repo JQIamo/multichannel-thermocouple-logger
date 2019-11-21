@@ -26,14 +26,14 @@
 
 const int delaySpeed = 30;
 
-Adafruit_MAX31855::Adafruit_MAX31855(int8_t SCLK, int8_t SHIFTCLK, int8_t MISO) {
+Adafruit_MAX31855::Adafruit_MAX31855(int8_t SCLK, int8_t CS, int8_t MISO) {
   sclk = SCLK;
-  shiftclk = SHIFTCLK;
+  cs = CS;
   miso = MISO;
   hSPI = 0;
 
   //define pin modes
-  //pinMode(cs, OUTPUT);
+  pinMode(cs, OUTPUT);
   pinMode(sclk, OUTPUT); 
   pinMode(miso, INPUT);
 
@@ -131,18 +131,17 @@ double Adafruit_MAX31855::readFarenheit(void) {  //'farenheit' is spelled wrong.
   return f;
 }
 
-uint32_t Adafruit_MAX31855::spiread32(void) { //Modify this for shiftreg stuff
+uint32_t Adafruit_MAX31855::spiread32(void) { 
   int i;
   uint32_t d = 0;
 
   if(hSPI) {
     return hspiread32();
   }
-  
+
   digitalWriteFast(sclk, LOW);
   delayMicroseconds(delaySpeed);
-  digitalWriteFast(shiftclk, HIGH);
-  digitalWriteFast(shiftclk, LOW);
+  digitalWriteFast(cs, LOW);
   delayMicroseconds(delaySpeed);
 
   for (i=31; i>=0; i--)
@@ -158,7 +157,7 @@ uint32_t Adafruit_MAX31855::spiread32(void) { //Modify this for shiftreg stuff
    delayMicroseconds(delaySpeed);
   }
 
-  //digitalWriteFast(cs, HIGH);
+  digitalWriteFast(cs, HIGH);
   //Serial.println(d, HEX);
   return d;
 }
