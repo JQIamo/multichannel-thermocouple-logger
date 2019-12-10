@@ -8,6 +8,22 @@
 #include "influxDB.h"
 #include "config.h"
 #include "SimpleTimer.h"
+#include "OneWire_3Channel.h"
+#include "ShiftRegTemperature.h"
+#include "AnalogReadings.h"
+#include "digitalWriteFast.h"
+
+//set up OneWire readings
+#define TYPE_DS18S20 0
+#define TYPE_DS18B20 1
+#define TYPE_DS18S22 2
+#define TYPE_MAX31850 3
+
+void PrintTemps(OneWire ds);
+
+OneWire ds1(20, 21, 24);
+OneWire ds2(17, 19, 25);
+
 
 // Configure local network settings
 byte mac[] = MAC; // Assigns MAC address
@@ -22,9 +38,7 @@ int LCD_CS = 5;
 // Creates LCD object and assign pin numbers
 LCD_ST7032 lcd(LCD_RST, LCD_RS, LCD_CS);
 
-int maxSO = 0;
 int maxCS;
-int maxSCK = 8;
 
 // Channel number selected by the rotary encoder
 int encNumber;
@@ -101,6 +115,29 @@ void setup() {
   }
   //
   timer.setInterval(influxTimeInterval, influxDBTemp);
+
+  //initialize shift register
+  pinMode(maxSO,INPUT);
+  pinMode(maxSCK, OUTPUT);
+  init_shift_reg(DSO, SCKSHIFT); // initialize shift register
+  
+  //initialize ADC
+  delay(2000);
+  pinMode(analogCLK, OUTPUT);
+  pinMode(analogSDI,OUTPUT);
+  pinMode(analogCS, OUTPUT);
+  pinMode(analogSDO, INPUT);
+  int com, result;
+
+  digitalWriteFast(analogCLK, LOW);
+  digitalWriteFast(analogCS, HIGH);
+  
+  com = adc_rst;
+  exit_standby(analogCS, analogCLK, analogSDI, com);
+  
+  com = auto_chan;
+  com <<= 16;
+  result=write32(analogCS, analogCLK, analogSDO, analogSDI, com);
 }
 
 void loop() {
@@ -273,38 +310,53 @@ void ethernetTemp() {
           client.println();
           client.println("<!DOCTYPE HTML>");
           client.println("<html>");
-          while (i < 20 ) {
-            maxCS = chanPin[i];
-            currentChanNumber = chanNumber[i];
 
-            // Create thermocouple-to-digital converter object and assign pin numbers
-            Adafruit_MAX31855 kTC(maxSCK, maxCS, maxSO);
+          //Display data
 
-            cTemp = kTC.readCelsius();
-            fTemp = kTC.readFarenheit();
-            if ( enableCustomNames == 1 ) {
-              client.print(chanName[i]);
-            } else {
-              client.print("Channel  ");
-              client.print(currentChanNumber);
+          //read oneWire temps
+          Serial.println("OneWire Data");
+          Serial.println("Channel 1");
+          PrintTemps(ds1);
+          Serial.println("Channel 2");
+          PrintTemps(ds2);
+
+          //read shift reg temps
+          Serial.println("Shift Register Data");
+          digitalWriteFast(DSO, LOW);
+          step_shift_reg(DSO, SCKSHIFT);
+
+          int tempData[N_CHANNELS];
+          shift_reg_temp(DSO, SCKSHIFT, maxSO, maxSCK, tempData);
+
+          for (int i = 0; i < N_CHANNELS; i++){
+            double result;
+            if (readCelsius(tempData[i], &result) == 0){
+              Serial.print(result);
+              Serial.print(" Celsius, ");
+              Serial.print(readFahrenheit(result));
+              Serial.println(" Fahrenheit");
             }
-            client.print(" is ");
-            if (cTemp != 0 && fTemp != 0) {
-              client.print(cTemp);
-              client.print(" C");
-              client.print((char)176);
-              client.print(" and ");
-              client.print(fTemp);
-              client.print(" F");
-              client.print((char)176);
-              client.print(".");
-            } else {
-              client.print(" not available.");
-            }
-            client.println("<br />");
-
-            i++;
           }
+
+          //read analog data
+          Serial.println("Analog Data");
+          int result, com;
+          float volt, data[8];
+          com = no_op;
+          com <<= 16;
+
+          for (int i=0; i < 8; i++){
+            result=write32(analogCS, analogCLK, analogSDO, analogSDI, com);
+            volt = 0.0003125 * (float(result) - 32768);
+            data[i] = volt;
+            }
+  
+          for (int i=0; i < 8; i++){
+            Serial.println(i);
+            Serial.println(data[i]);
+          }
+
+          //end of displayed data
           client.println("</html>");
           break;
         }
@@ -479,4 +531,117 @@ void rotaryEncoder() {
   }
 }
 
+void PrintTemps(OneWire ds){
+  byte i;
+  byte present = 0;
+  byte temptype;
+  byte data[12];
+  byte addr[8];
+  float celsius, fahrenheit;
+  
+  Serial.println(F("******************************************"));
+  while ( ds.search(addr)) {
+    //delay(250);
+    Serial.print("ROM =");
+    for( i = 0; i < 8; i++) {
+      Serial.write(' ');
+      Serial.print(addr[i], HEX);
+    }
+  
+    if (OneWire::crc8(addr, 7) != addr[7]) {
+        Serial.println("CRC is not valid!");
+        return;
+    }
+    Serial.println();
+   
+    // the first ROM byte indicates which chip
+    switch (addr[0]) {
+      case 0x10:
+        Serial.println("  Chip = DS18S20");  // or old DS1820
+        temptype = TYPE_DS18S20;
+        break;
+      case 0x28:
+        Serial.println("  Chip = DS18B20");
+        temptype = TYPE_DS18B20;
+        break;
+      case 0x22:
+        Serial.println("  Chip = DS1822");
+        temptype = TYPE_DS18S22;
+        break;
+        // ADDED SUPPORT FOR MAX31850!
+      case 0x3B:
+        Serial.println("  Chip = MAX31850");
+        temptype = TYPE_MAX31850;
+        break;
+      default:
+        Serial.println("Device is not a DS18x20 family device.");
+        return;
+    } 
+  
+    ds.reset();
+    ds.select(addr);
+    ds.write(0x44, 1);        // start conversion, with parasite power on at the end
+    
+    delay(100);     // maybe 750ms is enough, maybe not
+    // we might do a ds.depower() here, but the reset will take care of it.
+    
+    present = ds.reset();
+    ds.select(addr);    
+    ds.write(0xBE);         // Read Scratchpad
+  
+    Serial.print("  Data = ");
+    Serial.print(present, HEX);
+    Serial.print(" ");
+    for ( i = 0; i < 9; i++) {           // we need 9 bytes
+      data[i] = ds.read();
+      Serial.print(data[i], HEX);
+      Serial.print(" ");
+    }
+    Serial.print(" CRC=");
+    Serial.print(OneWire::crc8(data, 8), HEX);
+    Serial.println();
+  
+    Serial.print("  Address = 0x"); Serial.println(data[4] & 0xF, HEX);
+  
+    // Convert the data to actual temperature
+    // because the result is a 16 bit signed integer, it should
+    // be stored to an "int16_t" type, which is always 16 bits
+    // even when compiled on a 32 bit processor.
+    int16_t raw = (data[1] << 8) | data[0];
+    if (temptype == TYPE_DS18S20) {
+      raw = raw << 3; // 9 bit resolution default
+      if (data[7] == 0x10) {
+        // "count remain" gives full 12 bit resolution
+        raw = (raw & 0xFFF0) + 12 - data[6];
+      }
+    } else if (temptype == TYPE_MAX31850) {
+      //Serial.println(raw, HEX);
+      if (raw & 0x01) {
+        Serial.println("**FAULT!**");
+        return;
+      }
+    } else {
+      byte cfg = (data[4] & 0x60);
+      // at lower res, the low bits are undefined, so let's zero them
+      if (cfg == 0x00) raw = raw & ~7;  // 9 bit resolution, 93.75 ms
+      else if (cfg == 0x20) raw = raw & ~3; // 10 bit res, 187.5 ms
+      else if (cfg == 0x40) raw = raw & ~1; // 11 bit res, 375 ms
+      //// default is 12 bit resolution, 750 ms conversion time
+    }
+    celsius = (float)raw / 16.0;
+    fahrenheit = celsius * 1.8 + 32.0;
+    Serial.print("  Temperature = ");
+    Serial.print(celsius);
+    Serial.print(" Celsius, ");
+    Serial.print(fahrenheit);
+    Serial.println(" Fahrenheit");
+  };
 
+
+  Serial.println();
+  Serial.println("No more addresses.");
+  Serial.println();
+  ds.reset_search();
+  return;
+ 
+  };

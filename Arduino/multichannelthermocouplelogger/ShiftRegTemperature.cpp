@@ -1,5 +1,6 @@
 #include "ShiftRegTemperature.h"
 #include <SPI.h>
+#include "digitalWriteFast.h"
 
 void init_shift_reg(int dso, int sckshift){
   int i;
