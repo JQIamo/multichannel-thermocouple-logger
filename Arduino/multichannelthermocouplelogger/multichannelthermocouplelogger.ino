@@ -5,13 +5,13 @@
 #include "LCD.h"
 #include "MenuEncoder.h"
 #include <Ethernet.h>
-#include "influxDB.h"
+#include "InfluxDB.h"
 #include "config.h"
 #include "SimpleTimer.h"
 #include "OneWire_3Channel.h"
 #include "ShiftRegTemperature.h"
 #include "AnalogReadings.h"
-#include "digitalWriteFast.h"
+//#include "digitalWriteFast.h"
 
 //set up OneWire readings
 #define TYPE_DS18S20 0
@@ -168,7 +168,8 @@ void loop() {
 
 }
 
-void serialTemp() {
+void serialTemp() {};
+/*
   int cTemp;
   int fTemp;
   int currentChanNumber;
@@ -209,9 +210,10 @@ void serialTemp() {
 
   }
 }
+*/
 
-
-void LCDTemp() {
+void LCDTemp() {};
+/*
   int cTemp;
   int fTemp;
   int i;
@@ -270,13 +272,14 @@ void LCDTemp() {
   }
 
 }
-
+*/
 void ethernetTemp() {
   // Listens for incoming clients
   int cTemp;
   int fTemp;
   int currentChanNumber;
   int i = 0;
+  int tempData[N_CHANNELS];
 
   EthernetClient client = server.available();
 
@@ -314,32 +317,37 @@ void ethernetTemp() {
           //Display data
 
           //read oneWire temps
-          Serial.println("OneWire Data");
-          Serial.println("Channel 1");
+          client.println("OneWire Data<br>");
+          client.println("Channel 1<br>");
           PrintTemps(ds1);
-          Serial.println("Channel 2");
+          client.println("Channel 2<br>");
           PrintTemps(ds2);
 
           //read shift reg temps
-          Serial.println("Shift Register Data");
+          client.println("Shift Register Data<br>");
+          
+          noInterrupts();
           digitalWriteFast(DSO, LOW);
           step_shift_reg(DSO, SCKSHIFT);
-
-          int tempData[N_CHANNELS];
+          
           shift_reg_temp(DSO, SCKSHIFT, maxSO, maxSCK, tempData);
+          interrupts();
 
           for (int i = 0; i < N_CHANNELS; i++){
             double result;
-            if (readCelsius(tempData[i], &result) == 0){
-              Serial.print(result);
-              Serial.print(" Celsius, ");
-              Serial.print(readFahrenheit(result));
-              Serial.println(" Fahrenheit");
+            if (readCels(tempData[i], &result) == 0){
+              client.print("Channel n. ");
+              client.print(i);
+              client.print(": ");
+              client.print(result);
+              client.print(" Celsius, <br>");
+              client.print(readFahrenheit(result));
+              client.println(" Fahrenheit <br>");
             }
           }
 
           //read analog data
-          Serial.println("Analog Data");
+          client.println("Analog Data<br>");
           int result, com;
           float volt, data[8];
           com = no_op;
@@ -352,8 +360,9 @@ void ethernetTemp() {
             }
   
           for (int i=0; i < 8; i++){
-            Serial.println(i);
-            Serial.println(data[i]);
+            client.println(i);
+            client.println(data[i]);
+            client.println("<br>");
           }
 
           //end of displayed data
@@ -384,6 +393,7 @@ void ethernetTemp() {
 
 void influxDBTemp() {
   String tempData = "";
+  int tempTemp[N_CHANNELS];
   int i = 0;
   int cTemp;
   int fTemp;
@@ -391,15 +401,22 @@ void influxDBTemp() {
 
   EthernetClient client;
 
-  while (i < 20 ) {
-    maxCS = chanPin[i];
+  noInterrupts();
+  digitalWriteFast(DSO, LOW);
+  step_shift_reg(DSO, SCKSHIFT);        
+  shift_reg_temp(DSO, SCKSHIFT, maxSO, maxSCK, tempTemp);
+  interrupts();
+
+  while (i < N_CHANNELS ) {
+    
     currentChanNumber = chanNumber[i];
     String currentChanName = chanName[i];
     // Create thermocouple-to-digital converter object and assign pin numbers
-    Adafruit_MAX31855 kTC(maxSCK, maxCS, maxSO);
+    //Adafruit_MAX31855 kTC(maxSCK, maxCS, maxSO);
 
-    cTemp = kTC.readCelsius();
-    fTemp = kTC.readFarenheit();
+    double cTemp;
+    readCels(tempTemp[i],&cTemp);
+    fTemp = readFahrenheit(cTemp);
 
     if (cTemp != 0 && fTemp != 0) {
       tempData.concat("thermo,channel=");

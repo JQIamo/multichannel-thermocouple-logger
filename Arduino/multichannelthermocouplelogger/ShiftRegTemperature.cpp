@@ -1,6 +1,6 @@
 #include "ShiftRegTemperature.h"
 #include <SPI.h>
-#include "digitalWriteFast.h"
+//#include "digitalWriteFast.h"
 
 void init_shift_reg(int dso, int sckshift){
   int i;
@@ -28,7 +28,8 @@ void step_shift_reg(int dso, int sckshift){
 };
 
 
-void shift_reg_temp(int dso, int sckshift, int maxso, int maxsck, int result[N_CHANNELS]){
+void shift_reg_temp(int dso, int sckshift, int maxso, int maxsck, 
+int result[N_CHANNELS]){
 
   for (int i = 0; i < N_CHANNELS; i++){
     uint32_t tempBit = 0;
@@ -78,7 +79,7 @@ int internalTemp(int encoding, double* result) {
 }
 */
 
-double readCelsius(int encoding, double* result) {
+double readCels(int encoding, double* result) {
   int32_t v;
   v = encoding;
   int error;

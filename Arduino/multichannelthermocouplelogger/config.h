@@ -6,15 +6,15 @@
 #define BAUDRATE 9600
 
 // Local network settings
-#define ENABLELOCAL 1 // Set as 1 to enable local server and 0 to disable
-#define MAC { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED }
-#define LOCALIP { 192, 168, 0, 6 }
+#define ENABLELOCAL 0 // Set as 1 to enable local server and 0 to disable
+#define MAC { 0xBE, 0xAC, 0xEF, 0x00, 0x00, 0x01 }
+#define LOCALIP { 128, 8, 195, 50 }
 #define PORT 80
 #define MAXCONNECTIONS 50 // Maximum number of connection attempts before ethernet client resets (it usually takes around 10-20 connections attempts to successfully connect)
 
 // InfluxDB settings
-#define ENABLEINFLUX 0 // Set as 1 to enable influxDB and 0 to disable influxDB, remember to disable the local server before enabling InfluxDB 
-#define DATABASEIP { 129, 2, 40, 155 }
+#define ENABLEINFLUX 1 // Set as 1 to enable influxDB and 0 to disable influxDB, remember to disable the local server before enabling InfluxDB 
+#define DATABASEIP { 128, 8, 195, 95 }
 #define USERNAME ""
 #define PASSWORD ""
 #define DATABASENAME ""
@@ -67,5 +67,3 @@
 #define PIN18 32
 #define PIN19 33
 #define PIN20 24
-
-
